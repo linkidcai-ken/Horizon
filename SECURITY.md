@@ -27,3 +27,4 @@ Security updates are provided for the latest maintained version of Horizon.
 ## Disclosure Policy
 
 Please avoid public disclosure until I have had a reasonable opportunity to investigate and release a fix.
+
