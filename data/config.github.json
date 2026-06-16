@@ -1,9 +1,9 @@
 {
   "version": "1.0",
   "ai": {
-    "provider": "openai",
-    "model": "GLM-5-Turbo",
-    "api_key_env": "GLM_API_KEY",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "api_key_env": "DEEPSEEK_API_KEY",
     "temperature": 0.3,
     "max_tokens": 4096,
     "throttle_sec": 0,
@@ -110,7 +110,7 @@
     }
   },
   "filtering": {
-    "ai_score_threshold": 6.0,
+    "ai_score_threshold": 3.0,
     "time_window_hours": 24
   },
   "webhook": {
