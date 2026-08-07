@@ -5,420 +5,545 @@ date: 2026-08-07
 lang: en
 ---
 
-> From 26 items, 18 important content pieces were selected
+> From 31 items, 23 important content pieces were selected
 
 ---
 
-1. [AMD Acquires Taalas to Etch AI Models into Silicon](#item-1) ⭐️ 8.0/10
-2. [Mario Kart Meets Pareto Frontier: A Framework for Trade-offs](#item-2) ⭐️ 8.0/10
-3. [Datasette 1.0a38 fixes SQL injection vulnerability](#item-3) ⭐️ 8.0/10
-4. [Bidirectional Diffusion Models Predict Their Own Rollout Errors](#item-4) ⭐️ 8.0/10
-5. [Human Taste as the Last Edge in AI-Driven Software Development](#item-5) ⭐️ 7.0/10
-6. [Herdr joins Y Combinator, keeps runtime open](#item-6) ⭐️ 7.0/10
-7. [ProvenMetal (YC S26) Launches to Deliver US Circuit Boards in Days](#item-7) ⭐️ 7.0/10
-8. [OpenAI Improves GPT-5.6 Sol, Expands Luna Access to Free Users](#item-8) ⭐️ 7.0/10
-9. [GitHub Actions and Pages Experience Prolonged Degraded Availability](#item-9) ⭐️ 7.0/10
-10. [Humans Miss 1 in 3 Threats When Approving AI Agent Commands](#item-10) ⭐️ 7.0/10
-11. [Synthesizing Deterministic Pipelines from Recurring LLM Traces](#item-11) ⭐️ 7.0/10
-12. [Human Preference Rankings and the Rise of Comparity AI](#item-12) ⭐️ 6.0/10
-13. [Key Challenges in Collecting Speech and Egocentric Video Datasets](#item-13) ⭐️ 6.0/10
-14. [ByteDance's Gauth: AI Tutoring or Illusion of Competence?](#item-14) ⭐️ 6.0/10
-15. [Cooking a Steak as an Analogy for Building AI Systems](#item-15) ⭐️ 5.0/10
-16. [Simon Willison Shares Blogging Advice in Interview](#item-16) ⭐️ 5.0/10
-17. [Seeking Best Models for Face/Body Detection in Movies](#item-17) ⭐️ 4.0/10
-18. [NeurIPS Meta-Reviewer Comment Disappears: User Seeks Answers](#item-18) ⭐️ 3.0/10
+1. [DeepSeek V4 Flash 0731: Faster, Cheaper, and More Capable](#item-1) ⭐️ 8.0/10
+2. [OpenAI Unveils New Security Controls for Critical Cyber Capabilities](#item-2) ⭐️ 8.0/10
+3. [Oracle Bans AI-Generated Code in OpenJDK Contributions](#item-3) ⭐️ 8.0/10
+4. [Rust-Based pgrust Makes Postgres 300x Faster for Analytics](#item-4) ⭐️ 8.0/10
+5. [Cloudflare Kitesurf: Agent-First Browser on V8 Isolates](#item-5) ⭐️ 8.0/10
+6. [2027 Memory Capacity Reportedly Sold Out Amid AI Demand](#item-6) ⭐️ 8.0/10
+7. [A Year of Fighting Scrapers on a 1.5 Million-Page Website](#item-7) ⭐️ 8.0/10
+8. [Assembly Hall of Shame: Showcasing Slowest x86 Instructions](#item-8) ⭐️ 7.0/10
+9. [Tech Worker Disillusionment: What Happens When an Entire Class Loses Faith](#item-9) ⭐️ 7.0/10
+10. [SDSS Releases All-Sky Map of Half a Million Supermassive Black Holes](#item-10) ⭐️ 7.0/10
+11. [App Store Rejects App for Nonexistent Tarot Feature](#item-11) ⭐️ 7.0/10
+12. [Codex with GPT-5.6 Sol Ultra Outshines Claude Fable 5 in Raccoon Heist Game Test](#item-12) ⭐️ 7.0/10
+13. [Tokenpocalypse: Companies Scramble to Cut AI Spending](#item-13) ⭐️ 7.0/10
+14. [Optimal LLM Quantization Bit-Width Under Fixed Memory Budget](#item-14) ⭐️ 7.0/10
+15. [Improved Bad Apple Compression via SIREN Batch Sampling](#item-15) ⭐️ 6.0/10
+16. [Open-Source Tool Generates Slides from Papers Using Local LLMs](#item-16) ⭐️ 6.0/10
+17. [uv 0.12.3 Adds CPython 3.13.15 and Workspace Optimizations](#item-17) ⭐️ 5.0/10
+18. [textlog: A Quiet, Text-Only Microblogging Platform with No JavaScript](#item-18) ⭐️ 5.0/10
+19. [ACM Multimedia 2026 Registration and APC Fees Draw Criticism](#item-19) ⭐️ 5.0/10
+20. [MLP Trained on ImageNet-1k Entirely on Android Phone](#item-20) ⭐️ 4.0/10
+21. [Seeking OCR Strategies for Doctor Handwriting](#item-21) ⭐️ 4.0/10
+22. [CIKM 2026 Decisions Released, Community Shares Results](#item-22) ⭐️ 4.0/10
+23. [US Researchers Weigh NeurIPS 2026: Sydney vs Atlanta](#item-23) ⭐️ 3.0/10
 
 ---
 
 <a id="item-1"></a>
-## [AMD Acquires Taalas to Etch AI Models into Silicon](https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344) ⭐️ 8.0/10
+## [DeepSeek V4 Flash 0731: Faster, Cheaper, and More Capable](https://arcprize.org/results/deepseek-v4-flash-0731) ⭐️ 8.0/10
 
-AMD has agreed to acquire Taalas, a Toronto-based AI chip startup, to boost inference performance by etching model weights directly into silicon. The acquisition was announced on August 6, 2026, and promises an order-of-magnitude performance improvement. This move could reshape the AI hardware landscape by offering a more efficient and cost-effective alternative to traditional GPUs for inference, potentially reducing reliance on HBM memory and challenging Nvidia's dominance. It also signals AMD's strategic push into specialized AI accelerators. Taalas's chips do not rely on HBM to store model weights; instead, they etch the weights directly into the silicon. The startup had previously raised $169 million in February 2026 to develop chips that run AI applications faster and cheaper than conventional approaches.
+DeepSeek released the official version of DeepSeek-V4-Flash-0731 on July 31, 2026, superseding the preview version with substantially enhanced agentic capabilities. The model retains the same structure as DeepSeek-V4-Flash-DSpark, including a speculative decoding module for faster inference. This update significantly improves speed and capability while maintaining low cost, making it a strong competitor to leading closed-source models. Users report it is good enough for almost everything and cheap enough that costs are irrelevant, which could accelerate adoption of open-weight models in production. DeepSeek-V4-Flash-0731 is a sparse mixture-of-experts model with 284B total parameters and 13B active parameters, supporting a 1M-token context window. It achieves top-tier performance in coding benchmarks and significantly narrows the gap with closed-source models on reasoning and agentic tasks.
 
-hackernews · itvision · Aug 6, 20:23 · [Discussion](https://news.ycombinator.com/item?id=49201970)
+hackernews · tosh · Aug 7, 17:56 · [Discussion](https://news.ycombinator.com/item?id=49214008)
 
-**Background**: AI inference typically requires moving model weights from memory to compute units, which is a bottleneck. Etching weights into silicon eliminates this memory transfer, potentially boosting speed and energy efficiency. This approach is similar to Google's experimental project of cramming quantized models onto TPUs.
+**Background**: DeepSeek is a Chinese AI company known for releasing open-weight large language models. The V4 Flash series is designed for efficiency, offering fast inference and high throughput at a fraction of the cost of premium models. The 0731 release is the official version, following an earlier preview, and includes a speculative decoding module to speed up generation.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.reuters.com/world/asia-pacific/chip-startup-taalas-raises-169-million-help-build-ai-chips-take-nvidia-2026-02-19/">Chip startup Taalas raises $169 million to help build AI chips to take on Nvidia | Reuters</a></li>
-<li><a href="https://www.cnbc.com/2026/08/06/amd-buys-taalas-startup-that-hardwires-ai-models-into-its-silicon.html">AMD buys Taalas, startup that hardwires AI models into its silicon</a></li>
-<li><a href="https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344">AMD acquires AI chip startup Taalas to boost inference performance by etching models into silicon</a></li>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731">deepseek-ai/DeepSeek-V4-Flash-0731 · Hugging Face</a></li>
+<li><a href="https://openrouter.ai/deepseek/deepseek-v4-flash-0731">DeepSeek V4 Flash 0731 - API Pricing & Benchmarks | OpenRouter</a></li>
+<li><a href="https://deepinfra.com/deepseek-ai/DeepSeek-V4-Flash">deepseek-ai/DeepSeek-V4-Flash - Demo - DeepInfra</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed mixed feelings: some are excited about the performance gains but worry about model churn, as silicon-etched models may become outdated quickly. Others noted that AMD's move into memory could reduce dependence on Hynix, and some wondered why OpenAI or Anthropic didn't make this move first.
+**Discussion**: Users are generally positive, praising the model's speed, capability, and cost-effectiveness. One user noted running it locally on 2x RTX Pro 6000 Blackwell achieved ~8k tok/s prefill and ~250 tok/s on a single stream. However, some reported issues like infinite loops and token waste, and a side discussion emerged about account bans on Claude, unrelated to DeepSeek.
 
-**Tags**: `#AMD`, `#AI hardware`, `#acquisition`, `#inference`, `#silicon`
+**Tags**: `#AI`, `#DeepSeek`, `#LLM`, `#Model Release`, `#Performance`
 
 ---
 
 <a id="item-2"></a>
-## [Mario Kart Meets Pareto Frontier: A Framework for Trade-offs](https://www.mayerowitz.io/blog/mario-meets-pareto) ⭐️ 8.0/10
+## [OpenAI Unveils New Security Controls for Critical Cyber Capabilities](https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/) ⭐️ 8.0/10
 
-The article applies the Pareto frontier concept to Mario Kart character selection, visualizing the trade-off between speed and acceleration. It provides a framework for decision-making that extends beyond games to software development. This novel application helps developers and gamers understand trade-offs in optimization problems, promoting a more nuanced view of 'can't have X without giving up Y'. It sparks discussion on how to balance competing objectives in various domains. The article uses Mario Kart character stats to illustrate the Pareto frontier, where no character can improve speed without sacrificing acceleration. It highlights that optimal choices depend on the player's priorities, and that edge-of-frontier choices may be viable for speedruns.
+OpenAI announced new security measures for advanced AI models that may possess critical cyber capabilities, including stricter security controls and isolated testing environments. This follows the disclosure that its upcoming Astra model may cross a critical cybersecurity threshold. This marks a significant step in AI safety as models approach capabilities that could be misused for cyberattacks. The measures aim to prevent malicious use while maintaining legitimate security research, impacting the broader AI and cybersecurity ecosystem. The announcement references the Preparedness Framework first published in December 2023. OpenAI's Daybreak program already offers controlled access to cyber-tuned models like GPT-5.5-Cyber for authorized red teaming, gated behind Trusted Access verification.
 
-hackernews · theanonymousone · Aug 6, 11:24 · [Discussion](https://news.ycombinator.com/item?id=49195231)
+hackernews · artninja1988 · Aug 7, 16:39 · [Discussion](https://news.ycombinator.com/item?id=49213029)
 
-**Background**: The Pareto frontier, also known as the Pareto set or efficient frontier, is a concept from economics and multi-objective optimization. It represents the set of options where improving one objective requires worsening another, and it is used to analyze trade-offs in decision-making. In Mario Kart, characters have different stats such as speed and acceleration, which often conflict, making it a fitting example for illustrating the concept.
+**Background**: OpenAI has been developing the Preparedness Framework to guide how it identifies and responds to emerging AI capabilities in areas like cybersecurity. The framework helps the company plan actions as models approach critical thresholds. This latest move reflects ongoing efforts to balance AI advancement with safety and security.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.topolog.co.uk/blog/what-is-a-pareto-frontier">What is a Pareto frontier ? | Topolog</a></li>
-<li><a href="https://www.ign.com/wikis/mario-kart-world/All_Character_Stats_and_Weight_Classes_Explained">All Character Stats and Weight Classes Explained - Mario Kart World Guide - IGN</a></li>
-<li><a href="https://www.dexerto.com/wikis/mario-kart-world/mario-kart-world-character-stats-explained/">Mario Kart World character stats leaderboard - Dexerto</a></li>
+<li><a href="https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/">Responding to the next frontier of critical cyber capabilities</a></li>
+<li><a href="https://finance.yahoo.com/technology/article/openai-says-its-upcoming-astra-model-may-have-critical-cybersecurity-capabilities-amid-rash-of-ai-model-hacks-194909085.html?fr=sycsrp_catchall">OpenAI says its upcoming Astra model may have 'critical ...</a></li>
+<li><a href="https://www.unite.ai/openai-says-upcoming-astra-model-may-cross-critical-cybersecurity-threshold/">OpenAI Says Upcoming Astra Model May Cross Critical ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters appreciated the concept's relevance to development, noting that claims like 'we can't have security without sacrificing UX' are only true if already on the Pareto frontier. Some shared related optimization experiences, such as item builds in WoW, and debated whether edge-of-frontier choices are optimal for speedruns, with one commenter humorously optimizing for losing to kids.
+**Discussion**: Community comments show a mix of technical insights and skepticism. Some users shared positive experiences with OpenAI's Sol model in vulnerability discovery, while others criticized the lack of transparency about past incidents and questioned the effectiveness of new security controls. There is also concern about the centralization of AI and a desire to move systems on-premises.
 
-**Tags**: `#Pareto frontier`, `#game design`, `#optimization`, `#decision-making`, `#Mario Kart`
+**Tags**: `#AI safety`, `#cybersecurity`, `#OpenAI`, `#security controls`, `#vulnerability research`
 
 ---
 
 <a id="item-3"></a>
-## [Datasette 1.0a38 fixes SQL injection vulnerability](https://simonwillison.net/2026/Aug/6/datasette/#atom-everything) ⭐️ 8.0/10
+## [Oracle Bans AI-Generated Code in OpenJDK Contributions](https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code) ⭐️ 8.0/10
 
-Datasette 1.0a38, released on August 6, 2026, fixes a SQL injection vulnerability that could allow users with access to public tables to read private tables in the same database. The fix is also backported to Datasette 0.65.3. This security fix is critical for Datasette instances that mix public and private tables, as it prevents unauthorized data access. It underscores the importance of promptly applying security patches in open-source data publishing tools. The vulnerability affected instances using the Datasette permissions system to restrict access to private tables. Administrators are advised to disable the execute-sql permission on affected databases to mitigate the risk until the patch is applied.
+Oracle has implemented an interim policy banning AI-generated code from OpenJDK community contributions, citing legal and review burden concerns. The policy applies to submissions from the community, though core developers may be exempt. This policy could set a precedent for other open-source projects grappling with AI-generated contributions, potentially slowing innovation but protecting legal integrity. It also highlights the tension between Oracle's AI investments and its cautious stance on AI in critical codebases. The policy is an interim measure, with a final version being drafted by Oracle's lawyers. Contributors must soon check a checkbox in Skara, the automated PR review system, to confirm compliance with the AI policy.
 
-rss · Simon Willison · Aug 6, 18:24
+hackernews · delduca · Aug 7, 17:36 · [Discussion](https://news.ycombinator.com/item?id=49213754)
 
-**Background**: Datasette is an open-source tool for publishing and exploring data, often used to share datasets online. It includes a permissions system that allows administrators to control access to tables, including the ability to make some tables public and others private. SQL injection is a common web security vulnerability where attackers can manipulate queries to access unauthorized data.
+**Background**: OpenJDK is the open-source implementation of Java, widely used in enterprise environments. Oracle, as the corporate sponsor, manages contributions to ensure code quality and legal safety. The ban reflects concerns about copyright provenance and the burden of reviewing AI-generated code, which may lack the care of human-written contributions.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://docs.datasette.io/en/stable/authentication.html">Authentication and permissions - Datasette documentation</a></li>
-<li><a href="https://simonwillison.net/2026/Aug/6/datasette/">Release: datasette 1.0a38 | Simon Willison’s Weblog</a></li>
-<li><a href="https://portswigger.net/web-security/sql-injection">What is SQL Injection ? Tutorial & Examples | Web Security Academy</a></li>
+<li><a href="https://openjdk.org/legal/ai">OpenJDK Interim Policy on Generative AI</a></li>
+<li><a href="https://www.infoq.com/news/2026/06/oracle-genai-policies/">Oracle's OpenJDK Bans Generative AI Contributions While... - InfoQ</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The author notes that the affected configuration (mixed public/private tables in the same instance) is likely rare, and they have not encountered it themselves. This suggests a low real-world impact, but the fix is still important for those with such setups.
+**Discussion**: Commenters generally support the ban, noting Oracle's legal history and the practical burden on reviewers. Some point out the irony of Oracle's AI investments, while others clarify that the policy may not apply to core developers, focusing on community submissions.
 
-**Tags**: `#security`, `#datasette`, `#sql-injection`, `#open-source`, `#release`
+**Tags**: `#OpenJDK`, `#AI-generated code`, `#Oracle`, `#policy`, `#open source`
 
 ---
 
 <a id="item-4"></a>
-## [Bidirectional Diffusion Models Predict Their Own Rollout Errors](https://www.reddit.com/r/MachineLearning/comments/1vh2gn1/roundtrip_consistency_bidirectional_diffusion/) ⭐️ 8.0/10
+## [Rust-Based pgrust Makes Postgres 300x Faster for Analytics](https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/) ⭐️ 8.0/10
 
-A new paper introduces a single conditional latent diffusion model that can step a dynamical system forward or backward in time, using the round-trip discrepancy as a self-supervised proxy for rollout error without ground truth. This method outperforms two specialist models in both directions. This work addresses the critical problem of error accumulation in autoregressive generation for long rollouts, which is common in video generation and digital twin simulations. By providing a measurement-free error signal, it enables better long-term stability and reliability in deployed generative models. The method requires only one extra rollout (forward then backward) to compute the round-trip discrepancy, with no ensembles, held-out data, or governing equations. The paper includes code, a project page, and demonstrates empirical improvements on CELEBV-HQ videos and turbulent plasma fields.
+The author of pgrust, a Rust-based query engine for Postgres, published a detailed post explaining how it achieves hundreds of times faster analytics through batching, operator fusion, and SIMD. The project also emphasizes correctness via formal verification and differential fuzz testing. This could significantly boost Postgres's analytical performance, making it more competitive with specialized OLAP databases like DuckDB and ClickHouse. It also demonstrates the viability of Rust-based query engines and adaptive planning, potentially influencing future database development. The post details techniques such as batching (processing multiple rows at once), operator fusion (combining operators to reduce overhead), and SIMD (single instruction, multiple data) for parallel data processing. The author mentions proving over 1000 user-facing functions have identical logic in pgrust and Postgres, and the project is open-source.
 
-reddit · r/MachineLearning · /u/Clean-Hovercraft5825 · Aug 6, 12:10
+hackernews · poly2it · Aug 7, 11:00 · [Discussion](https://news.ycombinator.com/item?id=49208535)
 
-**Background**: Autoregressive generative models, such as latent diffusion or flow models, are used to simulate dynamical systems by predicting future states step by step. However, errors accumulate over long rollouts, and at deployment, there is no ground truth to measure against. This paper leverages the idea of bidirectional consistency: if a model can step both forward and backward, then a round-trip should return to the starting point, and any discrepancy indicates error. This concept is related to round-trip consistency used in other domains, such as bidirectional diffusion bridges and round-trip reinforcement learning.
+**Background**: Traditional Postgres uses a row-based execution model, which is inefficient for analytical queries that scan large datasets. Modern analytical databases often use columnar storage, vectorized execution, and SIMD to achieve high performance. Operator fusion and batching are techniques to reduce per-row overhead and improve cache locality.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2608.00675">[2608.00675] Round - Trip Consistency : Bidirectional Diffusion Models...</a></li>
-<li><a href="https://arxiv.org/abs/2502.09655">[2502.09655] Bidirectional Diffusion Bridge Models</a></li>
-<li><a href="https://openreview.net/forum?id=8YlFBmNYVV">Round - trip Reinforcement Learning: Self- Consistent ... | OpenReview</a></li>
+<li><a href="https://arxiv.org/pdf/1610.09166">Push vs. Pull-Based Loop Fusion in Query Engines</a></li>
+<li><a href="https://www.vldb.org/cidrdb/papers/2025/p7-schmidt.pdf">Rethinking MIMD-SIMD Interplay for Analytical Query ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Formal_verification">Formal verification - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#diffusion models`, `#self-supervised learning`, `#dynamical systems`, `#generative modeling`, `#rollout error`
+**Discussion**: The author engaged in the comments, addressing trust concerns by highlighting formal verification and fuzz testing. Some commenters expressed skepticism about adoption due to the lack of the Postgres core team's backing, while others praised the adaptive planning feature and the potential for embedding pgrust as an alternative to SQLite.
+
+**Tags**: `#Postgres`, `#Rust`, `#query-engine`, `#performance`, `#SIMD`
 
 ---
 
 <a id="item-5"></a>
-## [Human Taste as the Last Edge in AI-Driven Software Development](https://notashelf.dev/posts/taste-is-all-thats-left) ⭐️ 7.0/10
+## [Cloudflare Kitesurf: Agent-First Browser on V8 Isolates](https://blog.cloudflare.com/kitesurf/) ⭐️ 8.0/10
 
-An essay titled 'Taste Is All That's Left' argues that as AI tools increasingly generate code, human taste and judgment become the primary differentiators in software development. The piece sparked a high-engagement discussion on Hacker News with 194 points and 155 comments. This discussion highlights a growing concern among developers about the impact of LLMs on code quality and the role of human expertise. It matters because it addresses a fundamental shift in software engineering, where the ability to judge and curate AI-generated output may become more valuable than writing code from scratch. The article and comments explore the concept of 'taste' in programming, with some commenters preferring the term 'judgment' as more actionable. Critics point out that LLM-generated code often lacks long-term coherence and writing quality, suggesting that taste alone may not be sufficient to ensure good outcomes.
+Cloudflare announced Kitesurf, an agent-first browser that runs in V8 isolates, built on the open-source Blitz engine. This enables efficient browser automation at the edge. This represents a significant step in browser automation and edge computing, potentially enabling more efficient and scalable agent-based web interactions. It could impact developers and businesses relying on web scraping, testing, and automated content generation. Kitesurf is built on Blitz, a modular open-source browser engine developed by Dioxus Labs. Cloudflare intends to open source and upstream their patches to Blitz. The browser runs in V8 isolates, allowing lightweight execution contexts for high concurrency.
 
-hackernews · tsak · Aug 6, 17:01 · [Discussion](https://news.ycombinator.com/item?id=49199346)
+hackernews · m3h · Aug 7, 10:42 · [Discussion](https://news.ycombinator.com/item?id=49208393)
 
-**Background**: The essay is part of a broader discourse on how large language models (LLMs) are changing software development. As AI coding assistants become more capable, developers are questioning what unique human skills remain valuable. The concept of 'taste' refers to an individual's ability to make aesthetic and practical judgments about code quality, which is often developed through experience and mistakes.
+**Background**: V8 isolates are lightweight execution contexts inside Google's V8 engine that allow edge platforms to run thousands of tenants per process without containers or VMs. An agent-first browser is designed to enable AI agents to perform tasks in the browser, such as web scraping, testing, and content generation. Cloudflare's Browser Run service already offers headless Chrome on its global network, and Kitesurf extends this concept with a more efficient architecture.
 
-**Discussion**: Commenters expressed mixed views: some resonated with the idea, sharing personal experiences of developing taste through years of mistakes, while others questioned the usefulness of the concept, suggesting that 'judgment' is a more valuable term. A few noted that LLM output often lacks long-term coherence and writing quality, raising doubts about the sufficiency of taste alone.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.clodo.dev/blog/v8-isolates-comprehensive-guide">V8 Isolates: From Concept to Production – Building Efficient ...</a></li>
+<li><a href="https://fordelstudios.com/research/how-v8-isolates-actually-work-under-the-hood">How V8 Isolates Work: Architecture, Limits, and Trade-offs ...</a></li>
 
-**Tags**: `#AI`, `#software engineering`, `#code quality`, `#LLM`, `#developer skills`
+</ul>
+</details>
+
+**Discussion**: Community comments show mixed reactions. Some praise the technical innovation and open-source plans, while others express concerns about potential conflicts with Cloudflare's anti-bot services. There are also questions about practical use cases for browser agents and skepticism about the company's dual role as CDN and agent provider.
+
+**Tags**: `#browser`, `#cloudflare`, `#edge computing`, `#web scraping`, `#open source`
 
 ---
 
 <a id="item-6"></a>
-## [Herdr joins Y Combinator, keeps runtime open](https://herdr.dev/blog/herdr-is-joining-y-combinator/) ⭐️ 7.0/10
+## [2027 Memory Capacity Reportedly Sold Out Amid AI Demand](https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out) ⭐️ 8.0/10
 
-Herdr, an open-source terminal multiplexer for multi-agent coding, announced it is joining Y Combinator (YC) while keeping its runtime open. The founder also mentioned switching the license from AGPL to Apache to encourage broader usage. This move is significant for the developer tools space, especially as the terminal multiplexer and multi-agent coding market becomes increasingly crowded. It highlights the tension between open-source principles and commercial funding, and may influence how other startups in the space approach licensing and community trust. Herdr is a lightweight Rust binary (about 10MB) that runs multiple AI coding agents in workspaces, tabs, and panes within an existing terminal. The license change from AGPL to Apache was made to remove perceived barriers to usage, though the specific problems with AGPL were not detailed.
+Memory suppliers have reportedly sold out their entire production capacity for 2027, driven by surging AI demand and HBM production constraints. This marks an unprecedented level of forward selling in the memory industry. This development signals prolonged memory shortages and potential price increases for consumer electronics, servers, and AI hardware through 2027. It underscores the strategic importance of memory supply in the AI-driven economy and may accelerate investment in alternative memory technologies. HBM production consumes roughly three times the wafer supply of DDR5 for the same bit count, constraining non-HBM memory supply. TSMC's CoWoS packaging capacity is also sold out through 2026, further bottlenecking the AI chip supply chain.
 
-hackernews · collinmanderson · Aug 6, 19:14 · [Discussion](https://news.ycombinator.com/item?id=49201003)
+hackernews · inigyou · Aug 7, 07:58 · [Discussion](https://news.ycombinator.com/item?id=49207236)
 
-**Background**: Terminal multiplexers like tmux allow users to manage multiple terminal sessions in one window. Herdr extends this concept for AI coding agents, enabling developers to run and monitor multiple agents simultaneously. Y Combinator is a prominent startup accelerator that has funded several competing startups in this space, and there is ongoing debate about how open-source projects balance community interests with venture funding.
+**Background**: Memory chips are essential components in computers, smartphones, and AI accelerators. HBM (High Bandwidth Memory) is a specialized type of DRAM stacked vertically to provide high bandwidth, crucial for AI workloads. The shift of wafer capacity to HBM production has created a shortage of conventional DRAM, affecting consumer products.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://terminaltrove.com/herdr/">herdr - A tmux-like and agent -aware terminal multiplexer .</a></li>
-<li><a href="https://www.chaseai.io/blog/herdr-terminal-multiplexer-ai-coding-agents">Herdr : Run Claude Code + Codex in One Terminal - Chase AI</a></li>
-<li><a href="https://addrom.com/herdr-client-terminal-native-multiplexer-for-ai-coding-agents-and-remote-sessions/">Herdr : Terminal ‑native multiplexer for AI coding agents ... - addROM</a></li>
+<li><a href="https://www.ign.com/articles/memory-shortage-sees-2027-production-reportedly-sold-out-as-demand-far-outstrips-supply">Memory Suppliers Reportedly Now Sold Out For Whole of 2027 ...</a></li>
+<li><a href="https://www.idc.com/resource-center/blog/why-the-memory-market-is-still-tight-what-comes-next/">Memory Market Outlook: Why Tightness Lasts to 2027 - IDC</a></li>
+<li><a href="https://appleinsider.com/articles/26/08/05/ram-production-worldwide-is-sold-out-through-2027">Apple's high-priced RAM nightmare confirmed to stay for 2027</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments are mixed: some congratulate the founder and express support, while others raise concerns about the competitive landscape and the license change. One commenter questions the actual problems with AGPL, and another notes that joining an accelerator is not the same as going public, so a 'rug pull' is unlikely. There is also a comment criticizing the dramatic title style.
+**Discussion**: Commenters expressed concerns about rising costs and supply constraints, with some noting the impact on consumer electronics and inflation. Technical users highlighted the wafer trade-off between HBM and DDR5, while others shared personal strategies like stockpiling or reducing AI usage.
 
-**Tags**: `#Y Combinator`, `#open source`, `#developer tools`, `#AI coding`, `#terminal multiplexer`
+**Tags**: `#memory`, `#hardware`, `#AI`, `#supply chain`, `#HBM`
 
 ---
 
 <a id="item-7"></a>
-## [ProvenMetal (YC S26) Launches to Deliver US Circuit Boards in Days](https://provenmetal.com/) ⭐️ 7.0/10
+## [A Year of Fighting Scrapers on a 1.5 Million-Page Website](https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/) ⭐️ 8.0/10
 
-ProvenMetal, a YC S26 startup, launched on Hacker News, offering a service that delivers domestically assembled circuit boards in days instead of weeks. They automate front-of-house processes like quoting, DFM review, and component procurement, and provide plugins for KiCAD and Altium. This addresses a critical gap in the US PCB supply chain, which has declined from 30% of global production in 2000 to 4% today. By making domestic manufacturing faster and easier, it could help reshore electronics manufacturing, benefiting industries like defense and hardware startups that need speed and reliability. ProvenMetal initially tried assembling boards in a garage with prosumer equipment but found it capacity-constrained, so they pivoted to automating the front-of-house. Their system automatically sources components from US and overseas distributors, stores parts in San Francisco, and coordinates with bare board fabs and assembly houses.
+A website owner detailed a year-long battle against scrapers and bots on their 1.5 million-page site, reporting traffic spikes, a 500% cost increase in one month, and the trade-offs of using Cloudflare versus alternatives like Anubis. This highlights the growing challenge of bot mitigation for website owners, the financial impact of such attacks, and the broader debate about relying on centralized services like Cloudflare versus open-web alternatives. It offers practical insights for others facing similar issues. The site's normal monthly bill is around $90, but one spike month saw a 500% increase, partly due to D1 costs. The author acknowledges being a scraper themselves, adding nuance to the discussion. Cloudflare offers Bot Fight Mode (free) and Super Bot Fight Mode (paid) as simple toggles, while Anubis uses proof-of-work to detect real browsers.
 
-hackernews · willcarkner · Aug 6, 15:59 · [Discussion](https://news.ycombinator.com/item?id=49198464)
+hackernews · petercooper · Aug 7, 14:51 · [Discussion](https://news.ycombinator.com/item?id=49211386)
 
-**Background**: The US PCB manufacturing industry has shrunk dramatically over the past two decades, with China now dominating 55% of global production. Traditional US contract manufacturers (CMs) often have slow quoting and DFM processes, and component sourcing is a major bottleneck. ProvenMetal aims to solve these issues by automating the front-end and coordinating the supply chain.
+**Background**: Web scraping and bot traffic are common issues for websites, often consuming resources and increasing costs. Mitigation strategies range from simple rate limiting to advanced solutions like Cloudflare's bot management, which uses machine learning and behavioral analysis. Alternatives like Anubis employ proof-of-work challenges to distinguish humans from bots without relying on centralized services.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.ycombinator.com/companies/provenmetal">ProvenMetal : Fast-turn, American made PCBs | Y Combinator</a></li>
-<li><a href="https://cowlpane.com/tech/provenmetal-cuts-pcb-lead-times-from-weeks-to-days-a-threat-to-traditional/">ProvenMetal Cuts PCB Lead Times from Weeks to Days... — Cowlpane</a></li>
-<li><a href="https://www.ic-online.com/blog/post/domestic-vs-overseas-pcb-assemblers-pros-cons-and-cost-considerations">Domestic vs Overseas PCB Assemblers : Pros, Cons and... | IC Online</a></li>
+<li><a href="https://www.cloudflare.com/products/bot-mitigation/">Cloudflare Bot Management - Stop Bad Bots</a></li>
+<li><a href="https://developers.cloudflare.com/bots/">Overview · Cloudflare bot solutions docs</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments show cautious optimism, with suggestions like offering lines of credit to improve cash conversion cycles. Some commenters question pricing competitiveness against China, noting that Chinese assembly can be very cheap, while others see potential in ITAR and faster turnaround needs. There is also interest in a standard parts list like JLCPCB's.
+**Discussion**: Community comments express concerns about Cloudflare's centralization, with one user noting that outsourcing decisions on who can access a site to a large company undermines the open web. Others recommend Anubis as an effective alternative, sharing success stories. Some suggest moving to static sites to reduce costs, while another user shares frustration about AI search bots like Claude fetching thousands of pages without compensation.
 
-**Tags**: `#PCB manufacturing`, `#hardware startup`, `#supply chain`, `#YC launch`
+**Tags**: `#web scraping`, `#bot mitigation`, `#Cloudflare`, `#cost optimization`, `#site reliability`
 
 ---
 
 <a id="item-8"></a>
-## [OpenAI Improves GPT-5.6 Sol, Expands Luna Access to Free Users](https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/) ⭐️ 7.0/10
+## [Assembly Hall of Shame: Showcasing Slowest x86 Instructions](https://github.com/xoreaxeaxeax/asm-hall-of-shame) ⭐️ 7.0/10
 
-OpenAI announced improvements to its top-tier GPT-5.6 Sol model and expanded access to the lighter GPT-5.6 Luna tier for free ChatGPT users, including the 'Think' reasoning toggle. This update aims to enhance everyday conversations while broadening free-tier capabilities. This move signals OpenAI's response to competitive pressure and AI commoditization, potentially reshaping user expectations for free AI assistants. By giving free users access to reasoning features, it could democratize advanced AI capabilities and influence industry pricing and access strategies. GPT-5.6 Sol is the highest-capability tier, while Luna is the fastest and most affordable, at about one-fifth the cost of Sol. The update also includes the 'Think' toggle for free users, which was previously a paid feature, and follows benchmarks showing Sol scores just 1 point below Claude Fable 5 in the Artificial Analysis Intelligence Index.
+A GitHub repository titled 'Assembly Hall of Shame' has been created to showcase the slowest x86 instructions, gaining significant community traction with 179 points and 38 comments. The repository includes a leaderboard of instructions that take unusually long to execute, such as a 12ms write to an ACPI IO port. This repository provides a novel and entertaining exploration of CPU performance quirks, offering valuable insights for systems programmers and hardware enthusiasts. It highlights how certain instructions can trigger unexpected behaviors like SMM traps, which has implications for performance optimization and low-level security research. The repository includes rules that state trapped, emulated, or virtualized instructions may only time the trap, not the handler. One notable entry is a 12ms write to an ACPI IO port, which is suspected to trap to System Management Mode (SMM) for handling, and the repository links to related projects like 'smiiiiiiiiiiiiiiii' that use slow instructions to break SMI.
 
-hackernews · tedsanders · Aug 6, 17:02 · [Discussion](https://news.ycombinator.com/item?id=49199357)
+hackernews · piotrgrabowski · Aug 7, 18:01 · [Discussion](https://news.ycombinator.com/item?id=49214098)
 
-**Background**: OpenAI's GPT-5.6 family includes three tiers: Sol (highest capability), Terra (balanced mid-tier), and Luna (lightweight, fast, and cost-efficient). The expansion of Luna to free users aligns with OpenAI's mission to ensure AGI benefits all of humanity, though it also reflects growing commoditization pressure in the AI market.
+**Background**: x86 processors include a wide range of instructions, some of which are rarely used and can be extremely slow due to microarchitectural quirks or because they trigger special execution modes. System Management Mode (SMM) is a privileged operating mode in x86 CPUs that suspends normal execution, including the OS, to handle firmware-level tasks such as power management or thermal control. SMM is triggered by a System Management Interrupt (SMI), and code running in SMM is invisible to the OS, making it both a security concern and a source of unexpected performance hits.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.cerebras.ai/blog/getting-the-most-out-of-gpt-5-6-sol-terra-and-luna">Getting the most out of GPT-5.6: Sol, Terra, and Luna</a></li>
-<li><a href="https://www.mindstudio.ai/blog/what-is-gpt-5-6-sol-terra-luna-explained">What Is GPT-5.6? OpenAI's Sol, Terra, and Luna Model Tiers Explained | MindStudio</a></li>
-<li><a href="https://artificialanalysis.ai/articles/gpt-5-6-has-landed">GPT - 5 . 6 benchmarks across Intelligence, Speed and Cost</a></li>
+<li><a href="https://en.wikipedia.org/wiki/System_Management_Mode">System Management Mode - Wikipedia</a></li>
+<li><a href="https://wiki.osdev.org/System_Management_Mode">System Management Mode - OSDev Wiki SoK: 20 Years of Power, Privilege, and Peril in x86 System ... System Management Mode deep dive: How SMM isolation hardens ... SMM and BIOS: x86 Internals Explained | PDF | Cpu Cache ... SMM and BIOS: Insights for x86 Systems | PDF - Scribd</a></li>
+<li><a href="https://vanbulck.net/files/woot26-smm.pdf">SoK: 20 Years of Power, Privilege, and Peril in x86 System ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments are mixed: some praise the broader impact of free reasoning access, while others question the AGI framing and see the move as a response to commoditization. There is also frustration with the complexity of choosing reasoning levels, and speculation about future shifts toward B2B and API monetization.
+**Discussion**: The community discussion includes references to related topics like Core War, and comments on the rules of the repository, with one user noting that the 12ms ACPI IO port write likely traps to SMM. Another user humorously suggests that 'Nop' should be #1 because it is infinitely slow for what it does, while another reflects on how computers still feel slow despite executing millions of instructions per millisecond, citing abstraction overhead.
 
-**Tags**: `#OpenAI`, `#GPT-5.6`, `#ChatGPT`, `#AI access`, `#AGI`
+**Tags**: `#assembly`, `#x86`, `#hardware`, `#performance`, `#systems`
 
 ---
 
 <a id="item-9"></a>
-## [GitHub Actions and Pages Experience Prolonged Degraded Availability](https://www.githubstatus.com/incidents/qcvjkzcs7j74) ⭐️ 7.0/10
+## [Tech Worker Disillusionment: What Happens When an Entire Class Loses Faith](https://www.noemamag.com/why-is-everyone-in-tech-so-sad/) ⭐️ 7.0/10
 
-On August 6, 2026, GitHub Actions and Pages began experiencing degraded availability, with workflow runs delayed or incomplete, API errors, and rate limiting. The incident has persisted for over five hours, according to community reports. This outage affects millions of developers and organizations that rely on GitHub Actions for CI/CD and Pages for hosting, highlighting growing reliability concerns as platform usage surges. It underscores the challenges of scaling infrastructure to meet unprecedented demand. GitHub's status page reported that engineers applied mitigations and were rolling out fixes, but the core issue lingered on Actions. Community members noted that GitHub has seen a dramatic increase in activity, with 2.1 billion Actions minutes used so far that week, up from 1 billion per week in 2025.
+An article on Noema Magazine explores the widespread sadness and loss of faith among tech workers, prompting a deep community discussion about the industry's current state and future. The piece resonates strongly, with 272 points and 409 comments on Hacker News. This article highlights a significant and timely issue about tech worker disillusionment, which could impact talent retention, innovation, and the broader economy. The high engagement suggests it resonates deeply with many in the industry, indicating a potential shift in workforce sentiment. The article discusses the emotional state of tech workers, including feelings of sadness and a desire for more grounded occupations. Community comments draw historical parallels, such as the decline of the printing trade, and highlight the toxicity of the online world as a contributing factor.
 
-hackernews · Footkerchief · Aug 6, 15:49 · [Discussion](https://news.ycombinator.com/item?id=49198302)
+hackernews · RickJWagner · Aug 7, 12:42 · [Discussion](https://news.ycombinator.com/item?id=49209539)
 
-**Background**: GitHub Actions is a CI/CD service that automates software workflows, while GitHub Pages hosts static websites directly from repositories. Both are widely used, and their reliability is critical for developer productivity. The incident reflects broader industry concerns about infrastructure resilience amid rapid growth in software development activity.
+**Background**: The tech industry has long been seen as a source of high-paying, stable jobs, but recent years have brought layoffs, burnout, and a sense of moral compromise. This article taps into a broader societal trend of questioning the value and sustainability of tech careers, especially as the industry faces economic uncertainty and ethical scrutiny.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.githubstatus.com/">Welcome to GitHub 's home for real-time and historical data on system...</a></li>
-<li><a href="https://www.webpronews.com/githubs-actions-outage-exposes-growing-reliability-strain-on-developer-infrastructure/">GitHub 's Actions Outage Exposes Growing Reliability Strain on...</a></li>
+**Discussion**: Community comments express a range of perspectives, from historical analogies (e.g., the decline of printing) to personal reflections on losing passion and even daydreaming about homelessness. Some commenters note the toxicity of the online world, while others question the feasibility of escaping to grounded occupations, given economic realities.
 
-</ul>
-</details>
-
-**Discussion**: Community sentiment is largely frustrated, with users expressing disbelief at the prolonged downtime and questioning GitHub's reliability. Some attribute the outages to scaling issues, citing massive growth in commits and Actions usage, while others sympathize with the on-call team but note systemic problems.
-
-**Tags**: `#GitHub`, `#outage`, `#reliability`, `#CI/CD`, `#devops`
+**Tags**: `#tech industry`, `#worker morale`, `#career disillusionment`, `#mental health`, `#societal trends`
 
 ---
 
 <a id="item-10"></a>
-## [Humans Miss 1 in 3 Threats When Approving AI Agent Commands](https://scalex.dev/blog/ai-agent-permissions-stats/) ⭐️ 7.0/10
+## [SDSS Releases All-Sky Map of Half a Million Supermassive Black Holes](https://www.sdss.org/black-hole-mapper-release-20/) ⭐️ 7.0/10
 
-An analysis of 40,000 game runs and 409,000 decisions from an interactive game reveals that humans missed 1 in 3 threats when approving AI agent commands. The game, shared on Hacker News, collected statistics that highlight the fallibility of human oversight in AI agent security. This finding underscores a critical security challenge in human-AI interaction: relying on human approval as a safety mechanism is unreliable. As AI agents become more prevalent in executing commands, this data suggests that current approval mechanisms may be insufficient, impacting developers, security professionals, and end-users. The game's statistics show that even with a warning upfront, 1 in 3 threats were missed, and the history log above npm run commands was typically ignored. The game was on a timer, which may have contributed to the high miss rate, and some prompts were debated as misleading regarding risk levels.
+The Sloan Digital Sky Survey (SDSS) has released Data Release 20 (DR20), which includes an all-sky map of over 500,000 supermassive black holes, marking a major milestone for the Black Hole Mapper program. This dataset provides unprecedented insights into the masses, growth, and physics of quasars and active galactic nuclei across cosmic time, significantly advancing our understanding of supermassive black holes and galaxy evolution. DR20 includes over 3.3 million optical spectra spanning 500,000 galaxies and 1.5 million stars, and features the first southern hemisphere optical observations from Las Campanas Observatory, coordinated with eROSITA X-ray data.
 
-hackernews · Wirbelwind · Aug 6, 11:58 · [Discussion](https://news.ycombinator.com/item?id=49195468)
+hackernews · MarcoDewey · Aug 7, 15:24 · [Discussion](https://news.ycombinator.com/item?id=49211921)
 
-**Background**: AI agents often require user approval before executing potentially dangerous commands, such as terminal commands. This human-in-the-loop approach is common in tools like VS Code, where users must approve terminal commands. However, the effectiveness of such approval mechanisms depends on human vigilance, which can be compromised by time pressure, misleading prompts, or lack of context.
+**Background**: Supermassive black holes are extremely dense regions at the centers of galaxies, with masses millions to billions of times that of the Sun. The SDSS-V survey uses the Black Hole Mapper program to observe these objects across the sky, providing a comprehensive view of their distribution and properties.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://code.visualstudio.com/docs/agents/run/security">AI security in VS Code</a></li>
-<li><a href="https://cybergiz.com/playbooks/approve-ai-agents-terminal-commands/">How to approve AI agents that can run terminal commands | Cybergiz</a></li>
-<li><a href="https://julienflorkin.com/technology/artificial-intelligence/human-in-the-loop-ai-oversight/">Human -in-the-Loop AI : When Oversight Still Matters</a></li>
+<li><a href="https://www.sdss.org/black-hole-mapper-release-20/">Mapping Monsters: SDSS-V Data Release 20 Unveils All-Sky ...</a></li>
+<li><a href="https://phys.org/news/2026-08-monsters-unveils-sky-views-supermassive.html">Mapping monsters: Data release unveils all-sky views of ...</a></li>
+<li><a href="https://www.openaccessgovernment.org/sdss-v-data-release-20-unveils-all-sky-views-of-supermassive-black-holes/212810/">SDSS-V data release 20 unveils all-sky views of supermassive black holes</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments express skepticism about the test's validity, noting that the game had zero consequences and an artificial time constraint, making the data less meaningful. Some argue that the approval mechanism is merely a 'click-through' for legal protection, not a serious security measure. Others point out that some prompts were misleading, questioning the accuracy of the threat classification.
+**Discussion**: Community members expressed excitement about the data, with one noting the simultaneous release of the eROSITA X-ray catalogue, which nearly doubled known X-ray sources. Others asked about the gridded patterns in the map, questioning whether they are artifacts or real features, and discussed the potential for individual researchers to use SDSS data with modern AI techniques.
 
-**Tags**: `#AI safety`, `#human-AI interaction`, `#security`, `#agent permissions`, `#empirical study`
+**Tags**: `#astronomy`, `#black holes`, `#SDSS`, `#data release`, `#cosmology`
 
 ---
 
 <a id="item-11"></a>
-## [Synthesizing Deterministic Pipelines from Recurring LLM Traces](https://www.reddit.com/r/MachineLearning/comments/1vhapso/can_recurring_llm_traces_be_synthesized_into/) ⭐️ 7.0/10
+## [App Store Rejects App for Nonexistent Tarot Feature](https://daringfireball.net/2026/08/app_store_rejection_of_the_week_dark_hours) ⭐️ 7.0/10
 
-The post proposes a novel research direction: automatically synthesizing deterministic pipelines of traditional ML/NLP operators (regexes, parsers, models) to replace recurring LLM workloads, with a gating mechanism to escalate out-of-domain cases to the original model. It introduces a taxonomy of 41 atomic task types as building blocks for candidate DAGs. This could significantly reduce LLM costs and improve reliability for recurring tasks, making AI applications more efficient and predictable. It also bridges the gap between LLM flexibility and traditional software engineering determinism, potentially influencing how production ML systems are designed. The approach involves clustering repeated traces into workload families, inducing typed contracts, generating candidate DAGs from the 41 task types, and optimizing for quality, cost, and latency. The authors acknowledge the problem is likely undetermined from input/output contracts alone, so the synthesized graph is a behaviorally equivalent program over a bounded input distribution, not a recovered latent reasoning trace.
+Apple's App Store rejected the game Dark Hours, claiming it included a live tarot reading feature, despite the app having no such functionality. The developer's appeals, including to the App Review Board, were upheld based on this incorrect assertion. This incident highlights the arbitrary and opaque nature of Apple's app review process, which can significantly impact developers' livelihoods and user access to apps. It underscores ongoing concerns about platform gatekeeping and the need for more transparent and consistent review standards. The developer, Godier, escalated the rejection to the App Review Board, which responded that the original rejection was valid because they 'understand that the app includes a live tarot reading feature.' The app has no tarot, horoscope, or astrology-related content, as confirmed by the developer and others.
 
-reddit · r/MachineLearning · /u/Ok_Philosophy_4031 · Aug 6, 17:24
+hackernews · _da_ · Aug 7, 18:59 · [Discussion](https://news.ycombinator.com/item?id=49214863)
 
-**Background**: LLMs are powerful but expensive and non-deterministic, making them unsuitable for high-volume, repetitive tasks. Traditional ML/NLP pipelines, built from deterministic components like regexes and parsers, offer cost and reliability advantages. The idea is to automatically construct such pipelines from observed LLM traces, using program synthesis and formal verification techniques, while maintaining a fallback to the LLM for out-of-domain inputs.
+**Background**: The App Store review process is a gatekeeping mechanism where Apple manually reviews apps before they are published. Developers often face rejections for reasons that can be unclear or inconsistent, leading to frustration and appeals. This case is particularly egregious because the stated reason is factually incorrect.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/pdf/2509.13237">Metacognitive Reuse: Turning Recurring LLM Reasoning Into Concise...</a></li>
-<li><a href="https://www.braintrust.dev/articles/turn-llm-production-failures-into-regression-tests">How to turn LLM production failures into regression tests... - Braintrust</a></li>
-<li><a href="https://beyond.minimumcd.org/docs/reference/practices/deterministic-pipeline/">Deterministic Pipeline | MinimumCD Practice Guide</a></li>
+<li><a href="https://daringfireball.net/2026/08/app_store_rejection_of_the_week_dark_hours">Daring Fireball: App Store Rejection of the Week: Dark Hours</a></li>
+<li><a href="https://developer.apple.com/forums/thread/750787">The App Review Process at Apple is… | Apple Developer Forums</a></li>
+<li><a href="https://www.revenuecat.com/blog/growth/the-ultimate-guide-to-app-store-rejections">The ultimate guide to App Store rejections | RevenueCat</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The Reddit discussion likely includes technical critiques about feasibility, suggestions for alternative approaches, and insights from program synthesis experts. Some may question the undecidability of the problem or propose using LLMs to generate the pipelines themselves.
+**Discussion**: Commenters expressed frustration with the arbitrary nature of App Store reviews, sharing personal experiences of inconsistent decisions. Some noted the irony that astrology apps like Co-Star have been featured by Apple, while this app was rejected for a nonexistent feature. Others pointed to broader issues of platform gatekeeping and the need for reform.
 
-**Tags**: `#LLM`, `#ML pipeline`, `#NLP`, `#efficiency`, `#research`
+**Tags**: `#App Store`, `#Developer Experience`, `#Mobile Apps`, `#Platform Governance`, `#Tech Criticism`
 
 ---
 
 <a id="item-12"></a>
-## [Human Preference Rankings and the Rise of Comparity AI](https://www.reddit.com/r/MachineLearning/comments/1vh42ed/the_current_state_of_language_models_and_human/) ⭐️ 6.0/10
+## [Codex with GPT-5.6 Sol Ultra Outshines Claude Fable 5 in Raccoon Heist Game Test](https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything) ⭐️ 7.0/10
 
-A Reddit post highlights how human preference-based rankings like Arena AI may contribute to LLM overformatting, and introduces Comparity AI, a free research platform from the Max Planck Institute for Intelligent Systems that allows users to compare frontier LLMs and build a personal leaderboard. This matters because it sheds light on how human preference benchmarks can inadvertently shape model behavior, potentially leading to overformatting that prioritizes perceived fluency over substance. The introduction of Comparity AI offers a new, free resource for researchers and users to evaluate models based on personal needs, which could influence future benchmarking practices. The post mentions that Arena AI's success in human preference ranking may have played a role in the 'syncopancy crisis' and the tendency of some models to overformat to trigger a feeling of fluency (cognitive load theory). Comparity AI is a research platform, and its funding duration is uncertain, but it provides free access to every frontier LLM and a personal leaderboard feature.
+Simon Willison ran the exact same prompt on Codex Desktop with GPT-5.6 Sol Ultra, which produced a much better game called 'Moonlight & Mayhem' compared to his earlier Claude Fable 5 version. The new game features a museum heist with multiple raccoons, though it initially had a bug with oversized eyeballs that was fixed with a simple prompt. This comparison highlights the rapid progress in AI-assisted coding, showing that newer models like GPT-5.6 Sol Ultra can produce more complex and polished games from a single prompt. It provides practical insights for developers evaluating AI tools for software development, potentially influencing tool choices and expectations. Codex spent 52 minutes on the project, with an estimated API cost of $23.28 (700.7K input tokens plus 32.5M cached tokens, and 148K output tokens) if not using a subscription. The full transcript is available in the GitHub repository, and Simon noted that Claude Code lacks a 'copy as Markdown' feature that Codex has.
 
-reddit · r/MachineLearning · /u/adam_alpha_finetuner · Aug 6, 13:19
+rss · Simon Willison · Aug 7, 19:18
 
-**Background**: Human preference-based rankings, such as Arena AI (also known as LMArena), are platforms where users compare outputs from different AI models and vote on which is better, generating a ranking based on human judgment. These rankings complement objective benchmarks but can influence model training and behavior, sometimes leading to overformatting where models produce overly structured or verbose responses to appear more fluent. Comparity AI, developed by the Max Planck Institute for Intelligent Systems, is a new platform that allows users to compare frontier LLMs for free and create a personalized leaderboard based on their own preferences.
+**Background**: AI-assisted coding tools like Codex and Claude Code use large language models to generate code from natural language prompts. GPT-5.6 is a family of models from OpenAI with variants Luna, Terra, and Sol, where Sol is the most capable and 'ultra' mode coordinates multiple subagents for complex tasks. Simon Willison is a well-known developer and blogger who frequently tests AI tools, and this comparison follows his earlier experiment with Claude Fable 5.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://dgrid.ai/arena">AI Arena by DGrid AI – Human Evaluation for AI Models</a></li>
-<li><a href="https://wmarena.com/blog/wmarena-vs-lmarena">WMArena vs LMArena — World-Model Video Arena vs LLM Arena</a></li>
-<li><a href="https://www.notdiamond.ai/blog/1-5-million-human-preference">1.5 million human preference arena rankings on... - Not Diamond Blog</a></li>
+<li><a href="https://openai.com/index/gpt-5-6/">GPT-5.6: Frontier intelligence that scales with your ambition | OpenAI</a></li>
+<li><a href="https://openai.com/index/previewing-gpt-5-6-sol/">Previewing GPT-5.6 Sol: a next-generation model | OpenAI</a></li>
+<li><a href="https://openai.com/index/introducing-the-codex-app/">Introducing the Codex app | OpenAI</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#human preference`, `#benchmarking`, `#AI research`
+**Tags**: `#AI coding`, `#GPT-5.6`, `#Codex`, `#Claude`, `#game development`
 
 ---
 
 <a id="item-13"></a>
-## [Key Challenges in Collecting Speech and Egocentric Video Datasets](https://www.reddit.com/r/MachineLearning/comments/1vgwecq/what_are_the_biggest_challenges_in_collecting/) ⭐️ 6.0/10
+## [Tokenpocalypse: Companies Scramble to Cut AI Spending](https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything) ⭐️ 7.0/10
 
-A practitioner on Reddit initiated a discussion about the biggest bottlenecks in collecting high-quality speech and egocentric video datasets, highlighting issues such as environment consistency, device variability, annotation quality, privacy, and scaling. The post invites community insights on these challenges and lessons learned from model training. This discussion is significant because dataset quality directly impacts the performance of multimodal AI models, and understanding common pitfalls can help researchers and companies avoid costly mistakes. It also highlights the growing importance of egocentric video and high-fidelity speech data for embodied AI and robotics applications. The post specifically mentions challenges like maintaining consistent recording environments, device and microphone variability, annotation quality and inter-annotator consistency, privacy and consent, and scaling without sacrificing quality. The author also asks about quality issues that only become apparent during model training and what others would do differently when starting a new large-scale dataset.
+A 404 Media report from June 24 reveals that companies like Accenture are scrambling to reduce AI spending as token consumption skyrockets, with non-engineers and PDF-to-markdown conversions identified as major cost drivers. This highlights a growing enterprise challenge: AI token costs are becoming a significant financial burden, forcing companies to rethink usage patterns and optimize workflows. It underscores the need for cost-aware AI adoption strategies across industries. Accenture's internal data shows that non-engineers, not engineers, are driving token consumption, and converting PDFs to markdown is a major token consumer. Converting files to markdown can reduce token usage by 65-90% without content quality loss.
 
-reddit · r/MachineLearning · /u/FaithlessnessWeak199 · Aug 6, 06:35
+rss · Simon Willison · Aug 7, 16:18
 
-**Background**: Egocentric video datasets are collected from first-person perspective cameras, often used for embodied AI and robotics research. High-fidelity speech datasets require careful recording setups and annotation processes to ensure quality. Multimodal AI models rely on diverse, well-annotated data, and challenges like privacy and annotation consistency are well-documented in the field.
+**Background**: Token consumption in AI refers to the total tokens used per request, including input and output tokens, directly determining LLM costs. As AI workloads scale, enterprises are seeking ways to manage token spend, with PDF-to-markdown conversion emerging as a key optimization technique.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.emergentmind.com/topics/egocentric-video-data">Egocentric Video Data Overview</a></li>
-<li><a href="https://labelstud.io/blog/integrity-accuracy-consistency-3-keys-to-maintaining-data-quality-in-machine-learning/">Integrity, Accuracy, Consistency : 3 Keys to Maintaining Data Quality ...</a></li>
-<li><a href="https://www.shaip.com/offerings/multi-sensor-human-activity-dataset/">Multi-Sensor Human Activity Dataset | Shaip</a></li>
+<li><a href="https://www.deloitte.com/us/en/insights/topics/emerging-technologies/ai-tokens-how-to-navigate-spend-dynamics.html">AI tokens: How to navigate AI’s new spend dynamics | Deloitte Insights</a></li>
+<li><a href="https://www.mindstudio.ai/blog/convert-files-markdown-reduce-ai-tokens">How to Convert Files to Markdown to Reduce AI Token Usage by Up to 90% | MindStudio</a></li>
+<li><a href="https://aiproductivity.ai/news/pdf-to-markdown-llm-token-savings/">PDF to Markdown: Cut LLM Token Costs by Up to 50%</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#datasets`, `#multimodal AI`, `#data collection`, `#speech`, `#egocentric video`
+**Tags**: `#AI costs`, `#token consumption`, `#enterprise AI`, `#cost optimization`
 
 ---
 
 <a id="item-14"></a>
-## [ByteDance's Gauth: AI Tutoring or Illusion of Competence?](https://www.reddit.com/r/MachineLearning/comments/1vgwza5/bytedance_is_leaning_heavily_into_ai_education/) ⭐️ 6.0/10
+## [Optimal LLM Quantization Bit-Width Under Fixed Memory Budget](https://www.reddit.com/r/MachineLearning/comments/1vi6im4/what_is_currently_considered_the_theoretically/) ⭐️ 7.0/10
 
-ByteDance is scaling up its AI tutoring app Gauth by integrating AI-generated animations from its Seedance video model to walk students through problem-solving. This move aims to make personalized visual explanations more accessible to a younger audience. This development highlights the growing intersection of generative media and education, raising questions about whether such tools genuinely enhance learning or merely create an illusion of competence. It could influence how EdTech companies design future learning aids and how educators evaluate their effectiveness. Gauth, owned by ByteDance, has reportedly reached 200 million users worldwide and is the #2 education app in the U.S., with a model that combines AI solutions with 50,000 human tutors. The new collaboration with Seedance aims to create story-based explanatory videos, but critics worry about potential over-reliance on passive viewing.
+A Reddit user asks whether current research identifies a theoretical optimal quantization bit-width for LLMs under a fixed memory budget, comparing smaller models at higher bits versus larger models at lower bits. The question references recent advances in 3-bit, 2-bit, and 1.5-bit quantization and calls for evidence from scaling laws or large empirical studies from 2025–2026. This question addresses a critical trade-off in LLM deployment: whether to prioritize model size or precision under memory constraints. The answer could guide practitioners in selecting optimal quantization levels for maximum capability, impacting efficiency and cost in real-world applications. The user specifically mentions open-source formats like GGUF and notes that 4-bit was historically considered the sweet spot, but newer methods show strong results at 3-bit, 2-bit, and even ~1.5-bit. They ask for evidence on whether a 2-bit 70B model generally beats a 4-bit 35B model, and whether quantization degradation eventually outweighs parameter gains.
 
-reddit · r/MachineLearning · /u/Pleasant-Airport6246 · Aug 6, 07:07
+reddit · r/MachineLearning · /u/takuonline · Aug 7, 17:10
 
-**Background**: Gauth is an AI-powered homework helper that allows students to snap photos of math problems and receive instant solutions, backed by a large team of human tutors. ByteDance, the parent company of TikTok, also owns Seedance, a viral AI video generation tool. The integration of generative media into education is part of a broader trend where multimodal machine learning is being applied to create more engaging learning experiences, though its pedagogical effectiveness remains debated.
+**Background**: Quantization reduces the memory footprint of LLMs by representing weights with fewer bits, enabling larger models to fit into limited hardware. Recent research, such as ParetoQ, has explored extremely low-bit quantization (1-bit to 4-bit) and proposed scaling laws to compare trade-offs. The optimal bit-width depends on the balance between model size and accuracy, which is an active area of study.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.businessinsider.com/seedance-bytedance-education-push-study-app-gauth-ai-animations-2026-7">Seedance Is Making a Fresh Push Into Education With Study App Gauth</a></li>
-<li><a href="https://www.axios.com/2024/04/07/tiktok-bytedance-gauth-education-ai-app">TikTok owner Bytedance owns popular AI homework helper app Gauth</a></li>
-<li><a href="https://www.implicator.ai/bytedances-homework-app-gauthmath-quietly-conquers-american-classrooms/">ByteDance 's homework app Gauthmath quietly conquers American...</a></li>
+<li><a href="https://arxiv.org/abs/2502.02631">ParetoQ: Improving Scaling Laws in Extremely Low-bit LLM ...</a></li>
+<li><a href="https://arxiv.org/pdf/2502.02631v1">ParetoQ: Scaling Laws in Extremely Low-bit LLM Quantization</a></li>
+<li><a href="https://dasroot.net/posts/2026/02/gguf-quantization-quality-speed-consumer-gpus/">GGUF Quantization : Quality vs Speed on Consumer GPUs</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The Reddit discussion likely features a mix of skepticism and cautious optimism. Some commenters may argue that such tools risk creating a passive learning environment where students mistake watching animations for understanding, while others might point out the potential for personalized, visual explanations to aid comprehension, especially for visual learners. The debate centers on whether generative media can truly improve comprehension or just provide better engagement loops.
-
-**Tags**: `#AI in Education`, `#EdTech`, `#Multimodal ML`, `#ByteDance`, `#Generative Media`
+**Tags**: `#LLM`, `#quantization`, `#model compression`, `#efficiency`, `#machine learning`
 
 ---
 
 <a id="item-15"></a>
-## [Cooking a Steak as an Analogy for Building AI Systems](https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak/) ⭐️ 5.0/10
+## [Improved Bad Apple Compression via SIREN Batch Sampling](https://www.reddit.com/r/MachineLearning/comments/1vhvfws/improved_compression_of_bad_apple_into_a_neural/) ⭐️ 6.0/10
 
-The article 'Almost no skill required to cook a steak' uses the process of cooking a steak as an analogy for building AI systems, arguing that high-quality output requires more than just following basic steps. The post has sparked a lively discussion with 274 points and 314 comments. This article touches on the ongoing debate about software quality and the role of craftsmanship in AI development. It highlights the tension between the desire for perfect output and the practical constraints of time and cost, which is relevant to software engineers and AI practitioners. The article is more of a musing than a technical deep-dive, and the analogy is debated in the comments. Some commenters criticize the analogy, noting that cooking a steak is actually easy with the right tools, while others express disappointment that the article is not about cooking.
+The author improved the compression of the Bad Apple video into a SIREN neural network by using a different batch sampler that feeds pixels from across the entire video, achieving better fidelity with the same model architecture (4 x 512 sine layers, 792,257 parameters). This demonstrates that simple training data sampling strategies can significantly impact the quality of implicit neural representations for video compression, offering a practical improvement without changing the model. It also highlights the potential and limitations of using SIRENs for video compression, which could inform future research in neural compression. The model does not actually learn motion; intermediate frames are nonsensical. The author also tried a full-frame-rate version, but image reconstruction suffered compared to the low-rate version, and adding a separate autoencoder degraded quality while reducing model size.
 
-hackernews · yusyd · Aug 6, 15:30 · [Discussion](https://news.ycombinator.com/item?id=49198069)
+reddit · r/MachineLearning · /u/cpldcpu · Aug 7, 09:06
 
-**Background**: The article uses the analogy of cooking a steak to discuss the quality of AI systems. In software engineering, there is often a gap between the ideal of high-quality, bug-free code and the reality of shipping products under time and budget constraints. The analogy suggests that just as a perfect steak requires attention and understanding, so too does building high-quality AI systems.
+**Background**: SIREN (Sinusoidal Representation Networks) is a neural network architecture that uses periodic sine activation functions to represent complex natural signals, such as images, audio, and video, as implicit neural representations. In this context, the network is trained to map coordinates (e.g., pixel locations and time) to pixel values, effectively compressing the video into the network's weights. The batch sampler determines which training samples are fed to the network during training, and the author found that sampling pixels from the entire video rather than a limited set of frames improves fidelity.
 
-**Discussion**: The community discussion is mixed. Some commenters, like MostlyStable, argue that cooking a steak is actually easy and thus a poor analogy. Others, like xtajv, criticize the use of the royal 'we' and the casual attitude toward bugs. asdfman123 expresses disappointment that the article is not about cooking, and igiveup suggests such musings should be tagged. Havoc points out that while engineers may aspire to perfection, demand often prioritizes mass production and trade-offs.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.vincentsitzmann.com/siren/">Implicit Neural Representations with Periodic Activation ...</a></li>
+<li><a href="https://arxiv.org/abs/2006.09661">[2006.09661] Implicit Neural Representations with Periodic ...</a></li>
+<li><a href="https://github.com/vsitzmann/siren">GitHub - vsitzmann/siren: Official implementation of ... [2006.09661] Implicit Neural Representations with Periodic ... SIRENs — Implicit Neural Representations with Periodic ... Improving Accuracy and Efficiency of Implicit Neural ... SIREN Architecture | vsitzmann/siren | DeepWiki GitHub - dalmia/siren: PyTorch implementation of Sinusodial ...</a></li>
 
-**Tags**: `#AI`, `#software engineering`, `#analogy`, `#quality`, `#discussion`
+</ul>
+</details>
+
+**Tags**: `#neural compression`, `#SIREN`, `#video`, `#machine learning`, `#experiment`
 
 ---
 
 <a id="item-16"></a>
-## [Simon Willison Shares Blogging Advice in Interview](https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything) ⭐️ 5.0/10
+## [Open-Source Tool Generates Slides from Papers Using Local LLMs](https://www.reddit.com/r/MachineLearning/comments/1vi0c4k/built_a_tool_to_generate_slides_from_research/) ⭐️ 6.0/10
 
-Simon Willison was interviewed by Cynthia Dunlop for the 'Write that blog!' series, and he shared his insights on technical blogging. He emphasized his key tip: lower your standards to publish more frequently. This interview provides practical advice for technical bloggers, especially the importance of publishing imperfect work. It highlights a common struggle in the community and offers a simple yet effective solution, potentially encouraging more people to start blogging. The interview covers seven questions, including why Willison started blogging, the most surprising impact, his proudest post, and advice for beginners. He repeats his number one tip: 'lower your standards' and aim to publish while still unhappy with the writing, as flaws are invisible to others.
+A developer released academi_slide, an open-source tool that automatically generates slide decks and briefs from research papers using local LLMs (Ollama, llama.cpp) or cloud models. It extracts sections, tables, charts, metrics, and citations, and supports multilingual input/output. This tool addresses a common pain point for researchers and students by automating slide creation while prioritizing privacy through local processing. It fits the growing trend of local-first AI tools, offering an alternative to cloud-based services for sensitive or unpublished research. The tool uses prompt optimization and deck planning to produce a solid first draft, and can build both the slide deck and a brief in minutes. It is early-stage and open source, with the repository available on GitHub.
 
-rss · Simon Willison · Aug 6, 18:04
+reddit · r/MachineLearning · /u/nickemlop · Aug 7, 13:14
 
-**Background**: Simon Willison is a well-known developer and blogger, creator of Datasette, and an advocate for open source and data journalism. Technical blogging is a way for developers to share knowledge, document projects, and build a personal brand. Many bloggers struggle with perfectionism, leading to unpublished drafts.
+**Background**: Creating presentation slides from research papers is often tedious and time-consuming. Many existing AI tools rely on cloud services, which raises privacy concerns for unpublished or sensitive data. Local LLMs, such as those run via Ollama or llama.cpp, allow processing on the user's own hardware, ensuring data privacy. Similar tools exist, but academi_slide differentiates itself by focusing on academic documents and multilingual support.
 
-**Tags**: `#blogging`, `#technical writing`, `#community`, `#career advice`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/CyberTimon/Powerpointer-For-Local-LLMs">GitHub - CyberTimon/Powerpointer-For-Local-LLMs: Local Powerpointer - A beautiful powerpoint generator which uses the power of local running large language models to generate the powerpoint slides. · GitHub</a></li>
+<li><a href="https://medium.com/@gaddam.rahul.kumar/building-an-llm-powered-slide-deck-generator-with-langgraph-973aeaac0a06">Building an LLM-Powered Slide Deck Generator with LangGraph | by Rahul Kumar | Medium</a></li>
+<li><a href="https://www.academicslides.com/">AcademicSlides - Present Your Research. Perfectly.</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#LLM`, `#Research Tools`, `#Open Source`, `#Privacy`, `#Presentation`
 
 ---
 
 <a id="item-17"></a>
-## [Seeking Best Models for Face/Body Detection in Movies](https://www.reddit.com/r/MachineLearning/comments/1vgx5dk/r_need_some_best_model_suggestions_for_face/) ⭐️ 4.0/10
+## [uv 0.12.3 Adds CPython 3.13.15 and Workspace Optimizations](https://github.com/astral-sh/uv/releases/tag/0.12.3) ⭐️ 5.0/10
 
-A Reddit user asked for model recommendations for face detection, face recognition, body detection, and body identification to compute actor screen time in movies, mentioning MTCNN for face detection and TransNetV2 for shot boundary detection with a false positive issue. This query highlights the practical challenges in video analysis for media production, where accurate actor tracking is needed. The discussion could guide others facing similar tasks in selecting appropriate models. The user processes video at 1fps and finds body detection particularly hard. They also report a false positive with TransNetV2 for shot boundary detection, seeking better alternatives.
+uv 0.12.3 was released on 2026-08-07, adding support for CPython 3.13.15 and introducing preview features for output format selection in `uv cache size` and JSON streaming for `uv workspace metadata`. It also includes several performance optimizations for workspace handling and Linux startup latency. This patch release improves the developer experience for Python package management by adding support for the latest CPython patch version and reducing memory usage for large workspaces. The performance optimizations, especially in conflict-heavy resolutions and Linux startup, help maintain uv's reputation as a fast and efficient tool. The preview features include `--output-format` for `uv cache size` with options for automatic, human-readable, or raw-byte output, and `uv workspace metadata --quiet` now preserves JSON output while suppressing diagnostics. Performance improvements include streaming JSON output for workspace metadata, reusing compiled workspace exclusion patterns, and avoiding slow procfs reads during Python interpreter discovery on Linux.
 
-reddit · r/MachineLearning · /u/negativedreammachine · Aug 6, 07:17
+github · astral-automations-bot[bot] · Aug 7, 16:34
 
-**Background**: Face detection models like MTCNN (Multi-task Cascaded Convolutional Networks) are commonly used for locating faces in images or video. Shot boundary detection (SBD) segments video into shots, which are continuous sequences of frames; TransNetV2 is a deep learning model for this task. Body detection and identification are more challenging due to variations in pose, occlusion, and appearance.
+**Background**: uv is a fast Python package and project manager written in Rust, known for its speed and low overhead. Workspaces in uv allow managing multiple related packages in a single project, and `uv workspace metadata` exports workspace information as JSON for other tools to consume. The release also includes documentation updates, such as adding PEP 740 attestations to the GitHub Actions publishing example.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/soCzech/TransNetV2">soCzech/ TransNetV 2 : TransNet V 2 : Shot Boundary Detection Neural...</a></li>
-<li><a href="https://awesomeopensource.com/project/open-face/mtcnn">face detection and alignment with mtcnn</a></li>
-<li><a href="https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1830781/full">Frontiers | Shot boundary detection for locating subliminal stimuli in...</a></li>
+<li><a href="https://docs.astral.sh/uv/reference/internals/metadata/">Workspace Metadata | uv</a></li>
+<li><a href="https://github.com/astral-sh/uv-dev/blob/main/docs/reference/internals/metadata.md">uv-dev/docs/reference/internals/metadata.md at main · astral ...</a></li>
+<li><a href="https://docs.astral.sh/uv/concepts/projects/workspaces/">Using workspaces | uv - Astral</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#face detection`, `#body detection`, `#video analysis`, `#model recommendation`
+**Tags**: `#uv`, `#python`, `#release`, `#performance`, `#tooling`
 
 ---
 
 <a id="item-18"></a>
-## [NeurIPS Meta-Reviewer Comment Disappears: User Seeks Answers](https://www.reddit.com/r/MachineLearning/comments/1vhbfns/neurips_meta_reviewer_comment_gone_what_gives_r/) ⭐️ 3.0/10
+## [textlog: A Quiet, Text-Only Microblogging Platform with No JavaScript](https://textlog.cc/about) ⭐️ 5.0/10
 
-A Reddit user reported that a meta-reviewer comment on their NeurIPS submission has disappeared from the review platform, and they are asking if others have experienced the same issue and what it might signify. This matters because the disappearance of a meta-reviewer comment could affect authors' understanding of their paper's evaluation and the final decision, potentially causing confusion or anxiety during the review process. It also highlights the importance of transparency and reliability in conference review systems. The user did not provide specific details about the paper or the exact timeline of the comment's disappearance. The post is tagged with 'R' (likely for 'Research' or 'Review'), and the score is low (3.0/10), indicating limited community engagement.
+textlog, an open-source, text-only microblogging platform with no JavaScript, was showcased on Hacker News. It limits notes to 280 characters and focuses on a minimalist, quiet user experience. This project highlights a growing interest in minimal, distraction-free social platforms that prioritize text and simplicity over multimedia and engagement metrics. It offers an alternative to mainstream microblogging services, appealing to users who prefer a quieter online space. textlog is built without JavaScript, ensuring fast loading and accessibility. Notes are capped at 280 characters, similar to Twitter's original limit, and the platform supports following people and hashtags. The project is open-source, allowing community contributions and self-hosting.
 
-reddit · r/MachineLearning · /u/Beautiful_Baker_2233 · Aug 6, 17:50
+hackernews · stagas · Aug 7, 10:52 · [Discussion](https://news.ycombinator.com/item?id=49208458)
 
-**Background**: NeurIPS (Conference on Neural Information Processing Systems) is a top-tier machine learning conference that uses a double-blind review process. In this process, meta-reviewers (often area chairs) provide an overall assessment of a paper after considering individual reviews. The meta-reviewer comment is part of the final feedback provided to authors, summarizing the discussion and decision rationale.
+**Background**: Microblogging is a form of blogging that uses short posts without titles, such as status updates. Traditional platforms like Twitter and Mastodon often include multimedia and complex features, while textlog strips these away to focus purely on text. The no-JavaScript approach aligns with a broader movement toward simpler, more performant web technologies.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://neurips.cc/Conferences/2025/ReviewerGuidelines">2025 Reviewer Guidelines</a></li>
-<li><a href="https://proceedings.nips.cc/paper/2020/file/59587bffec1c7846f3e34230141556ae-MetaReview.html">Review for NeurIPS paper: On the Theory of Transfer Learning: The...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Microblogging">Microblogging - Wikipedia</a></li>
+<li><a href="https://textlog.cc/about">about · textlog</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Comparison_of_microblogging_and_similar_services">Comparison of microblogging and similar services - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: No community comments were provided in the news item, so there is no discussion to summarize.
+**Discussion**: The Hacker News community responded positively, with users praising its simplicity and open-source nature. Some compared it to similar projects like Bear Blog and org-social, while others questioned the need for complexity in rendering and suggested using a static site generator. One user expressed disinterest due to the 280-character limit.
 
-**Tags**: `#NeurIPS`, `#conference`, `#review process`
+**Tags**: `#microblogging`, `#open-source`, `#text-only`, `#minimalism`, `#web`
+
+---
+
+<a id="item-19"></a>
+## [ACM Multimedia 2026 Registration and APC Fees Draw Criticism](https://www.reddit.com/r/MachineLearning/comments/1vhtrz2/on_the_acm_multimedia_2026_conference/) ⭐️ 5.0/10
+
+A researcher reported that ACM Multimedia 2026 requires separate registrations and article processing charges (APCs) for each accepted paper, even for workshops. The total cost to present two workshop papers could reach USD 1,850, which the researcher deems unreasonable. This highlights the growing financial burden on researchers due to ACM's full transition to open access, which may discourage participation and disproportionately affect authors from low-resource institutions. It also sparks debate about the fairness of charging APCs on top of high registration fees. The registration portal does not allow the same email address to be used for multiple registrations, forcing authors to use different emails. The APC is USD 350 (or USD 250 for ACM members), while full author registration costs USD 950 (or USD 850 for members), and workshop registration costs USD 500.
+
+reddit · r/MachineLearning · /u/rokk07 · Aug 7, 07:24
+
+**Background**: ACM has moved to a fully open access publishing model, requiring authors to pay APCs for their papers unless covered by institutional agreements. ACM Multimedia is a premier conference in the field, and its registration fees typically cover access to sessions but not publication costs. The researcher's complaint reflects a broader trend of rising publication costs in academia.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://2026.acmmm.org/site/registration.html">ACM Multimedia 2026 Conference — Registration</a></li>
+<li><a href="https://humanrobotinteraction.org/2026/acms-new-open-access-publishing-model/">ACMs New Open Access Publishing Model – HRI 2026</a></li>
+<li><a href="https://libraries.acm.org/acmopen/apc-list-pricing">Article Processing Charge (APC) List Pricing</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#ACM`, `#conference`, `#registration`, `#APC`, `#open access`
+
+---
+
+<a id="item-20"></a>
+## [MLP Trained on ImageNet-1k Entirely on Android Phone](https://www.reddit.com/r/MachineLearning/comments/1vhwwfr/imagenet1k_classifier_trained_entirely_on_an/) ⭐️ 4.0/10
+
+A Reddit user trained a multilayer perceptron (MLP) with about 500K parameters on a downscaled 32x32 version of ImageNet-1k entirely on an Android phone using PyTorch and Termux, achieving 4.59% top-1 validation accuracy after 5 epochs. The training took around 30 minutes on a Dimensity 9300+ CPU using four Cortex-X4 cores. This experiment demonstrates the feasibility of training neural networks on mobile devices, pushing the boundaries of edge computing. While the accuracy is low, it highlights the potential for on-device machine learning and could inspire further optimization for mobile training. The model is an MLP with around 500K parameters, trained on a 32x32 downscaled ImageNet-1k for 5 epochs. The user chose MLP over CNN due to stability and faster training speed (10-30x faster per step) on the phone, and the training was CPU-only using 4 Arm Cortex-X4 cores.
+
+reddit · r/MachineLearning · /u/Tall_Abrocoma_3533 · Aug 7, 10:30
+
+**Background**: ImageNet-1k is a large-scale image classification dataset with 1000 classes, typically used to benchmark deep learning models. A multilayer perceptron (MLP) is a feedforward neural network with fully connected layers, which is simpler than convolutional neural networks (CNNs) and often less effective for image tasks. Termux is an Android terminal emulator that provides a Linux environment, allowing users to run Python and PyTorch on mobile devices without rooting.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Multilayer_perceptron">Multilayer perceptron - Wikipedia</a></li>
+<li><a href="https://termux.dev/en/">Termux | The main termux site and help pages.</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The Reddit discussion is limited, but likely includes comments about the low accuracy and the novelty of training on a phone. Some may question the choice of MLP over CNN, while others might appreciate the experimental effort.
+
+**Tags**: `#MLP`, `#ImageNet`, `#Mobile Training`, `#Edge Computing`, `#Experiment`
+
+---
+
+<a id="item-21"></a>
+## [Seeking OCR Strategies for Doctor Handwriting](https://www.reddit.com/r/MachineLearning/comments/1vi7br1/good_ocr_strategy_for_detecting_doctor/) ⭐️ 4.0/10
+
+A Reddit user posted a request for OCR strategies to extract text from doctor handwriting, sharing an example image of a handwritten medical note. The post seeks community advice on effective approaches for this challenging task. Doctor handwriting recognition is a persistent problem in healthcare, where illegible notes can lead to errors and inefficiencies. Advances in OCR and AI, such as vision-language models, are improving accuracy and could significantly streamline medical documentation workflows. Traditional OCR methods achieve 65-78% accuracy on medical documents, while vision-language models (VLMs) reach 85-95%, according to a 2026 guide. The user's example image likely contains clinical shorthand and abbreviations, which require specialized models trained on medical handwriting.
+
+reddit · r/MachineLearning · /u/Miserable-Love9055 · Aug 7, 17:40
+
+**Background**: Handwriting recognition involves converting handwritten text in images into machine-readable text. It is a challenging machine learning problem due to variability in writing styles, especially in medical settings where doctors often write quickly and use shorthand. Recent advances in deep learning and vision-language models have significantly improved performance on such tasks.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.extend.ai/resources/ocr-physician-handwriting-complete-guide">OCR for Physician Handwriting Guide April 2026 | Extend</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Handwriting_recognition">Handwriting recognition - Wikipedia</a></li>
+<li><a href="https://nanonets.com/blog/handwritten-character-recognition/">Handwriting Recognition with ML (An In-Depth Guide)</a></li>
+
+</ul>
+</details>
+
+**Discussion**: No community comments were provided for this post, so the sentiment and viewpoints are unknown.
+
+**Tags**: `#OCR`, `#handwriting recognition`, `#machine learning`, `#medical`
+
+---
+
+<a id="item-22"></a>
+## [CIKM 2026 Decisions Released, Community Shares Results](https://www.reddit.com/r/MachineLearning/comments/1vhtto1/cikm_2026_decisions_r/) ⭐️ 4.0/10
+
+CIKM 2026 paper decisions are being announced today, with the resource track outcomes already sent out. One user reported preliminary acceptance rates of 2/6 full papers and 1/3 short papers from their batch. This announcement is significant for researchers in information and knowledge management, as CIKM is a top-tier conference in the field. The results will influence the research community's visibility and career progression for many authors. The conference is the 35th ACM International Conference on Information and Knowledge Management, scheduled for November 7-11, 2026, in Rome, Italy. The resource track focuses on datasets, benchmarks, and reusable resources, distinct from the main research track.
+
+reddit · r/MachineLearning · /u/Happy-Hustler · Aug 7, 07:27
+
+**Background**: CIKM is a leading international forum for research on information and knowledge management, covering topics like data mining, information retrieval, and databases. The conference typically includes multiple tracks, such as the applied research track and the resource track, each with separate review processes. Decisions are released in batches, and authors often share their outcomes on social media to gauge acceptance rates.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://cikm2026.diag.uniroma1.it/">Home - CIKM 2026</a></li>
+<li><a href="http://www.cikmconference.org/">Conference on Information and Knowledge Management (CIKM)</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The Reddit thread shows a mix of anticipation and sharing, with one user reporting their acceptance numbers. The overall sentiment is neutral-positive, as researchers await or share their outcomes, though no detailed discussions or controversies have emerged yet.
+
+**Tags**: `#CIKM`, `#conference`, `#research`, `#announcement`
+
+---
+
+<a id="item-23"></a>
+## [US Researchers Weigh NeurIPS 2026: Sydney vs Atlanta](https://www.reddit.com/r/MachineLearning/comments/1vi5xz7/2026_neurips_where_are_you_going_d/) ⭐️ 3.0/10
+
+A Reddit user in r/MachineLearning asked US-based researchers whether they plan to attend NeurIPS 2026 in Sydney or Atlanta, reflecting the conference's dual-location format. This question highlights the logistical and financial considerations that influence conference attendance, which can affect community engagement and networking opportunities for US researchers. The choice between an international and domestic venue may impact participation rates and the overall conference experience. NeurIPS 2026 is scheduled to be held in both Sydney, Australia, and Atlanta, USA, offering attendees a choice of location. The Reddit post has a low score (3/10) and no comments, indicating limited community engagement at the time of analysis.
+
+reddit · r/MachineLearning · /u/rsesrsfh · Aug 7, 16:48
+
+**Background**: NeurIPS (Conference on Neural Information Processing Systems) is a premier annual machine learning conference. In recent years, it has adopted a hybrid or multi-location format to accommodate a global audience, with 2026 featuring both Sydney and Atlanta as host cities.
+
+**Tags**: `#NeurIPS`, `#conference`, `#community`
 
 ---
