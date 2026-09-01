@@ -5,365 +5,528 @@ date: 2026-09-01
 lang: en
 ---
 
-> From 19 items, 16 important content pieces were selected
+> From 26 items, 23 important content pieces were selected
 
 ---
 
-1. [Google Removes MV2 Extensions from Chrome Web Store, Including uBlock Origin](#item-1) ⭐️ 8.0/10
-2. [Sliding-Window Attention Outperforms Linear Attention on Long-Context Reasoning](#item-2) ⭐️ 8.0/10
-3. [GNNs on Dynamic Graphs Suffer Temporal Leakage; SynthFin-AML Enforces Causal Boundaries](#item-3) ⭐️ 8.0/10
-4. [Turning Security Cameras into an Automatic Bird Identification System](#item-4) ⭐️ 7.0/10
-5. [Apple Surprised by AI-Driven Demand for Mac Mini and Mac Studio](#item-5) ⭐️ 7.0/10
-6. [ChatGPT Work Skill Reference Site Highlights Playwright Browser Control](#item-6) ⭐️ 7.0/10
-7. [Military Commissary Freezer Failures Spark Hacking Speculation](#item-7) ⭐️ 7.0/10
-8. [Wrapture: New Python Library Extends Monkeypatching to Testing and Tracing](#item-8) ⭐️ 7.0/10
-9. [Entropic Scree: New Tool to Assess Signal in Dirty Data](#item-9) ⭐️ 7.0/10
-10. [Playa Phone: A Burning Man Art Project Connects Strangers via Vintage Payphone](#item-10) ⭐️ 6.0/10
-11. [Walkable ASCII Cyberpunk City in a Single HTML File](#item-11) ⭐️ 6.0/10
-12. [RavynOS: Pre-alpha open-source OS aiming for macOS compatibility](#item-12) ⭐️ 6.0/10
-13. [Professor's Advice on Cold Emailing for PhD Positions](#item-13) ⭐️ 6.0/10
-14. [uv 0.12.8 Released with Performance and Preview Features](#item-14) ⭐️ 5.0/10
-15. [Monthly Hiring and Job Seeker Thread for ML Community](#item-15) ⭐️ 3.0/10
-16. [User Seeks Examples of Well-Designed ML Posters for ECCV 2026](#item-16) ⭐️ 3.0/10
+1. [Anthropic Releases Claude Fable 5.1 and Mythos 5.1](#item-1) ⭐️ 9.0/10
+2. [Google Play Removes AnkiDroid's Open Collective Donation Link](#item-2) ⭐️ 8.0/10
+3. [Run 104GB Qwen3.8-Flash-Next on 48GB Mac at ~12 tok/s via SSD streaming](#item-3) ⭐️ 8.0/10
+4. [Small Transformer Trained in 1.5 Hours Beats Many LLMs on ARC](#item-4) ⭐️ 8.0/10
+5. [Python 3.15.0 RC2 Released, Urging Wheel Preparation](#item-5) ⭐️ 8.0/10
+6. [Mapping Latent Reasoning Families in 2026](#item-6) ⭐️ 8.0/10
+7. [TontaubeV1: Open-Weight Character-Level TTS for Long-Form Speech](#item-7) ⭐️ 8.0/10
+8. [EvoUndo: A Framework for Verifying and Repairing LLM Agent Self-Modifications](#item-8) ⭐️ 8.0/10
+9. [Firefox's Role in Browser Diversity Defended](#item-9) ⭐️ 7.0/10
+10. [Assessing Ed Zitron's AI Skeptic Predictions: A Critical Review](#item-10) ⭐️ 7.0/10
+11. [OpenAI Codex Desktop App Bundles LibreOffice and Other Tools](#item-11) ⭐️ 7.0/10
+12. [Jujutsu Creator Martin Joins ERSC](#item-12) ⭐️ 7.0/10
+13. [Mozilla Tests Ad Blocker for Firefox on iOS, Requires Telemetry](#item-13) ⭐️ 7.0/10
+14. [Nori Robotics Launches $1,688 Bimanual Mobile Robot for Developers](#item-14) ⭐️ 7.0/10
+15. [Movie Scene Map: Interactive Map of 13,312 Filming Locations](#item-15) ⭐️ 7.0/10
+16. [HN Monthly Hiring Thread: Diverse Roles, Remote Options](#item-16) ⭐️ 7.0/10
+17. [Wrapture: New Python Library for Tracing and Testing](#item-17) ⭐️ 7.0/10
+18. [uv 0.12.9 Adds CPython 3.15.0rc2 Support and Security Fix](#item-18) ⭐️ 6.0/10
+19. [YOLO26 Depth Backbone Repurposed for Image Deraining](#item-19) ⭐️ 6.0/10
+20. [Are HMMs Still Relevant for Unsupervised Dataset Exploration?](#item-20) ⭐️ 6.0/10
+21. [Ambient CSS v3: Blender Meets CSS, but Community Criticizes Implementation](#item-21) ⭐️ 5.0/10
+22. [First AAMAS Submission: How Much Theory Is Enough When Experiments Go Sideways?](#item-22) ⭐️ 5.0/10
+23. [Tarn Adams Jokes 'Dwarf AI' Now Called 'Dwarf Behavior'](#item-23) ⭐️ 4.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Google Removes MV2 Extensions from Chrome Web Store, Including uBlock Origin](https://webiterate.dev/google-removed-extensions-ublock-origin-108/) ⭐️ 8.0/10
+## [Anthropic Releases Claude Fable 5.1 and Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1) ⭐️ 9.0/10
 
-Google has removed all Manifest V2 (MV2) extensions from the Chrome Web Store, including the popular ad-blocker uBlock Origin. This move completes the transition to Manifest V3, which began years ago and was fully enforced by 2025. This change significantly impacts Chrome users who relied on MV2-based ad-blockers like uBlock Origin, which offer more robust filtering than MV3 alternatives. It raises security concerns for less tech-savvy users who may be exposed to malicious ads, and it is driving many users to switch to Firefox or other browsers. Chrome disabled all MV2 extensions in July 2025, and the final developer flag to re-enable them was removed in Chrome 151, which reached stable on July 28, 2026. uBlock Origin users on Chrome are advised to switch to uBlock Origin Lite, while Firefox continues to support the full version.
+Anthropic has released Claude Fable 5.1 and Claude Mythos 5.1, featuring enhanced writing style, improved science performance, and a significant reduction in cache read pricing from $1/M to $0.25/M. The models are now available on the platform, with system cards and documentation updated. This release marks a major update to Anthropic's flagship models, with notable improvements in writing style and science capabilities that could set new benchmarks in the AI industry. The price cut for cache reads makes the models more cost-effective for developers, potentially increasing adoption and influencing pricing strategies across the LLM market. The cache read price drop from $1/M to $0.25/M makes Fable 5.1's cache reads half the cost of Opus's ($0.5/M). The models include three breaking changes that patch inadvertent chain-of-thought disclosure vulnerabilities, and Fable 5.1 shows significant gains in agentic coding and long-running workflows.
 
-hackernews · twapi · Aug 31, 21:10 · [Discussion](https://news.ycombinator.com/item?id=49514878)
+hackernews · denysvitali · Sep 1, 17:53 · [Discussion](https://news.ycombinator.com/item?id=49525378)
 
-**Background**: Manifest V2 (MV2) was the previous extension platform for Chrome, allowing extensions like uBlock Origin to use powerful webRequest API for blocking network requests. Manifest V3 (MV3) restricts this API, favoring declarativeNetRequest, which limits ad-blocking capabilities. Google began phasing out MV2 in 2024, with a full removal by 2025, citing security and performance improvements.
+**Background**: Claude Fable and Mythos are Anthropic's latest model series, with Mythos being the most powerful but restricted due to safety concerns, while Fable is a safeguarded version for general use. The 5.1 update builds on the June 2026 release of Fable 5 and Mythos 5, focusing on improvements in writing style, science, and coding performance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://developer.chrome.com/docs/extensions/develop/migrate">Migrate to Manifest V3 | Chrome for Developers</a></li>
-<li><a href="https://toolbistro.com/radar/ublock-origin-alternatives">uBlock Origin Alternatives After Chrome Kills MV2 | ToolBistro</a></li>
-<li><a href="https://www.neowin.net/news/google-chrome-is-killing-all-ublock-origin-bypasses-microsoft-edge-opera-to-follow/">Google Chrome is killing all uBlock Origin bypasses ... - Neowin</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Fable_5">Claude Fable 5</a></li>
+<li><a href="https://www.anthropic.com/claude-fable-and-mythos-5-1">Introducing Claude Fable 5 . 1 and Claude Mythos 5 . 1 \ Anthropic</a></li>
+<li><a href="https://openrouter.ai/anthropic/claude-fable-5.1">Claude Fable 5 . 1 - API Pricing & Providers | OpenRouter</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments express strong dissatisfaction with Google's decision, with many users highlighting security risks for less tech-savvy individuals who may fall for malicious ads. Several users have already switched to Firefox, praising its support for uBlock Origin, and some express distrust of Google's control over the web.
+**Discussion**: Community comments are largely positive, with an Anthropic employee praising the improved writing style and naturalness. Simon Willison shared benchmark results showing strong performance, while others noted the price reduction and discussed the breaking changes related to chain-of-thought disclosure, with some skepticism about overall improvements beyond specific benchmarks.
 
-**Tags**: `#Chrome`, `#Manifest V2`, `#Ad-blocking`, `#Privacy`, `#Browser`
+**Tags**: `#AI`, `#LLM`, `#Anthropic`, `#Claude`, `#Machine Learning`
 
 ---
 
 <a id="item-2"></a>
-## [Sliding-Window Attention Outperforms Linear Attention on Long-Context Reasoning](https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/) ⭐️ 8.0/10
+## [Google Play Removes AnkiDroid's Open Collective Donation Link](https://github.com/ankidroid/Anki-Android/issues/21656) ⭐️ 8.0/10
 
-A new arXiv preprint (2608.28444) claims that Sliding Window Attention (SWA) with attention sinks achieves 2 to 10 times higher performance than linear attention variants on long-context reasoning benchmarks such as Needle-in-a-Haystack and BABILong. The authors recommend switching to SWA instead of post-training linear models. This finding challenges a major research direction in efficient attention mechanisms, suggesting that simpler baselines have been overlooked. If validated, it could redirect research efforts and save significant computational resources spent on post-training linear attention models. The paper compares SWA with sinks against post-trained linear attention models across multiple LLMs and downstream tasks. The authors note that linear attention may require training from scratch or extensive post-training to match SWA, while SWA needs no post-training and maintains low memory usage.
+Google Play has removed AnkiDroid's Open Collective donation link from its app listing, citing a policy that prohibits using Play billing for tax-exempt donations. The AnkiDroid team reported this in a GitHub issue, noting that Google requested documentation proving tax-exempt status. This action highlights the increasing control app stores exert over open-source projects, potentially threatening their funding streams. It sparks debate about monopolistic distribution and the sustainability of FOSS, as developers may lose direct donation channels. AnkiDroid is a 501(c)(6) organization, not a 501(c)(3) charity, so donations are not tax-deductible for donors. Google's policy specifically targets tax-exempt donations, but the issue may stem from a misunderstanding of tax-exempt status versus tax-deductible donations.
 
-reddit · r/MachineLearning · /u/Justgototheeffinmoon · Aug 31, 16:35
+hackernews · hexa555 · Sep 1, 10:11 · [Discussion](https://news.ycombinator.com/item?id=49520022)
 
-**Background**: Standard transformer attention has quadratic computational cost with sequence length, which is problematic for long contexts. Linear attention variants aim to reduce this to linear complexity via kernel approximations, but they often require post-training to perform well. Sliding window attention restricts attention to a local window, reducing cost, and attention sinks are special tokens that stabilize training and inference by absorbing excess attention.
+**Background**: Open Collective is a crowdfunding platform for open-source projects, allowing them to collect and manage funds. Google Play's billing policy restricts developers from using external payment links for certain transactions, including tax-exempt donations, which has previously affected projects like WireGuard in 2019.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/html/2608.28444v1">Sliding - window beats linear attention</a></li>
-<li><a href="https://carnotresearch.medium.com/let-the-chaos-sink-in-481c8a37471e">Let the Chaos Sink In. Balancing attention in transformers | Medium</a></li>
-<li><a href="https://arxiv.org/abs/2406.10149">[2406.10149] BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack</a></li>
+<li><a href="https://github.com/ankidroid/Anki-Android/issues/21656">[Community Help Needed] Google Play: no longer allowing our Open Collective donation link · Issue #21656 · ankidroid/Anki-Android</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Open_Collective">Open Collective - Wikipedia</a></li>
+<li><a href="https://support.google.com/googleplay/answer/2850368?hl=en">Tax information for Google Play purchases - Google Play Help</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#attention mechanisms`, `#long-context`, `#LLM efficiency`, `#arXiv`, `#benchmarking`
+**Discussion**: Community comments express frustration with Google's policy enforcement, noting it is not an isolated incident (e.g., WireGuard in 2019). Some users clarify the tax-exempt status nuances, while others show support for AnkiDroid and consider switching to Linux phones to avoid app store control.
+
+**Tags**: `#Google Play`, `#Open Source`, `#Donations`, `#App Store Policy`, `#FOSS`
 
 ---
 
 <a id="item-3"></a>
-## [GNNs on Dynamic Graphs Suffer Temporal Leakage; SynthFin-AML Enforces Causal Boundaries](https://www.reddit.com/r/MachineLearning/comments/1w3imxy/your_gnn_is_probably_just_an_overcomplicated_mlp/) ⭐️ 8.0/10
+## [Run 104GB Qwen3.8-Flash-Next on 48GB Mac at ~12 tok/s via SSD streaming](https://github.com/carloslfu/slotstream) ⭐️ 8.0/10
 
-The post introduces SynthFin-AML v10.0, a synthetic anti-money laundering dataset with 100k nodes and 1.2M edges, designed to enforce strict causal boundaries via a 3-snapshot temporal split. It also benchmarks LightGBM against GraphSAGE, showing GraphSAGE achieves PR-AUC 0.881 vs LightGBM's 0.848 on the strict temporal split. This addresses a critical evaluation flaw in GNN research on dynamic graphs, where standard random splits cause temporal leakage and inflated performance. By providing a benchmark with strict causal boundaries, it sets a higher standard for evaluation, potentially improving the reliability of GNN models in financial fraud detection and other temporal domains. The dataset ensures fraud and retail transaction amounts share the same lognormal distribution (μ=8.517, σ=0.8) to prevent distribution leakage. The 3-snapshot split uses train edges ≤ Day 7, validation ≤ Day 8, and test ≤ Day 10, physically disjointing temporal windows to bound the receptive field. The benchmark has been submitted to PyTorch Geometric as PR #10774.
+A new open-source tool called slotstream enables running the 125B-parameter Qwen3.8-Flash-Next model (104GB at 4-bit) on Macs with as little as 16GB RAM by offloading experts to SSD. On a 48GB Mac, it achieves approximately 12 tokens per second, and it is built with MLX and Swift, offering an Ollama-compatible API. This significantly lowers the hardware barrier for running large MoE models locally, potentially enabling users with modest Macs to access state-of-the-art LLMs. It addresses a major pain point in local AI inference—memory constraints—and could influence future developments in efficient model serving on consumer devices. The tool uses expert offloading and SSD streaming to fetch only the necessary expert weights during inference, trading speed for memory. It includes an auto-mode that balances memory usage and speed, and the developer plans to implement speculative decoding via an MTP module next.
 
-reddit · r/MachineLearning · /u/Glabmayt2075 · Aug 31, 16:21
+hackernews · carloslfu · Sep 1, 16:42 · [Discussion](https://news.ycombinator.com/item?id=49524447)
 
-**Background**: Graph Neural Networks (GNNs) are widely used for learning on graph-structured data, but when applied to dynamic graphs (e.g., financial transaction networks), standard training with random splits can cause temporal leakage: the model sees future edges during training, leading to overly optimistic performance. This happens because message-passing aggregates information from neighbors that may include edges occurring after the prediction time. The SynthFin-AML dataset aims to mitigate this by enforcing strict causal boundaries, ensuring that evaluation reflects true generalization.
+**Background**: Mixture-of-Experts (MoE) models like Qwen3.8-Flash-Next contain many specialized sub-networks (experts) but only activate a few per token, making them efficient yet memory-hungry. MLX is Apple's machine learning framework for Apple Silicon, and Swift is the programming language used to build native Mac apps. SSD streaming is a technique where model weights are stored on disk and loaded on demand, reducing RAM requirements at the cost of slower access.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/html/2512.06932v1">Hidden Leaks in Time Series Forecasting: How Data Leakage ... Stealing Training Graphs from Graph Neural Networks Batch-agnostic dynamic GNN for mitigating temporal ... MSPipe: Efficient Temporal GNN Training via Retrofitting temporal GNN training with decoder-only ... machine learning - How does temporal data leakage happen ... MSPipe: Efficient Temporal GNN Training via Staleness-Aware ...</a></li>
-<li><a href="https://huggingface.co/datasets/ovvaliyev/synthfin-aml">ovvaliyev/ synthfin - aml · Datasets at Hugging Face</a></li>
-<li><a href="https://github.com/valiyevoktay-cmd/synthfin-aml-">GitHub - valiyevoktay-cmd/ synthfin - aml -: A graph-native Anti-Money...</a></li>
+<li><a href="https://github.com/carloslfu/slotstream">GitHub - carloslfu/slotstream: Run Qwen3.8-Flash-Next (125B MoE, 104 GB at 4-bit) on Macs with a fraction of that RAM by streaming experts from SSD. MLX + Swift, Ollama-compatible API. · GitHub</a></li>
+<li><a href="https://github.com/ml-explore/mlx-lm/issues/1438">Feature request: MoE expert streaming / SSD offload for memory-constrained Apple Silicon (run 395 GB GLM-5.2-mxfp4 on 128 GB RAM) · Issue #1438 · ml-explore/mlx-lm</a></li>
+<li><a href="https://www.mindstudio.ai/blog/ssd-streaming-ai-models-ram-dial">SSD Streaming for AI Models: How to Turn RAM from a Wall into a Dial | MindStudio</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#GNN`, `#temporal leakage`, `#dynamic graphs`, `#anti-money laundering`, `#dataset`
+**Discussion**: Community members are generally impressed but skeptical about the claimed speeds on 16GB Macs, with one user reporting only 7-8 tok/s on a 16GB M3 with a smaller model. Others express hope that such techniques will make future Macs with 32GB RAM more useful for local AI, and some ask for concrete comparisons between the 27B and 125B models on coding tasks.
+
+**Tags**: `#LLM inference`, `#Mac MLX`, `#Memory optimization`, `#Local AI`, `#Open source`
 
 ---
 
 <a id="item-4"></a>
-## [Turning Security Cameras into an Automatic Bird Identification System](https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/) ⭐️ 7.0/10
+## [Small Transformer Trained in 1.5 Hours Beats Many LLMs on ARC](https://mvakde.github.io/blog/44-on-arc-1/) ⭐️ 8.0/10
 
-A blog post describes how to repurpose security cameras into an automatic bird identification system using BirdNET-Go, which analyzes audio from camera microphones to identify bird species in real time. The post includes practical setup details and has sparked significant community engagement. This DIY project demonstrates a novel, accessible application of embedded AI for wildlife monitoring, potentially inspiring hobbyists and researchers to repurpose existing infrastructure for ecological observation. It highlights the growing trend of local, privacy-preserving AI inference on edge devices. BirdNET-Go is a self-hosted, real-time soundscape analyzer that runs on a Raspberry Pi and supports audio from soundcards or network streams, including RTSP feeds from cameras. The system can also identify bats, and the author notes that it works with various camera brands, though some users report challenges with audio quality and sampling rates.
+A small autoregressive transformer, trained from scratch in just 1.5 hours, achieved competitive results on the ARC benchmark, outperforming many large language models. The author, evilmathkid, shared the results and engaged with the community in the comments. This challenges the prevailing assumption that complex reasoning tasks require massive models and enormous training costs. It suggests that with the right architecture and training methodology, small models can achieve impressive performance, potentially democratizing AI research and reducing computational barriers. The model is not an LLM but a small autoregressive transformer trained from scratch. The author noted that the biggest score increases came from modern architecture choices (SwiGLU, RMSNorm), more data diversity, better shuffling, and scaling up to 8 layers. The training took only 1.5 hours, highlighting sample efficiency.
 
-hackernews · speckx · Aug 31, 16:47 · [Discussion](https://news.ycombinator.com/item?id=49511856)
+hackernews · porridgeraisin · Sep 1, 09:52 · [Discussion](https://news.ycombinator.com/item?id=49519939)
 
-**Background**: BirdNET is an AI-powered sound identification tool developed by the Cornell Lab of Ornithology, capable of recognizing bird species from audio recordings. BirdNET-Go is a community implementation that runs locally on devices like Raspberry Pi, enabling real-time, offline analysis. Security cameras with built-in microphones can provide a convenient audio source for such systems.
+**Background**: The ARC benchmark (Abstraction and Reasoning Corpus) is designed to measure general intelligence through grid-based tasks that require analogical reasoning and program induction. It is considered a challenging benchmark for AI systems, and progress on it is often seen as a step toward artificial general intelligence. Traditional approaches to ARC have relied on large language models or complex architectures with high training costs.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/tphakala/birdnet-go">GitHub - tphakala/birdnet-go: Self-hosted realtime soundscape ...</a></li>
-<li><a href="https://birdnet.cornell.edu/">BirdNET – AI-Powered Sound ID</a></li>
-<li><a href="https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/">How I Turned My Security Cameras Into an Automatic Bird Identification System with BirdNet-Go</a></li>
+<li><a href="https://www.emergentmind.com/topics/arc-bench">ARC - BENCH : AI Benchmark for Compositional Reasoning</a></li>
+<li><a href="https://arcprize.org/arc-agi">ARC Prize - The only AI benchmark that measures AGI progress.</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community members shared their own implementations, such as using Unifi doorbell cams, Aqara cameras, and portable BirdNET-Pi setups. Some discussed technical challenges like wind noise and sampling rate limitations, while others suggested improvements like using e-ink displays for visualization. Overall sentiment was positive and enthusiastic.
+**Discussion**: The community discussion was largely positive and engaged. The author clarified that the model is not an LLM and that the benchmark is meant to be learned from eval puzzles, addressing concerns about training on test data. Some commenters praised the sample efficiency and asked for further simplification of explanations, while others noted the author's personal story of saving his own life.
 
-**Tags**: `#BirdNET`, `#DIY`, `#Computer Vision`, `#Audio Recognition`, `#Embedded AI`
+**Tags**: `#transformer`, `#ARC benchmark`, `#efficiency`, `#deep learning`, `#research`
 
 ---
 
 <a id="item-5"></a>
-## [Apple Surprised by AI-Driven Demand for Mac Mini and Mac Studio](https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/) ⭐️ 7.0/10
+## [Python 3.15.0 RC2 Released, Urging Wheel Preparation](https://simonwillison.net/2026/Sep/1/python-315-rc-2/) ⭐️ 8.0/10
 
-Apple is reportedly caught off guard by strong demand for Mac Mini and Mac Studio, driven by local AI workloads. The company lacked a dedicated engineering team for business customers or an enterprise AI strategy, according to the article. This signals a shift towards on-device AI, where users prefer local processing for privacy, latency, and cost reasons. It highlights an unexpected product-market fit that could influence Apple's future hardware and AI strategy. The demand is attributed to local AI workloads such as running LLMs and training models. Apple reportedly did not anticipate this demand, lacking dedicated enterprise support, which contrasts with the growing trend of AI PCs with NPUs.
+Python 3.15.0 release candidate 2 (RC2) has been announced by release manager Hugo van Kemenade, marking the final release candidate before the stable release scheduled for October. The announcement strongly encourages third-party maintainers to prepare and publish Python 3.15 wheels on PyPI during this phase. This release candidate is a critical milestone for the Python ecosystem, as it signals the feature freeze and the beginning of the final testing phase. Third-party maintainers who publish wheels now will ensure compatibility with the upcoming stable release, reducing potential breakage for users. During the release candidate phase, only reviewed bug fixes are allowed between RC2 and the final release. Binary wheels built against Python 3.15.0 release candidates will work with future versions of Python 3.15, ensuring forward compatibility. The RC2 is not yet available on GitHub Actions, but maintainers can use the allow-prereleases and check-latest flags in actions/setup-python to automatically test against the latest RC.
 
-hackernews · thm · Aug 31, 12:41 · [Discussion](https://news.ycombinator.com/item?id=49508982)
+rss · Simon Willison · Sep 1, 14:59
 
-**Background**: On-device AI runs workloads directly on hardware, reducing cloud costs and latency while improving privacy. Modern devices often include NPUs for this purpose, and Mac Mini models with M-series chips are popular for local AI due to their performance and memory bandwidth.
+**Background**: Python uses a release candidate (RC) phase to stabilize the codebase before the final release; only bug fixes are allowed after the first RC. Wheels are Python's standard binary distribution format, allowing packages to be installed without compilation, and they are critical for performance and user experience. The release manager's call to action is a standard practice to ensure the ecosystem is ready for the new version.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.microsoft.com/en-us/surface/business/business-planning-and-strategy-center/on-device-ai-business-workflows">On-Device AI for Business: Faster, Smarter Workflows ...</a></li>
-<li><a href="https://www.deloitte.com/us/en/services/consulting/services/hybrid-ai.html">On-Device AI | Deloitte US</a></li>
-<li><a href="https://www.apple.com/mac-mini/">Mac mini - Apple</a></li>
+<li><a href="https://blog.python.org/2026/09/python-3150-rc2/">Python 3 . 15 .0 candidate 2 is here! | Python Insider</a></li>
+<li><a href="https://packaging.python.org/specifications/binary-distribution-format/">Binary distribution format - Python Packaging User Guide</a></li>
+<li><a href="https://blog.trailofbits.com/2022/11/15/python-wheels-abi-abi3audit/">ABI compatibility in Python: How hard could it be? - The Trail of Bits Blog</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters are skeptical, with some calling it marketing, while others share practical experiences of local AI training being faster and cheaper for experiments. There is also curiosity about whether local setups can match cloud subscriptions, and concern that AI enthusiasts are driving up prices for regular consumers.
-
-**Tags**: `#Apple`, `#AI hardware`, `#local AI`, `#Mac Mini`, `#Mac Studio`
+**Tags**: `#Python`, `#release`, `#programming`, `#ecosystem`
 
 ---
 
 <a id="item-6"></a>
-## [ChatGPT Work Skill Reference Site Highlights Playwright Browser Control](https://codex-tool-reference.simonw.chatgpt.site/) ⭐️ 7.0/10
+## [Mapping Latent Reasoning Families in 2026](https://www.reddit.com/r/MachineLearning/comments/1w4evwo/latent_reasoning_landscape_in_2026_mapping_bdhcq/) ⭐️ 8.0/10
 
-A new reference site, codex-tool-reference.simonw.chatgpt.site, catalogs ChatGPT Work skills, with the standout being a control-browser skill that instructs ChatGPT Work to launch a Playwright instance via Node.js REPL and run `nodeRepl.write(await browser.documentation())` to obtain usage instructions. This skill provides a practical method for AI agents to control real browsers, enabling more interactive and dynamic web automation tasks. It highlights the growing ecosystem of reusable skills for ChatGPT Work, which could significantly enhance developer productivity and expand the capabilities of AI assistants. The skill leverages Playwright, an open-source browser automation framework by Microsoft, and uses a Node.js REPL to interact with the browser. The `browser.documentation()` method returns detailed instructions on how to use the browser, which ChatGPT Work then follows to perform tasks.
+A Reddit post categorizes latent reasoning approaches into five families, including Coconut, Soft Thinking, Abstract-CoT, HRM/TRM, and BDH-CQ, highlighting a shift from verbalized chain-of-thought to continuous hidden state reasoning. This taxonomy clarifies the emerging landscape of latent reasoning, which could lead to more efficient AI systems that reason beyond token streams. It also raises critical questions about the trade-off between interpretability and efficiency in AI safety. The post distinguishes families by how tasks are acquired (context, memory, or gradient-based) and where computation occurs (language tokens, abstract tokens, or continuous latent states). Notably, BDH-CQ is reported to surpass the Pareto frontier on ARC-AGI-1 and shows scaling laws up to 600B parameters.
 
-hackernews · ijidak · Aug 31, 14:07 · [Discussion](https://news.ycombinator.com/item?id=49510000)
+reddit · r/MachineLearning · /u/Typical-Scene-5794 · Sep 1, 15:14
 
-**Background**: ChatGPT Work skills are reusable workflows that allow users to automate recurring tasks and ensure consistent outputs. Playwright is a popular open-source library for browser testing and web scraping, supporting Chromium, Firefox, and WebKit with a single API. The reference site serves as a collection of such skills, providing developers with ready-made solutions for common automation needs.
+**Background**: Latent reasoning is an alternative to chain-of-thought (CoT) where models transform continuous hidden states instead of generating verbalized intermediate steps. This approach is motivated by findings that CoT traces do not always reflect actual computation, and it may enable parallel search and more efficient reasoning.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Playwright_(software)">Playwright (software) - Wikipedia</a></li>
-<li><a href="https://github.com/microsoft/playwright">GitHub - microsoft/playwright: Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. · GitHub</a></li>
-<li><a href="https://help.openai.com/en/articles/20001066-skills-in-chatgpt">Skills in ChatGPT - OpenAI Help Center</a></li>
+<li><a href="https://ht0324.github.io/blog/2025/Coconut/">Continuous Latent Reasoning for LLMs ( COCONUT ) - Review</a></li>
+<li><a href="https://theorempath.com/topics/latent-reasoning">Latent Reasoning in LLMs | TheoremPath</a></li>
+<li><a href="https://www.turingpost.com/p/latent-reasoning-ai-thinking-without-words">What Is Latent Reasoning ? How AI Can Think Without Words</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Simon Willison highlighted the control-browser skill as the most interesting, noting its use of Playwright and the `browser.documentation()` method. Another commenter questioned how this differs from Codex, while others pointed out UI issues on the site and mused about the common aesthetic of AI-generated websites.
+**Discussion**: The discussion likely includes expert commentary on the taxonomy and debates about the importance of interpretability versus efficiency, with some questioning whether readable traces are worth the performance cost.
 
-**Tags**: `#ChatGPT`, `#AI tools`, `#browser automation`, `#Playwright`, `#developer tools`
+**Tags**: `#latent reasoning`, `#machine learning`, `#AGI`, `#chain-of-thought`, `#LLM`
 
 ---
 
 <a id="item-7"></a>
-## [Military Commissary Freezer Failures Spark Hacking Speculation](https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary) ⭐️ 7.0/10
+## [TontaubeV1: Open-Weight Character-Level TTS for Long-Form Speech](https://www.reddit.com/r/MachineLearning/comments/1w4afjn/we_released_tontaubev1_a_characterlevel_tts_model/) ⭐️ 8.0/10
 
-A blog post speculates that simultaneous failures of freezers at multiple military commissaries may be the result of a cyberattack, prompting discussions about potential DoD network infiltration. The Pentagon has acknowledged a 'possible refrigeration disruption' at some Defense Commissary Agency commissaries. This matters because it highlights the vulnerability of military infrastructure to cyber threats, including industrial control systems (ICS) that manage physical equipment like refrigeration. If confirmed, it could signal a new class of attacks targeting military logistics and supply chains, with potential ripple effects on readiness and morale. The incidents reportedly affected at least six military installations, with failures occurring near-simultaneously. The blog post notes that the timing and pattern are suspicious, but no official confirmation of a hack has been made, and alternative explanations like misconfiguration or update errors are possible.
+The authors released TontaubeV1, a 2.9B-parameter open-weight TTS model that uses character-level tokenization and DualCodec, supporting expressive speech, zero-shot voice cloning, and long-form generation in English and German. It was trained on 7 languages and ~200k hours of audio. This release introduces a novel character-level tokenization approach for TTS, which improves robustness and simplifies character-to-sound mapping, potentially influencing future TTS designs. The open-weight nature and focus on long-form generation and low-latency inference make it valuable for developers and researchers. The model builds on DualCodec, a multi-codebook discrete audio codec, and uses a chunking scheme with logical position IDs to handle long passages. It supports zero-shot voice cloning from up to one minute of reference audio, and the semantic model is based on Qwen3-1.7B.
 
-hackernews · jcurbo · Aug 31, 11:45 · [Discussion](https://news.ycombinator.com/item?id=49508506)
+reddit · r/MachineLearning · /u/EAVDR · Sep 1, 12:23
 
-**Background**: Military commissaries are retail stores on military bases that sell groceries and household goods to service members and their families. Industrial control systems (ICS) and supervisory control and data acquisition (SCADA) systems are used to monitor and control physical equipment, including refrigeration units. These systems have known vulnerabilities, such as legacy software and weak access controls, making them potential targets for cyberattacks.
+**Background**: TTS models often use BPE tokenizers from backbone LLMs, which can struggle with rare token sequences. Character-level tokenization treats each character as a token, simplifying text-to-sound mapping. DualCodec is a low-frame-rate, semantically-enhanced neural audio codec that extracts discrete tokens for efficient speech generation.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary">I Think the Military Commissary Freezers Were Hacked</a></li>
-<li><a href="https://www.schneier.com/blog/archives/2026/08/is-someone-hacking-dod-refrigerators.html">Is Someone Hacking DoD Refrigerators? - Schneier on Security</a></li>
-<li><a href="https://www.levelblue.com/blogs/spiderlabs-blog/unveiling-the-dark-side-common-attacks-and-vulnerabilities-in-industrial-control-systems/">Unveiling the Dark Side: Common Attacks and Vulnerabilities in Industrial Control Systems</a></li>
+<li><a href="https://arxiv.org/pdf/2505.13000">DualCodec : A Low-Frame-Rate, Semantically-Enhanced Neural Audio ...</a></li>
+<li><a href="https://github.com/jiaqili3/DualCodec">GitHub - jiaqili3/ DualCodec : [Interspeech 2025] DualCodec ...</a></li>
+<li><a href="https://dualcodec.github.io/">DualCodec Demo Page</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters are divided: some, like mark-r, suggest the incident might be a deliberate proof of DoD network infiltration, while others, like CobaltFire, argue it's more likely a misconfiguration or update error, noting the concerning timing. 0xWTF draws parallels to a vulnerability hinted at in a 2014 book, and peterabbitcook shares personal experience with insecure PLCs, supporting the plausibility of a hack. codingdave cautions against jumping to conclusions, suggesting the author should first consider the number of refrigerators and baseline failure rates.
-
-**Tags**: `#cybersecurity`, `#military`, `#IoT`, `#industrial control systems`, `#speculation`
+**Tags**: `#TTS`, `#open-source`, `#machine learning`, `#audio`, `#model release`
 
 ---
 
 <a id="item-8"></a>
-## [Wrapture: New Python Library Extends Monkeypatching to Testing and Tracing](https://simonwillison.net/2026/Aug/31/introducing-wrapture/) ⭐️ 7.0/10
+## [EvoUndo: A Framework for Verifying and Repairing LLM Agent Self-Modifications](https://www.reddit.com/r/MachineLearning/comments/1w4m0hq/evoundo_recoverabilityconstrained_selfevolution/) ⭐️ 8.0/10
 
-Graham Dumpleton, creator of wrapt, has released a new Python library called Wrapture that extends wrapt's monkeypatching capabilities to enable both tracing and testing of functions and methods. The library, still in its early weeks, includes OpenTelemetry support and a configuration-based mechanism for adding tracing to existing projects. Wrapture offers a novel approach to testing and observability in Python, potentially serving as an alternative to unittest.mock and simplifying the integration of tracing into existing codebases. Its development as a fully AI-driven project also highlights the growing role of AI assistants in software engineering. Wrapture allows wrapping any function or method to trace all access or override return values, and includes a TOML-based configuration for capturing traces to JSON lines. The project is very young, just a few weeks old, and was entirely written by an AI assistant under Graham's direction, which he distinguishes from 'vibe coding' by emphasizing careful engineering and design.
+EvoUndo introduces a framework to represent, synthesize, diagnose, and independently verify the recoverability of model-generated self-modifications in LLM agents. Across 600 unseen one-shot tasks, it identified 197 capability-improving mutations that failed recoverability verification, and with an extended recovery calculus, recovered 191/197 of these natural failures. This work addresses a critical gap in safe LLM agent deployment: ensuring that self-modifications can be safely reversed. By demonstrating that reliable recovery requires co-designing verification, state grounding, and recovery-language expressivity, it provides a principled foundation for auditable, self-evolving autonomous agents. The paper reports that conventional repair strategies recover 0/197 failures under the original recovery representation, while deterministic oracle analysis recovers 48/197. A protocol-locked 2×2 grounding-by-expressivity intervention shows that exact state-address grounding increases recovery from 0/48 to 38/48 (79.2%) when the original language is sufficient, and extending the recovery language enables recovery on 142/143 (99.3%) failures in the oracle-defined S1 stratum.
 
-rss · Simon Willison · Aug 31, 23:59
+reddit · r/MachineLearning · /u/AccomplishedLeg1508 · Sep 1, 19:17
 
-**Background**: Monkeypatching is a technique in Python that allows modifying the behavior of functions or classes at runtime, often used for testing or adding instrumentation. wrapt is a well-known library that provides a transparent object proxy to safely apply monkeypatching, and Wrapture builds on these ideas to unify testing and tracing. OpenTelemetry is an observability framework for generating and collecting telemetry data, and Wrapture's support for it enables easy integration with existing monitoring systems.
+**Background**: LLM agents increasingly modify their own prompts, tools, middleware, resources, and execution harnesses at runtime, a process known as self-evolution. However, a successful mutation may leave persistent effects that cannot be safely reversed in states different from the one in which it was created. EvoUndo addresses this by introducing a framework for representing and verifying recoverability across counterfactual states, and it highlights the need for co-designing verification, state grounding, witness semantics, and recovery-language expressivity.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/GrahamDumpleton/wrapt">GitHub - GrahamDumpleton/wrapt: A Python module for decorators, wrappers and monkey patching. · GitHub</a></li>
-<li><a href="https://wrapt.readthedocs.io/">wrapt — wrapt 2.3.0 documentation</a></li>
-<li><a href="https://grahamdumpleton.me/posts/2026/09/unit-testing-with-wrapture/">Unit testing with wrapture - Graham Dumpleton</a></li>
+<li><a href="https://arxiv.org/abs/2608.28363">[2608.28363] EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses</a></li>
+<li><a href="https://arxiv.org/html/2608.28363">EvoUndo: Recoverability-ConstrainedSelf-Evolution for LLM Agent Harnesses</a></li>
+<li><a href="https://huggingface.co/papers/2608.28363">Paper page - EvoUndo: Recoverability-Constrained Self -Evolution for...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Python`, `#testing`, `#tracing`, `#monkeypatching`, `#library`
+**Tags**: `#LLM Agents`, `#Self-Evolution`, `#Recoverability`, `#AI Safety`, `#Machine Learning`
 
 ---
 
 <a id="item-9"></a>
-## [Entropic Scree: New Tool to Assess Signal in Dirty Data](https://www.reddit.com/r/MachineLearning/comments/1w3br9c/how_to_assess_if_there_is_a_strong_signal_in_your/) ⭐️ 7.0/10
+## [Firefox's Role in Browser Diversity Defended](https://www.newsonaut.com/articles/hang-on-to-your-firefox) ⭐️ 7.0/10
 
-A new tabular data diagnostic tool called Entropic Scree has been released, which estimates signal strength, signal-to-noise ratio (SNR), intrinsic rank, and linear sufficiency in high-dimensional, real-world datasets using a transformed mutual information metric. The R function is already available, with Python and R packages to be released soon. This tool addresses a common pain point in applied machine learning: dealing with dirty, high-dimensional data. By providing a more robust diagnostic than traditional PCA-based methods, it could help practitioners better decide whether their data contains enough signal for modeling, potentially improving model performance and saving time. The method evaluates a transformed mutual information metric instead of linear variance, rank order, or Euclidean distance, making it less reliant on strong parametric or distance assumptions. It also serves as a practical diagnostic for the 'From Garbage to Gold' framework, which describes when uncurated, error-prone data can be used directly for accurate predictions.
+An opinion piece argues that Firefox remains crucial for browser engine diversity and competition, despite criticisms of Mozilla's recent decisions such as acquiring an ad-tech company and collecting user data. This matters because Firefox is the only major non-Chromium, non-WebKit browser, and its survival is vital for a healthy, competitive web ecosystem. The article highlights the trade-offs between Mozilla's business decisions and the broader need for browser diversity. The article acknowledges Firefox's technical issues, such as slow page loads and history corruption, but argues that these are outweighed by its importance for engine diversity. It also notes that Firefox offers quality ad blockers, which is a significant selling point.
 
-reddit · r/MachineLearning · /u/Chocolate_Milk_Son · Aug 31, 12:02
+hackernews · speckx · Sep 1, 20:30 · [Discussion](https://news.ycombinator.com/item?id=49527748)
 
-**Background**: Mutual information is a measure of the mutual dependence between two random variables, quantifying how much information one variable provides about another. Traditional dimensionality reduction techniques like PCA rely on linear variance and Euclidean distance, which may fail on dirty, high-dimensional data. Entropic Scree aims to overcome these limitations by using an information-theoretic approach.
+**Background**: Browser engine diversity refers to having multiple independent rendering engines (like Gecko, Blink, WebKit) to prevent a single point of failure and encourage innovation. Firefox uses the Gecko engine, while Chrome and Edge use Blink, and Safari uses WebKit. Mozilla's recent moves, such as acquiring an ad-tech company and enabling personalized ads, have drawn criticism from privacy advocates.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/tjleestjohn/Entropic-Scree">GitHub - tjleestjohn/ Entropic - Scree : Overcome the limits of standard...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Mutual_information">Mutual information - Wikipedia</a></li>
+**Discussion**: Community comments show mixed sentiment: some agree with the article's defense of Firefox, citing its importance for diversity and ad-blocking capabilities, while others express frustration with technical issues and Mozilla's anti-consumer decisions. A commenter notes the 'no permanent allies' mantra, suggesting that despite disagreements, supporting Firefox is still worthwhile.
 
-</ul>
-</details>
-
-**Tags**: `#data quality`, `#mutual information`, `#dimensionality reduction`, `#diagnostics`, `#tabular data`
+**Tags**: `#Firefox`, `#browser diversity`, `#Mozilla`, `#web standards`, `#open source`
 
 ---
 
 <a id="item-10"></a>
-## [Playa Phone: A Burning Man Art Project Connects Strangers via Vintage Payphone](https://playaphone.com/) ⭐️ 6.0/10
+## [Assessing Ed Zitron's AI Skeptic Predictions: A Critical Review](https://danluu.com/zitron/) ⭐️ 7.0/10
 
-A hacker news post highlighted the Playa Phone, a vintage payphone art installation at Burning Man that allows participants to make calls. The project's creator, aaron42net, engaged with the community in the comments, answering questions about the project. This project exemplifies the interactive and community-driven spirit of Burning Man, fostering spontaneous human connections in a tech-saturated world. It also sparked discussions about the event's culture and the role of technology in social interaction, resonating with a broader audience interested in art, community, and technology. The Playa Phone is a vintage payphone set up at Burning Man, allowing participants to make calls. The project's creator, aaron42net, is active in the community and answered questions in the comments. A livestream of the event was also shared, with a note about a potential naming discrepancy on the map.
+Dan Luu published an analysis evaluating the accuracy of Ed Zitron's AI skeptic predictions, sparking community discussion about the polarized nature of AI discourse and potential financial distortions in the industry. This analysis is significant because it addresses the credibility of prominent voices in the AI debate, which influences public perception and investment decisions. It highlights the need for balanced evaluation of both skeptics and boosters in the tech industry. The post evaluates Zitron's predictions with annotations, but community comments note that Zitron often overstates claims, and some suggest that AI skepticism has become a political position, hindering his ability to concede errors. Additionally, commenters point out that hyperscalers' investments in AI companies may inflate reported earnings through 'Other Income'.
 
-hackernews · cutoff · Aug 31, 14:52 · [Discussion](https://news.ycombinator.com/item?id=49510514)
+hackernews · jatins · Sep 1, 18:35 · [Discussion](https://news.ycombinator.com/item?id=49526069)
 
-**Background**: Burning Man is an annual week-long event in the Nevada desert that emphasizes community, art, self-expression, and self-reliance. It features large-scale art installations and interactive projects, often created by participants. The Playa Phone is one such project, blending nostalgia with the event's ethos of radical inclusion and gifting.
+**Background**: Ed Zitron is a tech commentator known for his critical stance on AI hype. The AI industry is characterized by rapid advancements and significant investments, leading to debates about whether current valuations are justified. This analysis fits into a broader discussion about the reliability of predictions from both AI skeptics and proponents.
 
-**Discussion**: The community discussion was largely positive, with the creator engaging directly. One user shared a heartwarming story of getting married after stopping at the phone booth, while another promoted a similar app for spontaneous calls. There was also a question about whether Burning Man is fun, reflecting a cynical view of the event's demographics, and a livestream link was shared.
+**Discussion**: Community comments express mixed sentiments: some call for similar scrutiny of AI leaders' predictions, others criticize Zitron for becoming a distorted reflection of AI boosters, and some highlight financial reporting distortions. There is also a note that people often project their own predictions onto Zitron's statements, which can obscure the evaluation of his actual claims.
 
-**Tags**: `#burning man`, `#art project`, `#community`, `#interactive`, `#hackernews`
+**Tags**: `#AI`, `#skepticism`, `#predictions`, `#tech industry`, `#analysis`
 
 ---
 
 <a id="item-11"></a>
-## [Walkable ASCII Cyberpunk City in a Single HTML File](https://www.youtube.com/watch?v=3YtygAx_C6A) ⭐️ 6.0/10
+## [OpenAI Codex Desktop App Bundles LibreOffice and Other Tools](https://simonwillison.net/2026/Sep/1/codex-libreoffice/) ⭐️ 7.0/10
 
-A developer has created a walkable 3D ASCII cyberpunk city that runs entirely in a single HTML file, with recent updates adding traffic, interiors, and skyscrapers. The project is showcased in a video and has gained attention on Hacker News. This project demonstrates the creative potential of browser-based ASCII art, offering a unique aesthetic that appeals to nostalgic and creative coding communities. It highlights how modern web technologies can render complex scenes without heavy dependencies, potentially inspiring similar hobbyist projects. The city is rendered using ASCII characters in a fixed-width font, likely via a canvas or DOM manipulation, and includes interactive elements like walking and traffic. The developer has released multiple update videos, but the GitHub project may not match the latest video content, as noted by a commenter.
+Simon Willison discovered that OpenAI's Codex desktop app (now rebranded as ChatGPT) bundles a 1.7GB runtime containing full Python and Node.js installations, along with native binaries for Poppler, git, and LibreOffice. The bundled LibreOffice is used for document handling, as indicated by the 'documents' plugin skills. This reveals a significant technical dependency choice by OpenAI, highlighting how AI agents are increasingly relying on mature open-source tools for document manipulation. It also raises questions about app bloat and the potential threat to Microsoft Office if AI-generated documents become prevalent. The runtime is located at ~/.cache/codex-runtimes/codex-primary-runtime and includes a 'documents' plugin that instructs Codex on using the bundled binaries. Notably, there are GitHub issues reporting that the bundled LibreOffice is broken on macOS due to missing Homebrew dylib references, causing DOCX rendering failures.
 
-hackernews · keithcarolus · Aug 31, 18:21 · [Discussion](https://news.ycombinator.com/item?id=49512975)
+rss · Simon Willison · Sep 1, 19:03 · [Discussion](https://news.ycombinator.com/item?id=49527396)
 
-**Background**: ASCII art is a technique that uses printable characters to create images, often rendered in monospace fonts to maintain alignment. In web browsers, developers can leverage HTML, CSS, and JavaScript to create dynamic ASCII art, as opposed to traditional terminal-based approaches. This project is part of a broader trend of creative coding in the browser, where constraints like single-file HTML push the boundaries of what can be achieved with minimal resources.
+**Background**: Codex is an AI coding agent by OpenAI, released in April 2025, available as a CLI, desktop app, and IDE integration. LibreOffice is a free, open-source office suite forked from OpenOffice.org in 2010, commonly used to read and convert various document formats. Bundling such tools allows AI agents to handle documents locally without relying on external services.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=DSRooHo_HSI">ASCII City Update 2: Traffic & Detail Update - YouTube</a></li>
-<li><a href="https://github.com/tweakyourpc/ascii-city">GitHub - tweakyourpc/ascii-city: A 3D city renderer that ...</a></li>
-<li><a href="https://www.neowin.net/news/developer-builds-a-fully-walkable-3d-city-entirely-out-of-ascii-characters/">Developer builds a fully walkable 3D city entirely out of ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OpenAI_Codex_(AI_agent)">OpenAI Codex (AI agent) - Wikipedia</a></li>
+<li><a href="https://github.com/openai/codex/issues/27797">Allow Documents plugin to use system LibreOffice instead of bundled LibreOfficeDev · Issue #27797 · openai/codex</a></li>
+<li><a href="https://github.com/openai/codex/issues/26816">Codex bundled LibreOffice runtime is broken on macOS because it links to missing Homebrew dylibs. · Issue #26816 · openai/codex</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments are generally positive, with one user praising the browser-based approach for ASCII art and another expressing nostalgia. However, some users noted issues with rendering differences in their own experience, and one flagged the post as a duplicate.
+**Discussion**: Commenters shared mixed reactions: some defended bundling LibreOffice for reliable reading of old files like XLS, while others criticized the app's overall messiness and questioned whether such large dependencies are necessary from the start. A few noted potential rendering issues and the broader implication of AI-generated Office documents threatening Microsoft's dominance.
 
-**Tags**: `#ASCII art`, `#creative coding`, `#browser graphics`, `#cyberpunk`, `#HTML`
+**Tags**: `#OpenAI`, `#Codex`, `#LibreOffice`, `#software dependencies`, `#desktop apps`
 
 ---
 
 <a id="item-12"></a>
-## [RavynOS: Pre-alpha open-source OS aiming for macOS compatibility](https://ravynos.com/) ⭐️ 6.0/10
+## [Jujutsu Creator Martin Joins ERSC](https://ersc.io/blog/martin-joins-ersc) ⭐️ 7.0/10
 
-RavynOS, a pre-alpha open-source operating system based on Darwin, FreeBSD, and Apple open-source components, has been highlighted in recent community discussions. The project aims to provide macOS compatibility while maintaining the freedom of open source. This project is significant because it attempts to combine the user experience of macOS with the openness of FreeBSD, potentially offering an alternative for users who want macOS-like functionality without Apple's hardware or licensing. It also contributes to the ongoing effort of open-source reimplementation of proprietary systems, similar to ReactOS and Darling. RavynOS is in pre-alpha stage, meaning it is not yet stable or feature-complete. The project's FAQ addresses legal concerns by citing precedents like ReactOS and GNUstep, and it uses Discord for community communication, which some users find limiting.
+Martin, the creator of the Jujutsu version control system, has joined ERSC, a code hosting platform. The announcement was made on ERSC's blog, and Steve Klabnik confirmed the collaboration, hinting at more news soon. This move signals potential integration and innovation in version control and code hosting, as Jujutsu's modern UX could influence ERSC's platform. It may attract developers seeking alternatives to traditional Git workflows and GitHub. Jujutsu (jj) is a Git-compatible version control system that emphasizes undoability and a simplified command set. ERSC aims to be a GitHub competitor, though community members question its value proposition and how it addresses GitHub's shortcomings.
 
-hackernews · Bluestein · Aug 31, 16:19 · [Discussion](https://news.ycombinator.com/item?id=49511534)
+hackernews · steveklabnik · Sep 1, 17:46 · [Discussion](https://news.ycombinator.com/item?id=49525297)
 
-**Background**: Darwin is the open-source core of Apple's operating systems, derived from NeXTSTEP, FreeBSD, and other BSD code, along with Apple's own contributions. FreeBSD is a widely used open-source Unix-like OS descended from BSD. RavynOS builds on these foundations to create a macOS-compatible environment, similar to how ReactOS aims for Windows compatibility.
+**Background**: Jujutsu is a modern version control system that works with Git repositories but offers a more intuitive interface and powerful undo features. ERSC is a code hosting platform that seeks to provide an alternative to GitHub. The collaboration between Martin and ERSC could lead to tighter integration between jj and ERSC's hosting services.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://ravynos.com/">ravynOS - Finesse of macOS. Freedom of Open Source.</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Darwin_(operating_system)">Darwin (operating system) - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/FreeBSD">FreeBSD - Wikipedia</a></li>
+<li><a href="https://jj-for-everyone.github.io/">Introduction - Jujutsu for Everyone</a></li>
+<li><a href="https://www.infovision.com/blog/git-and-jujutsu-the-next-evolution-in-version-control-systems/">Git and Jujutsu : The next evolution in version control systems</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments show mixed reactions: some question the unique benefits of Darwin over other BSDs, others note the lack of screenshots on the website, and some express frustration with Discord as the primary communication channel. There is also a reference to previous discussions on Hacker News, indicating ongoing interest.
+**Discussion**: Community sentiment is mixed: some praise jj's UX and undo capabilities, while others question ERSC's value proposition compared to GitHub. Steve Klabnik's positive remarks add credibility, but skepticism remains about ERSC's ability to address GitHub's flaws.
 
-**Tags**: `#operating systems`, `#open source`, `#Darwin`, `#FreeBSD`, `#macOS compatibility`
+**Tags**: `#jujutsu`, `#version-control`, `#developer-tools`, `#ERSC`, `#open-source`
 
 ---
 
 <a id="item-13"></a>
-## [Professor's Advice on Cold Emailing for PhD Positions](https://www.reddit.com/r/MachineLearning/comments/1w3bwci/cold_emailing_profs_about_phd_positions_read_this/) ⭐️ 6.0/10
+## [Mozilla Tests Ad Blocker for Firefox on iOS, Requires Telemetry](https://blog.mozilla.org/en/firefox/ad-blocker-on-ios/) ⭐️ 7.0/10
 
-A professor shared a list of common mistakes to avoid when cold emailing about PhD positions, including sending mass emails, vague research interests, and misrepresenting workshop papers as conference papers. This advice is crucial for prospective PhD applicants, as it can significantly improve their chances of getting a positive response from potential supervisors. It also highlights the importance of genuine research interest and honesty in academic communication. The professor specifically advises against using LLMs to outsource thinking, as it leads to generic research directions. They also emphasize checking supervisors' websites for specific contact instructions, as ignoring them can result in emails being sent to spam.
+Mozilla has announced an experimental ad blocker for Firefox on iOS, which is being rolled out progressively to a limited set of users. The feature is off by default and requires enabling telemetry to use. This marks a significant step for Mozilla in integrating ad blocking natively into its mobile browser, potentially enhancing user privacy and page load times. However, the telemetry requirement and limited availability have sparked criticism, highlighting tensions between user privacy and data collection. The ad blocker uses a filter list based on EasyList to block many ads, but it does not block ads on search engine results pages. The feature is part of a progressive rollout, and users included in the test will see an 'Ad Blocker' option in Settings.
 
-reddit · r/MachineLearning · /u/tariban · Aug 31, 12:09
+hackernews · HieronymusBosch · Sep 1, 13:46 · [Discussion](https://news.ycombinator.com/item?id=49521973)
 
-**Background**: Cold emailing professors is a common practice in many countries for PhD recruitment. Foundational ML research focuses on core algorithms and methodologies rather than specific application domains, which is why the professor notes that many applicants' applied interests may not align with their research.
+**Background**: Ad blockers are tools that prevent ads from loading on web pages, improving browsing speed and privacy. Firefox for iOS is built on WebKit due to Apple's App Store restrictions, limiting extension support, so a built-in ad blocker is a notable workaround. Mozilla has faced criticism for its telemetry practices, which collect usage data to improve products.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.tiktok.com/discover/cold-emailing-professors">Cold Emailing Professors | TikTok</a></li>
-<li><a href="https://www.linkedin.com/posts/sanya-jain-your-grad-coach-181835223_when-is-the-right-time-to-cold-email-professors-activity-7225913537393569793-mdf0">How to Cold Email Professors for a PhD in the USA | LinkedIn</a></li>
-<li><a href="https://academia.stackexchange.com/questions/206643/is-it-appropriate-to-cold-email-professors-in-search-of-a-postdoc-position">physics - Is it appropriate to cold email professors in search of...</a></li>
+<li><a href="https://www.theregister.com/software/2026/08/17/mozilla-adds-ad-blocking-to-firefox-for-ios/5288585">Mozilla adds ad blocking to Firefox for iOS</a></li>
+<li><a href="https://connect.mozilla.org/t5/discussions/ios-ad-blocker-experiment/m-p/133902">iOS Ad Blocker - Experiment - Mozilla Connect</a></li>
+<li><a href="https://www.firstpost.com/tech/mozilla-brings-built-in-ad-blocking-to-firefox-on-ios-heres-how-it-works-14038585.html">Mozilla brings built-in Ad blocking to Firefox on iOS : Here’s how it...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#PhD applications`, `#academic advice`, `#cold emailing`, `#career guidance`
+**Discussion**: Community reactions are mixed: some users are frustrated by the telemetry requirement and the slow rollout, while others appreciate the feature but note it doesn't block YouTube ads. Some users suggest alternative ad blockers like wBlock or uBlock Origin Lite, and one user expresses a desire to switch from Orion due to bugs.
+
+**Tags**: `#Firefox`, `#iOS`, `#ad blocking`, `#Mozilla`, `#privacy`
 
 ---
 
 <a id="item-14"></a>
-## [uv 0.12.8 Released with Performance and Preview Features](https://github.com/astral-sh/uv/releases/tag/0.12.8) ⭐️ 5.0/10
+## [Nori Robotics Launches $1,688 Bimanual Mobile Robot for Developers](https://www.norirobotics.com/) ⭐️ 7.0/10
 
-uv 0.12.8 was released on 2026-08-31, introducing preview features for content-addressed caching, performance improvements for concurrent downloads and lockfile processing, and several bug fixes. Notable enhancements include deduplicating identical files within and across cached wheels, and preventing concurrent uv processes from downloading the same remote wheel more than once. This release matters because it improves the efficiency and reliability of uv, a popular Python package manager, benefiting developers who rely on it for fast dependency resolution and installation. The content-addressed cache preview feature could significantly reduce disk usage and download times, while the lockfile processing speedups enhance performance for large projects. The content-addressed cache preview feature deduplicates identical files within and across cached wheels, and includes optimizations like reusing the hashing buffer and bulk reading hard-link counts on macOS. Performance improvements include preventing concurrent downloads of the same wheel, indexing packages during lockfile traversal, and reducing marker interner work for warm resolutions.
+Nori Robotics, a YC S26 startup, launched a $1,688 bimanual mobile robot designed for robotics developers and researchers. The robot features 19 degrees of freedom, two 7+1 DOF arms, a telescoping lift, and a differential wheeled base, with an open SDK and browser-based simulator. This launch is significant because it dramatically lowers the cost barrier for robotics research, enabling more labs and individuals to collect large datasets and run experiments. It could accelerate progress in areas like imitation learning and vision-language-action models, making advanced robotics more accessible. The robot uses high-ratio servos instead of QDD motors and a wheeled base instead of legs to keep costs low. It runs a Raspberry Pi 5 for on-board SLAM and safety, while heavier models like ACT and VLAs must be run on a separate computer via LAN or WAN. The hardware is partially open source, and the company offers 3D print files for repairs.
 
-github · astral-automations-bot[bot] · Aug 31, 22:18
+hackernews · AntonioLi · Sep 1, 17:35 · [Discussion](https://news.ycombinator.com/item?id=49525153)
 
-**Background**: uv is a fast Python package and project manager written in Rust, known for its speed and efficiency. Content-addressed storage (CAS) is a method where data is stored and retrieved based on its content, not its location, which helps in deduplication and efficient caching. Lockfiles are files that record the exact versions of dependencies to ensure reproducible builds.
+**Background**: Bimanual mobile manipulators are robots with two arms on a mobile base, used for tasks like object manipulation and data collection. Traditional platforms like Mobile ALOHA cost around $32,000, making them inaccessible for many researchers. Low-cost alternatives like Nori aim to democratize access to such hardware, potentially enabling broader experimentation and innovation in robotics.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Content-addressable_storage">Content-addressable storage - Wikipedia</a></li>
-<li><a href="https://docs.astral.sh/uv/concepts/tools/">Tools | uv - Astral</a></li>
-<li><a href="https://devsecopsschool.com/blog/lockfile/">What is Lockfile? Meaning, Architecture, Examples, Use Cases ...</a></li>
+<li><a href="https://aha-robot.github.io/">AhaRobot: A Low-Cost Open-Source Bimanual Mobile Manipulator for...</a></li>
+<li><a href="https://vla-survey.github.io/">Vision-Language-Action Models for Robotics : A Review Towards...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#uv`, `#Python`, `#package manager`, `#performance`, `#release`
+**Discussion**: Community comments raised concerns about the use of RC-style servos, which may cause jerky motion and lack force feedback, limiting precision. Others questioned the real-world capabilities and whether videos were cherry-picked, and suggested that a Jetson Orin Nano might be a better compute option than the Raspberry Pi 5.
+
+**Tags**: `#robotics`, `#hardware`, `#startup`, `#humanoid`, `#research`
 
 ---
 
 <a id="item-15"></a>
-## [Monthly Hiring and Job Seeker Thread for ML Community](https://www.reddit.com/r/MachineLearning/comments/1w30ti8/d_monthly_whos_hiring_and_who_wants_to_be_hired/) ⭐️ 3.0/10
+## [Movie Scene Map: Interactive Map of 13,312 Filming Locations](https://moviescenemap.com/) ⭐️ 7.0/10
 
-A new monthly thread has been posted on r/MachineLearning for job postings and job seekers, providing templates for both hiring and seeking positions. This thread centralizes job opportunities and candidate resumes within the machine learning community, facilitating networking and career moves for professionals in the field. The thread includes specific templates: for hiring, use 'Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time]' and for job seekers, 'Want to be Hired: [Location], Salary Expectation:[], [Remote | Relocation], [Full Time | Contract | Part Time]' with a resume link. It reminds users that the community is geared towards experienced professionals.
+Movie Scene Map is an interactive web application that maps filming locations for over 13,000 films, series, games, anime, and manga. It allows users to explore locations by zooming and panning, and includes community features for requesting missing entries. This project consolidates filming location data from diverse media into a single, user-friendly platform, making it a valuable resource for travelers, fans, and location scouts. It demonstrates the potential of niche, community-driven web projects to thrive outside corporate platforms. The map includes 13,312 entries and has a smooth, slick UX. Users can add missing movies and locations via a dedicated 'missing' page, and the project is open to feature requests, such as links to media pages and crowd-sourced verification.
 
-reddit · r/MachineLearning · /u/AutoModerator · Aug 31, 02:30
+hackernews · Flightmussy · Sep 1, 16:34 · [Discussion](https://news.ycombinator.com/item?id=49524320)
 
-**Background**: Reddit's r/MachineLearning is a popular forum for machine learning practitioners. Monthly hiring threads are a common feature in many professional subreddits to organize job-related posts and reduce clutter. The templates help standardize information for easier browsing.
+**Background**: Filming location maps are a niche but popular genre of data visualization, often relying on manual curation. This project aggregates data across multiple media types, which is uncommon, and leverages community input to expand coverage. The web app is designed for easy exploration, with pins indicating filming spots.
 
-**Tags**: `#jobs`, `#machine learning`, `#community`
+**Discussion**: Community feedback is overwhelmingly positive, praising the design and utility. Users have noted minor issues like z-ordering of pins and missing famous films, but appreciate the ability to contribute and suggest features such as links to media pages and crowd-sourced verification.
+
+**Tags**: `#mapping`, `#film`, `#data visualization`, `#web app`, `#community`
 
 ---
 
 <a id="item-16"></a>
-## [User Seeks Examples of Well-Designed ML Posters for ECCV 2026](https://www.reddit.com/r/MachineLearning/comments/1w39buv/good_machine_learning_posters_d/) ⭐️ 3.0/10
+## [HN Monthly Hiring Thread: Diverse Roles, Remote Options](https://news.ycombinator.com/item?id=49522897) ⭐️ 7.0/10
 
-A Reddit user posted a request on r/MachineLearning asking for examples of well-designed machine learning or computer vision posters to inspire their own poster for ECCV 2026. The post is a simple, low-scored inquiry with no technical depth. This post highlights the practical need for effective poster design in academic conferences, which can significantly impact how research is communicated and received. Although the post itself is low priority, it reflects a common challenge for researchers preparing for major conferences like ECCV. The user specifically mentions ECCV 2026, a major computer vision conference, indicating a forward-looking timeline. The request is generic, asking for 'cool examples' without specifying any particular style, topic, or format, which may limit the usefulness of responses.
+The September 2026 'Who is hiring?' thread on Hacker News has been posted, featuring job listings from companies like Pagelove, Relativity Space, Trustworthy Technology, and Fastly. Positions range from founding software engineer to senior/principal roles, with remote and onsite options. This monthly thread is a cornerstone for the HN community, connecting job seekers with startups and established tech companies. It reflects current hiring trends, including remote work flexibility and a focus on AI-native technologies and space manufacturing. The thread includes specific salary ranges, such as $110k–$130k for Pagelove and $154k–$230k for Relativity Space. It also provides links to third-party search tools like nthesis.ai and hnjobs.emilburzo.com, and reminds users to follow posting guidelines.
 
-reddit · r/MachineLearning · /u/National-Resident244 · Aug 31, 10:04
+hackernews · whoishiring · Sep 1, 15:01
 
-**Background**: Academic conferences like ECCV (European Conference on Computer Vision) often require researchers to present their work as posters. A well-designed poster can effectively convey complex ideas visually, aiding in networking and feedback. However, many researchers struggle with poster design, leading to requests for examples and best practices.
+**Background**: Hacker News is a popular technology community where monthly 'Who is hiring?' threads allow companies to post job openings directly. These threads are known for their high-quality listings and community engagement, often featuring startups and remote-friendly positions.
 
-**Tags**: `#machine learning`, `#posters`, `#conference`, `#computer vision`
+**Discussion**: The comments show a mix of companies, from early-stage startups like Pagelove offering equity to established firms like Fastly with global reach. There is a positive tone, with companies highlighting their missions and benefits, and no complaints or off-topic remarks.
+
+**Tags**: `#hiring`, `#jobs`, `#remote work`, `#startups`, `#community`
+
+---
+
+<a id="item-17"></a>
+## [Wrapture: New Python Library for Tracing and Testing](https://simonwillison.net/2026/Aug/31/introducing-wrapture/) ⭐️ 7.0/10
+
+Graham Dumpleton, creator of wrapt, has released Wrapture, a new Python library that extends wrapt's monkeypatching to enable tracing and overriding of functions for testing and observability. It includes OpenTelemetry support and a configuration-based mechanism for adding tracing to existing projects. Wrapture offers a potential alternative to unittest.mock for testing and provides a powerful way to add observability to code you don't control. It could simplify tracing and testing workflows for Python developers, especially in large or legacy codebases. Wrapture is a very young project, just a few weeks old, and is Graham's first large entirely agent-driven project, with all code and documentation written by an AI assistant under his direction. It supports configuration-based tracing via a TOML file and includes OpenTelemetry support.
+
+rss · Simon Willison · Aug 31, 23:59
+
+**Background**: Monkeypatching is a technique in Python where code is modified at runtime to change behavior, often used for testing or adding features. wrapt is a library that provides transparent object proxies and function wrappers, focusing on correctness. Wrapture builds on these ideas to allow tracing and overriding of functions without modifying the original code.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://pypi.org/project/wrapture/1.0.0a14/">wrapture · PyPI</a></li>
+<li><a href="https://simonwillison.net/2026/Aug/31/introducing-wrapture/">Introducing wrapture | Simon Willison’s Weblog</a></li>
+<li><a href="https://pythonbytes.fm/episodes/show/494/python-wrapture">Episode #494 Python Wrapture - Python Bytes Podcast</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Python`, `#Testing`, `#Tracing`, `#Monkeypatching`, `#Observability`
+
+---
+
+<a id="item-18"></a>
+## [uv 0.12.9 Adds CPython 3.15.0rc2 Support and Security Fix](https://github.com/astral-sh/uv/releases/tag/0.12.9) ⭐️ 6.0/10
+
+uv 0.12.9 was released on 2026-09-01, adding support for CPython 3.15.0rc2, new CLI flags --no-locked and --no-frozen, performance improvements for cold wheel installs, and a security fix for a memory-safety issue in async_http_range_reader. This release is significant for Python developers using uv as it ensures compatibility with the latest CPython release candidate and addresses a potential security vulnerability when installing untrusted wheels. The performance improvements and new CLI flags enhance usability and efficiency for daily workflows. The security fix updates async_http_range_reader to 0.11.1 to address a potential memory-safety issue when reading metadata ranges from untrusted wheels. Additionally, the release adds --no-locked and --no-frozen flags to override UV_LOCKED and UV_FROZEN environment variables for a single invocation, and improves cold wheel installs by extracting streaming ZIP archives in a single blocking task with buffer reuse.
+
+github · astral-automations-bot[bot] · Sep 1, 21:58
+
+**Background**: uv is a fast Python package and project manager written in Rust, known for its speed and reliability. It manages Python versions, dependencies, and virtual environments. The release includes a security fix for a memory-safety issue in the async_http_range_reader library, which is used for reading remote wheel files. The new CLI flags provide more control over lock file behavior, which is important for CI/CD pipelines and reproducible builds.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/prefix-dev/async_http_range_reader/issues/14">Please consider supporting the current release of async _zip · Issue ...</a></li>
+<li><a href="https://githubissues.com/astral-sh/uv/4993">uv requires Content-Length Header on wheels, breaking... - Githubissues</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#uv`, `#python`, `#release`, `#performance`, `#security`
+
+---
+
+<a id="item-19"></a>
+## [YOLO26 Depth Backbone Repurposed for Image Deraining](https://www.reddit.com/r/MachineLearning/comments/1w4fxln/yolo26rgb_repurposing_yolo26s_depthtrained/) ⭐️ 6.0/10
+
+A new model, YOLO26-RGB, repurposes the depth-trained backbone and neck of YOLO26 for image deraining, replacing the depth head with a custom RGBHead. Controlled experiments show that initializing from the depth checkpoint improves average PSNR by +0.48 dB and SSIM by +0.006 over random initialization, winning on all 10 test sets. This work demonstrates that depth-estimation pretraining can transfer to other dense regression tasks like image deraining, offering a new pretraining strategy for restoration models. It also provides competitive deraining models (nano and small) that outperform similar-sized UNet baselines, potentially benefiting the broader computer vision community. The architecture reuses YOLO26's CSPDarknet backbone and PAN-FPN neck, with a new RGBHead that includes a reconstruction tail to full resolution, skip connections from stride-2 and stride-4 layers, and residual output. The nano model has 5.25M parameters and achieves 30.83 dB average PSNR on 9 rain-only test sets, while the small model has 12.13M parameters and achieves 30.95 dB.
+
+reddit · r/MachineLearning · /u/Naive-Explanation940 · Sep 1, 15:52
+
+**Background**: YOLO26 is an object detection model that also provides a depth-estimation variant, which performs dense per-pixel regression. Image deraining is a dense regression task that requires pixel-exact output, making it architecturally similar to depth estimation. Transfer learning from a pretrained backbone can provide a better starting point than random initialization, especially when the source task is related to the target task.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.emergentmind.com/topics/cspdarknet-53">CSPDarknet -53 CNN Backbone</a></li>
+<li><a href="https://deepwiki.com/bubbliiiing/yolov5-pytorch/2.2-backbone-networks">Backbone Networks | bubbliiiing/yolov5-pytorch | DeepWiki</a></li>
+<li><a href="https://www.researchgate.net/figure/Neck-structure-of-YOLOv8-PAN-FPN_fig6_383381309">Neck structure of YOLOv8: PAN - FPN . | Download Scientific Diagram</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#transfer learning`, `#image deraining`, `#YOLO`, `#computer vision`, `#deep learning`
+
+---
+
+<a id="item-20"></a>
+## [Are HMMs Still Relevant for Unsupervised Dataset Exploration?](https://www.reddit.com/r/MachineLearning/comments/1w45lej/are_hmms_still_used_for_unsupervised_tasks_d/) ⭐️ 6.0/10
+
+A Reddit user asked whether Hidden Markov Models (HMMs) are still used for unsupervised dataset exploration, sparking a discussion about their relevance compared to modern deep learning methods. This question matters because many practitioners are deciding whether to invest in classical models like HMMs or adopt newer deep learning approaches for exploratory data analysis. The answer affects tool selection and methodology in unsupervised learning projects. The user specifically mentions using HMMs as a baseline for dataset exploration on unstructured, unannotated data. The discussion likely covers alternatives like autoencoders, clustering, and contrastive learning, while noting HMMs' strengths in sequential data and interpretability.
+
+reddit · r/MachineLearning · /u/fullgoopy_alchemist · Sep 1, 08:15
+
+**Background**: Hidden Markov Models (HMMs) are statistical models that assume a system is a Markov process with unobserved (hidden) states. They have been widely used for sequential data like speech, genomics, and activity recognition. Unsupervised learning aims to find patterns in unlabeled data, and while deep learning methods like autoencoders and transformers have become popular, classical models like HMMs remain useful for certain tasks, especially when interpretability and small data are important.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Unsupervised_learning">Unsupervised learning - Wikipedia</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/37403598/">Dissecting unsupervised learning through hidden Markov modeling ...</a></li>
+<li><a href="https://www.wevolver.com/article/what-is-unsupervised-learning">What Is Unsupervised Learning ? Types, Algorithms, and Examples...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The community discussion is not provided, but based on typical Reddit threads, users might share experiences with HMMs in specific domains, debate their interpretability vs. deep learning performance, and suggest hybrid approaches.
+
+**Tags**: `#HMM`, `#unsupervised learning`, `#deep learning`, `#dataset exploration`
+
+---
+
+<a id="item-21"></a>
+## [Ambient CSS v3: Blender Meets CSS, but Community Criticizes Implementation](https://ambientcss.vercel.app/) ⭐️ 5.0/10
+
+Ambient CSS v3 is a CSS library that introduces 3D ambient lighting effects to web elements, aiming to bring Blender-like lighting to the web. The project is hosted at ambientcss.vercel.app and has generated active community discussion. This project explores a novel direction for CSS, potentially enabling more immersive and realistic web interfaces without heavy JavaScript or WebGL. However, its mixed reception highlights the gap between experimental CSS techniques and practical, well-designed user experiences. Community members point out several technical flaws: the light direction governs the entire grid but stops outside an arbitrary div and often stops working, the effect feels laggy, and color channels are messed up. The example doesn't seem to work, and the glass colors and textures are criticized as ugly or non-functional.
+
+hackernews · kikkupico · Sep 1, 15:35 · [Discussion](https://news.ycombinator.com/item?id=49523387)
+
+**Background**: Ambient CSS is a technique that uses CSS properties like background-color and box-shadow to simulate ambient lighting on web elements. Traditional CSS lacks native 3D lighting, so such effects often require JavaScript or WebGL. This project attempts to bring 3D lighting to CSS alone, but its implementation and design choices have drawn criticism.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.tutorialpedia.org/blog/material-shadow-key-and-ambient-css/">Mastering Material Shadow Key and Ambient CSS — tutorialpedia.org</a></li>
+<li><a href="https://cssforge.dev/gallery/ambient">Ambient CSS Effects - 3 Free Presets - CSS Forge</a></li>
+<li><a href="https://ambientcg.com/">ambientCG - Free Textures, HDRIs and Models</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community sentiment is largely negative, with users criticizing the design aesthetics, technical implementation, and usability. Some note that the effect feels laggy and the light direction behaves inconsistently, while others point out that similar effects were done in the Web 2.0 era with PNGs and GIFs, questioning the novelty. A few suggest improvements like using perspective and translate3d for elevation.
+
+**Tags**: `#CSS`, `#3D`, `#web development`, `#library`
+
+---
+
+<a id="item-22"></a>
+## [First AAMAS Submission: How Much Theory Is Enough When Experiments Go Sideways?](https://www.reddit.com/r/MachineLearning/comments/1w4lj1j/first_a_submission_aamas_how_much_theory_is/) ⭐️ 5.0/10
+
+A second-year PhD student posted on Reddit seeking advice on how much formal theory is expected for an AAMAS submission, after their experiments only partially supported their hypothesis and they suspect they fell into HARKing. They also discovered hidden parameters set to wrong values in their codebase, prompting a full re-run of experiments. This question highlights a common dilemma in empirical MARL research: balancing theoretical rigor with experimental results. The advice given could help many early-career researchers navigate similar challenges in top-tier AI conferences. The student's hypothesis involved robustness ordering under perturbation, but results showed boundary conditions. They are considering whether training-dependent theory is acceptable or if they should target a lower-tier venue. The codebase is based on an undocumented public repo with incorrect hidden parameters.
+
+reddit · r/MachineLearning · /u/ham_bam0 · Sep 1, 19:02
+
+**Background**: AAMAS is the flagship conference for autonomous agents and multiagent systems, organized by IFAAMAS. HARKing (Hypothesizing After Results are Known) is considered unethical in many research communities because it can mislead readers about the confirmatory nature of findings. In empirical papers, reviewers often expect a balance between theoretical motivation and experimental validation.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://cyprusconferences.org/aamas2026/submission-instructions/">Submission Instructions (Main Technical Track) | AAMAS</a></li>
+<li><a href="https://warwick.ac.uk/fac/sci/dcs/aamas2027/">AAMAS 2027</a></li>
+<li><a href="https://en.wikipedia.org/wiki/HARKing">HARKing - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#research`, `#AAMAS`, `#theory`, `#HARKing`, `#PhD`
+
+---
+
+<a id="item-23"></a>
+## [Tarn Adams Jokes 'Dwarf AI' Now Called 'Dwarf Behavior'](https://simonwillison.net/2026/Sep/1/tarn-adams/) ⭐️ 4.0/10
+
+In a recent interview with PC Gamer, Tarn Adams, co-creator of Dwarf Fortress, humorously remarked that he can no longer use the term 'dwarf AI' and must instead say 'dwarf behavior' due to industry sensitivity around AI terminology. The quote was shared on Simon Willison's blog on September 1, 2026. This comment highlights a growing trend in the tech and gaming industries where the term 'AI' has become loaded, leading developers to avoid it even when describing legitimate game mechanics. It reflects broader concerns about AI hype and its impact on professional discourse. The quote comes from a PC Gamer article where Adams also criticized industry layoffs and CEOs. Adams has been developing Dwarf Fortress since 2002 with his brother Zach, and the game is known for its complex simulation of dwarf behavior.
+
+rss · Simon Willison · Sep 1, 17:01
+
+**Background**: Dwarf Fortress is a highly complex simulation game where dwarves exhibit emergent behaviors driven by underlying AI systems. The term 'AI' has become controversial in recent years due to the rise of generative AI and associated hype, leading some professionals to avoid it to prevent misunderstandings or negative connotations.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.pcgamer.com/games/sim/dwarf-fortress-creator-is-so-tired-of-hearing-about-ai-press-a-button-and-it-writes-a-really-sh-tty-wrong-essay-about-something-and-they-still-take-your-job/">Dwarf Fortress' creator is so tired of hearing about AI ... | PC Gamer</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tarn_Adams">Tarn Adams - Wikipedia</a></li>
+<li><a href="https://lemmy.world/post/51390910">Dwarf Fortress ' creator says the industry's in shambles over AI and...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI`, `#game-design`, `#Dwarf Fortress`, `#terminology`
 
 ---
