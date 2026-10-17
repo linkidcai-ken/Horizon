@@ -5,449 +5,362 @@ date: 2026-10-17
 lang: en
 ---
 
-> From 19 items, 18 important content pieces were selected
+> From 18 items, 15 important content pieces were selected
 
 ---
 
-1. [Tesla Roadster Adds Cold-Gas Thrusters and Optional Rocket Engines](#item-1) ⭐️ 8.0/10
-2. [Claude traces NIST ECDSA curve seeds to 1990s lrand48 RNG](#item-2) ⭐️ 8.0/10
-3. [PS5LM runs GGUF LLMs natively on jailbroken PS5 via llama.cpp](#item-3) ⭐️ 8.0/10
-4. [Transformers Explained Through Associative Memory](#item-4) ⭐️ 8.0/10
-5. [JPEG XL vs. AVIF: A Detailed Web Image Codec Comparison](#item-5) ⭐️ 8.0/10
-6. [Mercor: 90% of US Work Hours Lack AI Benchmark Coverage](#item-6) ⭐️ 8.0/10
-7. [Home Assistant Secret Scanning Sends Hashed Passwords Without Opt-In](#item-7) ⭐️ 8.0/10
-8. [37-Year-Old OpenBSD Kernel Bug Exploited for Root Access](#item-8) ⭐️ 8.0/10
-9. [ORL and dlmrt push diffusion LLMs to 2,788 tokens/s on one RTX 5090](#item-9) ⭐️ 8.0/10
-10. [Waymo Expands Autonomous Ride-Hailing to Toronto](#item-10) ⭐️ 7.0/10
-11. [Apple MLX Runs Trillion-Parameter Muse Spark Open on Four Mac Studios](#item-11) ⭐️ 7.0/10
-12. [Anthropic's Claude Code team reveals AI-driven code review process](#item-12) ⭐️ 7.0/10
-13. [Rust framework DenseCore trains nanoGPT bit-for-bit identical to PyTorch](#item-13) ⭐️ 7.0/10
-14. [eBay Restricts Radio Equipment Listings, Exempts Ham-Band-Only Gear](#item-14) ⭐️ 6.0/10
-15. [Reviewer asks peers: do you run your peer review through an AI?](#item-15) ⭐️ 6.0/10
-16. [/dev/null: A New Social Network for Developers](#item-16) ⭐️ 5.0/10
-17. [Researcher desk-rejected by ICLR over half-sentence page overflow](#item-17) ⭐️ 5.0/10
-18. [Reddit User Laments ICLR Desk Rejection After Reviewing Paper](#item-18) ⭐️ 4.0/10
+1. [DeepSeek Releases V4.1-Flash-1017 with Strong Coding Benchmarks](#item-1) ⭐️ 8.0/10
+2. [Estonia Open-Sources i-Voting System Code, Sparking Security Debate](#item-2) ⭐️ 8.0/10
+3. [Solar generation surpasses nuclear power globally for the first time](#item-3) ⭐️ 8.0/10
+4. [Bleached corals recover rapidly when touching healthy clonemates](#item-4) ⭐️ 7.0/10
+5. [Pele Converts Mermaid Diagrams into Themeable SVG](#item-5) ⭐️ 7.0/10
+6. [Small dam removals revive fish populations across the northeastern US](#item-6) ⭐️ 6.0/10
+7. [Substack post makes chicken transparent using Dorito dust](#item-7) ⭐️ 6.0/10
+8. [Reddit user benchmarks 17 AIs over 7,700 poker hands](#item-8) ⭐️ 6.0/10
+9. [EpochGo: Local-first AutoML with offline Ollama LLMs and deterministic Scikit-Learn pipelines](#item-9) ⭐️ 6.0/10
+10. [Gold Becomes Top U.S. Export Amid Global Demand and Refining Bottlenecks](#item-10) ⭐️ 5.0/10
+11. [Blogger recounts Japanese naturalization, HN questions inconsistencies](#item-11) ⭐️ 5.0/10
+12. [Interactive 3D Visualization Explains AI Agent Internals](#item-12) ⭐️ 5.0/10
+13. [Reddit post highlights unusually honest ICLR submission](#item-13) ⭐️ 4.0/10
+14. [Master's grad asks if self-funding a NeurIPS workshop trip is worth it](#item-14) ⭐️ 3.0/10
+15. [NeurIPS attendee asks if staying for workshops without registration is worthwhile](#item-15) ⭐️ 3.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Tesla Roadster Adds Cold-Gas Thrusters and Optional Rocket Engines](https://www.tesla.com/roadster) ⭐️ 8.0/10
+## [DeepSeek Releases V4.1-Flash-1017 with Strong Coding Benchmarks](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017) ⭐️ 8.0/10
 
-Tesla unveiled a new Roadster that uses cold-gas thrusters for extra acceleration and offers an invite-only mode with real combustion rocket engines, as shown in a demo video and Twitter post. The announcement claims a 0-60 mph time of 1.1 seconds and includes stunts like vertical driving and ceiling sticking. This is a significant engineering achievement that merges spacecraft propulsion with electric vehicles, potentially redefining performance car capabilities and sparking debate about the feasibility and economics of such extreme features. It affects the EV industry, automotive engineering, and Tesla's brand as a leader in unconventional innovation. Cold-gas thrusters use pressurized inert gas for thrust without combustion, offering lower efficiency but simpler and cheaper operation, while the combustion rocket engines are more powerful but likely limited by fuel capacity and regulatory hurdles. The system may provide only seconds of thrust before recharge, and the rocket mode is invite-only, suggesting high cost and exclusivity.
+DeepSeek released DeepSeek-V4.1-Flash-1017, an October 17, 2026 snapshot of its V4.1-Flash model, which the company describes as a minor update delivering substantial improvements in reasoning, coding, and agentic tasks. According to DeepSeek's news page, the new version beats Sol 5.6 on 10 out of 11 coding benchmarks while offering faster task completion and shorter outputs. This release reinforces the trend of open models closing the gap with proprietary frontier systems on practical coding and agentic workloads, giving developers a faster and more transparent alternative. It could shift adoption among teams that prioritize speed, cost, and openness over raw benchmark leadership. The model is a multimodal Mixture-of-Experts (MoE) with 552B backbone parameters and support for contexts up to one million tokens, available via DeepSeek's API, OpenRouter, and Ollama's cloud library. However, community testing showed mixed real-world results: one user found it took 20 minutes to surface relevant issues in a large C++ codebase review, compared with about 5 minutes for GPT-5.6 Sol.
 
-hackernews · shekhar101 · Oct 16, 01:32 · [Discussion](https://news.ycombinator.com/item?id=50112657)
+hackernews · theykk · Oct 17, 08:21 · [Discussion](https://news.ycombinator.com/item?id=50129045)
 
-**Background**: Cold-gas thrusters are the simplest form of rocket engine, using expanding pressurized gas for thrust, commonly used in spacecraft like CubeSats for attitude control. Tesla's Roadster aims to adapt this technology for a car, which is challenging due to the need for heavy tanks and limited gas storage, as well as safety and regulatory concerns.
+**Background**: DeepSeek is a Chinese AI lab known for releasing open-weight models that compete with proprietary systems from OpenAI and Anthropic. Coding benchmarks are standardized tests used to compare LLMs on programming tasks, though researchers caution that benchmark scores do not always reflect real-world performance. OpenRouter is a model routing platform that provides a single API endpoint for accessing hundreds of models from many providers.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Cold_gas_thruster">Cold gas thruster</a></li>
-<li><a href="https://www.explainx.ai/blog/tesla-flying-roadster-cold-gas-thrusters-how-it-works-what-was-shown-2026">Tesla's Flying Roadster: What Was Shown, How Cold-Gas ...</a></li>
-<li><a href="https://cellcog.ai/blog/tesla-roadster-physics/">Tesla Roadster Physics: Thrusters and Suction, Animated | CellCog</a></li>
+<li><a href="https://api-docs.deepseek.com/news/news261017/">DeepSeek - V 4 . 1 - Flash - 1017 : Wish-Driven Programming Made Real</a></li>
+<li><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek V 4 . 1 Flash 1017 - API Pricing & Benchmarks | OpenRouter</a></li>
+<li><a href="https://ollama.com/library/deepseek-v4.1-flash:1017-cloud">deepseek - v 4 . 1 - flash : 1017 -cloud</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments show a mix of awe at the engineering feat and skepticism about its practicality and economics, with concerns about limited thrust duration, the high cost of rocket engines, and Tesla's business model of taking large deposits for a car that may never be produced. Some question the relevance to a sellable product and the ethics of asking for years of deposits.
+**Discussion**: Hacker News commenters largely praised DeepSeek's speed, low time-to-first-token, and openness, with one noting that being able to see the chain-of-thought and avoid arbitrary content blocks makes it feel better than proprietary rivals. Others framed the release as evidence of why a diverse model ecosystem matters, while a hands-on comparison found GPT-5.6/6.1 Sol still faster and more accurate on a real code review task.
 
-**Tags**: `#Tesla`, `#electric vehicles`, `#engineering`, `#spacecraft thrusters`, `#hackernews`
+**Tags**: `#DeepSeek`, `#LLM`, `#AI benchmarks`, `#open models`, `#coding agents`
 
 ---
 
 <a id="item-2"></a>
-## [Claude traces NIST ECDSA curve seeds to 1990s lrand48 RNG](https://www.anthropic.com/research/ecdsa-curve-origins) ⭐️ 8.0/10
+## [Estonia Open-Sources i-Voting System Code, Sparking Security Debate](https://github.com/valimised/ivxv) ⭐️ 8.0/10
 
-Anthropic announced that its AI model Claude discovered the origins of the NIST elliptic curve seeds (P-192, P-224, P-256, P-384, and P-521) by identifying that they were generated using the C library's lrand48 random-number generator seeded with Unix timestamps, solving a 25-year-old cryptographic puzzle. This finding resolves a long-standing mystery about the provenance of widely used cryptographic curves, potentially easing concerns about deliberate backdoors, and demonstrates AI's ability to tackle complex cryptographic problems that have stumped humans for decades. Claude found that the seeds were not produced by any hash algorithm but by lrand48 seeded with Unix timestamps; however, the fifth binary seed B-163 remains unexplained, possibly due to a typo, and the method does not rule out that the curves were selected for specific properties by searching over timestamps.
+Estonia has published the source code of its national i-voting system, IVXV, on GitHub, making the full implementation available for public scrutiny. This move is part of Estonia's long-standing commitment to transparency in electronic voting, which it has used since 2005. The open-sourcing of a national i-voting system is a significant transparency milestone that allows security researchers worldwide to audit the code, potentially increasing trust in e-voting. It also sets a precedent for other countries considering internet voting, highlighting both the benefits and challenges of such systems. The IVXV system relies on Estonia's national ID card, Mobile-ID, or Smart-ID for voter authentication, and includes individual verifiability so voters can confirm their vote was recorded. However, experts note that software alone cannot guarantee election security, and end-to-end verifiability remains a topic of debate.
 
-hackernews · ahlCVA · Oct 16, 18:55 · [Discussion](https://news.ycombinator.com/item?id=50122800)
+hackernews · theanonymousone · Oct 17, 03:18 · [Discussion](https://news.ycombinator.com/item?id=50127586)
 
-**Background**: ECDSA is the most widely used elliptic curve cryptography standard, adopted by NIST in 2000 as part of FIPS 186-2. The standard specifies curves over prime and binary fields, and for each curve, a seed is hashed with SHA-1 to derive parameters. The origin of these seeds was unknown for 25 years, leading to speculation about potential NSA involvement. lrand48 is a pseudo-random number generator from the C standard library that produces 48-bit values.
+**Background**: Estonia has been a pioneer in internet voting, using it in national elections since 2005 and becoming the first country to allow online voting in parliamentary elections in 2007. The i-voting system allows citizens to cast votes from anywhere using their secure digital identity. The source code release aims to increase transparency and allow independent verification of the system's security.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://words.filippo.io/seeds-solved/">The NIST Elliptic Curves Seeds Bounty Has Been Claimed</a></li>
-<li><a href="https://www.anthropic.com/research/ecdsa-curve-origins">Claude reveals ECDSA curve origins \ Anthropic</a></li>
-<li><a href="https://runtimewire.com/article/claude-traces-nist-ecdsa-seeds-to-timestamps">Claude traces NIST's ECDSA curve seeds to 1990s timestamps</a></li>
+<li><a href="https://www.valimised.ee/en/internet-voting/more-about-i-voting/introduction-i-voting">Introduction to i - voting | Elections in Estonia</a></li>
+<li><a href="https://grokipedia.com/page/Online_voting_security">Online voting security</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed amazement and humor about the discovery, with some noting that it confirms the generation method but not the selection process, as discarded candidates are invisible. Others praised Anthropic for donating the bounty to ISRG, and one suggested the unexplained B-163 seed might be due to a typo.
+**Discussion**: Commenters on Hacker News debated the security and trust implications of i-voting. Some, like cryptonector, argued that software alone cannot secure elections and emphasized the need for statistical sampling and post-election verification. Estonian users shared mixed feelings: kuratkull noted widespread acceptance and trust, while AndroTux expressed concern about what happens if trust erodes. Others pointed to existing verifiable systems like ElectionGuard as evidence that secure e-voting is possible.
 
-**Tags**: `#cryptography`, `#ECDSA`, `#NIST curves`, `#AI discovery`, `#random number generation`
+**Tags**: `#e-voting`, `#security`, `#open-source`, `#elections`, `#Estonia`
 
 ---
 
 <a id="item-3"></a>
-## [PS5LM runs GGUF LLMs natively on jailbroken PS5 via llama.cpp](https://github.com/cobanov/PS5LM) ⭐️ 8.0/10
+## [Solar generation surpasses nuclear power globally for the first time](https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/) ⭐️ 8.0/10
 
-A new open-source project called PS5LM (hosted at github.com/cobanov/PS5LM) enables native execution of GGUF-format large language models on a jailbroken PlayStation 5 using llama.cpp. It demonstrates that the console's custom AMD APU can serve as a functional, low-cost LLM inference device. This shows that locked-down consumer hardware can be repurposed into general-purpose AI compute, potentially giving hobbyists and researchers a cheap alternative to dedicated GPUs for local inference. It also highlights the growing trend of running LLMs on unconventional devices, from single-board computers to game consoles. The project relies on llama.cpp and the GGUF format, which packages quantized model weights, tokenizer, and metadata into a single file. Community reports suggest it can run models like Qwen 3.8 27B at 2-bit quantization, and similar hardware such as the AMD BC250 mining card may also work.
+Global solar electricity generation has surpassed nuclear power for the first time, with solar capacity growing 27% year-on-year to 2,383 GW while nuclear capacity barely increased. Wind is also on the verge of overtaking nuclear output. This milestone signals a major shift in the global energy mix, highlighting the rapid deployment of renewables and the stagnation of nuclear power. It affects energy policy, investment, and climate strategies worldwide. Solar's capacity factor is much lower than nuclear's (typically 20-30% vs. ~90%), but its rapid growth has allowed it to lead in actual generated terawatt-hours. The next milestone, solar overtaking hydroelectric generation, is several years away at current growth rates.
 
-hackernews · Anon84 · Oct 16, 18:32 · [Discussion](https://news.ycombinator.com/item?id=50122431)
+hackernews · xbmcuser · Oct 17, 14:01 · [Discussion](https://news.ycombinator.com/item?id=50131256)
 
-**Background**: llama.cpp is an open-source library for running large language models locally, co-developed with the GGML tensor library, and is widely used by tools like Ollama and LM Studio. GGUF is a single-file format designed for quantized models, reducing memory usage and increasing speed at some cost to accuracy. Jailbreaking a PS5 exploits security flaws to allow unsigned code execution, turning the console into a general-purpose computer.
+**Background**: Capacity factor measures how often a power plant runs at full capacity; nuclear plants run almost continuously, while solar only produces during daylight. Despite this, solar's installed capacity has grown so fast that its total output now exceeds nuclear's. This shift reflects years of declining solar costs and policy support for renewables.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Llama.cpp">Llama.cpp</a></li>
-<li><a href="https://en.wikipedia.org/wiki/GGUF">GGUF - Wikipedia</a></li>
-<li><a href="https://www.techspot.com/news/114037-new-ps5-jailbreak-works-almost-every-firmware-version.html">A new PS5 jailbreak works on almost every firmware version ...</a></li>
+<li><a href="https://news.ycombinator.com/item?id=21035212">Solar across ANY area has intermittency issues. | Hacker News</a></li>
+<li><a href="https://www.statista.com/statistics/183680/us-average-capacity-factors-by-selected-energy-source-since-1998/">Capacity factor by energy source 2024 US | Statista</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters were impressed by the technical feat, with some suggesting the project should be hosted outside GitHub to avoid a potential Sony takedown. Others highlighted practical uses like long-running monitoring tasks and speculated that similar hardware such as the AMD BC250 could work, while one commenter imagined LLM-powered NPCs becoming standard in games.
+**Discussion**: Commenters noted that this is based on actual generated terawatt-hours, not capacity, and highlighted solar's rapid growth. Some lamented nuclear's stagnation, while others emphasized the need to accelerate clean energy to replace all fossil fuels, not just electricity.
 
-**Tags**: `#llama.cpp`, `#PS5`, `#hardware hacking`, `#local LLM`, `#GGUF`
+**Tags**: `#energy`, `#solar`, `#nuclear`, `#renewables`, `#climate`
 
 ---
 
 <a id="item-4"></a>
-## [Transformers Explained Through Associative Memory](https://alexwang.ai/posts/associative-memory/) ⭐️ 8.0/10
+## [Bleached corals recover rapidly when touching healthy clonemates](https://www.nature.com/articles/d41586-026-03266-x) ⭐️ 7.0/10
 
-A blog post by Alex Wang argues that transformers can be understood from first principles as associative memory systems, building the intuition from linear algebra up to modern LLMs. The article sparked community discussion connecting transformers to Hopfield networks and clarifying how keys and values map to tokens in an LLM's context. This kind of accessible mathematical explanation helps engineers and students build genuine intuition for why attention works, rather than treating transformers as a black box. It also strengthens the theoretical bridge between classical associative memory research and modern deep learning, which matters as LLMs become central to the industry. The article builds the connection from associative memory to transformers step by step, and commenters noted that transformers are so effective at memorization that they need only a single step to retrieve a suitable memory, unlike vanilla Hopfield networks which require multiple iterative steps. One commenter also asked for clarification on what the values represent in an LLM, since keys correspond to context tokens but values are less obvious.
+A new study, reported by Nature, shows that bleached coral fragments can fully recover within days when placed in direct contact with a healthy, unbleached neighbor from the same genetic colony (genet). The finding provides a repeatable demonstration of symbiont transfer between clonemates. This discovery sheds light on a potential recovery mechanism for bleached corals and could inform reef restoration strategies, though its applicability is limited to clonal fragments. It also advances understanding of the adaptive bleaching hypothesis and symbiont shuffling. The recovery occurred only between fragments of the same genetic individual (clonemates), not between genetically distinct corals, and the mechanism likely involves direct cell-to-cell transfer of zooxanthellae. The study was conducted in a laboratory setting, so reef-scale effectiveness remains unproven.
 
-hackernews · speckx · Oct 16, 19:01 · [Discussion](https://news.ycombinator.com/item?id=50122878)
+hackernews · alkyon · Oct 16, 23:38 · [Discussion](https://news.ycombinator.com/item?id=50126253)
 
-**Background**: A Hopfield network is a form of recurrent neural network that acts as a content-addressable memory: patterns are stored via Hebbian learning and recalled by iteratively updating neurons until the network settles into a stable energy minimum corresponding to a stored pattern. Transformers, introduced in the 2017 paper "Attention Is All You Need," are the dominant architecture for modern LLMs and rely on attention mechanisms rather than recurrence. Researchers have shown that the attention operation in transformers is mathematically equivalent to a modern Hopfield network update, which is the key insight this article popularizes.
+**Background**: Corals are colonial animals that live in symbiosis with photosynthetic algae called zooxanthellae, which provide them with nutrients and give them their color. When stressed by heat, corals expel these algae—a process called bleaching—which can lead to starvation and death if prolonged. Bleached corals are not dead and can reacquire algae, sometimes selecting different, more heat-tolerant species, a phenomenon known as the adaptive bleaching hypothesis.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Hopfield_network">Hopfield network</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Modern_Hopfield_Network">Modern Hopfield network - Wikipedia</a></li>
-<li><a href="https://huggingface.co/blog/Esmail-AGumaan/attention-is-all-you-need">Transformers</a></li>
+<li><a href="https://lab.bluehub.jp/en/coral-zooxanthellae-symbiosis/">Coral and Zooxanthellae Symbiosis Explained: The Mechanism of ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely praised the article's accessible mathematical approach, with one noting that transformers only need one step to find a suitable memory compared to multiple steps for a vanilla Hopfield network. Others appreciated the detail and illustrations, while one reader asked for clarification on what the values represent in an LLM's associative memory framing.
+**Discussion**: Commenters highlighted that the recovery only works between genetically identical clones, limiting its practical use, and noted that in severe bleaching events on the Great Barrier Reef, healthy neighbors are often absent over vast distances. Some questioned why this phenomenon wasn't observed earlier, while others pointed out that coral propagators and aquarium hobbyists may have already known about it.
 
-**Tags**: `#transformers`, `#associative-memory`, `#hopfield-networks`, `#LLM`, `#machine-learning`
+**Tags**: `#marine-biology`, `#coral-reefs`, `#science-news`, `#climate-change`, `#symbiosis`
 
 ---
 
 <a id="item-5"></a>
-## [JPEG XL vs. AVIF: A Detailed Web Image Codec Comparison](https://jakearchibald.com/2026/jpeg-xl-vs-avif/) ⭐️ 8.0/10
+## [Pele Converts Mermaid Diagrams into Themeable SVG](https://pele.run/) ⭐️ 7.0/10
 
-Jake Archibald published an in-depth comparison of JPEG XL and AVIF for web use-cases, evaluating compression efficiency, encoding speed, and visual quality. The post sparked a large community discussion with 183 upvotes and 142 comments on Hacker News, including practical encoding settings and critiques of both formats. This comparison is highly valuable for web developers and image processing engineers choosing next-generation image formats, as it highlights real-world trade-offs between compression, speed, and quality. The active community discussion provides practical encoding recipes and exposes limitations that could influence adoption decisions. The analysis notes that libjxl's maximum effort is extremely slow (9–46 seconds, 50–180x slower than default) for only 2–7% smaller files on photos, while AVIF can produce files 10x smaller with proper settings but may erase fine details like highlights. Community members also point out that JPEG XL's current encoders are suboptimal, with alternative encoders achieving 30–39% smaller lossless files.
+Pele is a lightweight library that renders Mermaid diagrams to SVG, allowing them to be themed using CSS variables. It was recently featured on Hacker News, where it received 183 upvotes and 19 comments. Pele addresses a common pain point in Mermaid's styling by enabling themeable SVG output, which can be easily embedded and customized in web applications. This is particularly useful for developers who want to integrate Mermaid diagrams into their projects with consistent theming and without relying on a full browser environment. Pele is open source and available on GitHub under the Obsidian organization. The community has noted that the Mermaid preview in Pele's playground is currently broken, and there are ongoing discussions about Mermaid's layout limitations.
 
-hackernews · farlight · Oct 16, 16:12 · [Discussion](https://news.ycombinator.com/item?id=50120224)
+hackernews · dchest · Oct 17, 15:55 · [Discussion](https://news.ycombinator.com/item?id=50132193)
 
-**Background**: JPEG XL and AVIF are both modern image formats aiming to replace JPEG and PNG on the web. AVIF is based on the AV1 video codec and offers high compression ratios, while JPEG XL is designed for progressive decoding and lossless recompression of existing JPEGs. Both are royalty-free and supported by different browsers, making the choice between them a key decision for web performance.
+**Background**: Mermaid is a popular open-source diagramming and charting tool that uses a markdown-like syntax to generate diagrams from text. It is widely used for creating flowcharts, sequence diagrams, and other visualizations in documentation and code. However, Mermaid's default layout engine often produces suboptimal results for complex diagrams, and styling options are limited. Pele aims to improve this by rendering Mermaid diagrams to SVG that can be themed with CSS variables, offering more control over appearance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://jpegxl.info/">JPEG XL : Superior Image Compression</a></li>
-<li><a href="https://www.contentful.com/blog/load-avif-webp-using-html/">What is an AVIF image ? The AVIF image format explained | Contentful</a></li>
+<li><a href="https://pele.run/">Pele · Mermaid diagrams as themeable SVG</a></li>
+<li><a href="https://mermaid.js.org/">Mermaid | Diagramming and charting tool</a></li>
+<li><a href="https://github.com/mermaid-js/mermaid/issues/6166">Architecture diagram - different layout rendering each time · Issue ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters highlighted that libjxl's slow speed at high effort levels is due to an iterative Butteraugli perceptual metric loop, and that better encoders like jixel achieve similar results much faster. Some criticized AVIF for erasing fine details like car highlights, while others shared ffmpeg settings for producing 10x smaller AVIF files with transparency support. A key point was that JPEG XL's current encoders are suboptimal, with alternative encoders yielding 30–39% smaller lossless files.
+**Discussion**: Community comments highlight frustration with Mermaid's layout for complex diagrams, with one user noting that styling is a trivial problem by comparison. Others point out that Pele's playground preview is broken and ask about open-source availability, which was confirmed with a GitHub link. A user also mentions that tools like Pele are valuable for AI integration, allowing Claude to edit and save diagrams in markdown files.
 
-**Tags**: `#image-compression`, `#web-performance`, `#jpeg-xl`, `#avif`, `#codecs`
+**Tags**: `#mermaid`, `#svg`, `#diagramming`, `#open-source`, `#visualization`
 
 ---
 
 <a id="item-6"></a>
-## [Mercor: 90% of US Work Hours Lack AI Benchmark Coverage](https://www.mercor.com/research/labor-index/benchmark-map/) ⭐️ 8.0/10
+## [Small dam removals revive fish populations across the northeastern US](https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679/) ⭐️ 6.0/10
 
-Mercor's Labor Index report maps existing AI benchmarks against O*NET occupational tasks and finds that roughly 90% of US working hours are spent on tasks with little or no benchmark coverage. The analysis also shows that tasks from higher-wage occupations are significantly overrepresented among benchmark prompts even after controlling for AI exposure. This finding challenges the assumption that strong benchmark scores translate into real-world workplace competence, since the tasks Americans actually spend their time on are largely unmeasured. It could push AI labs, evaluators, and policymakers to build benchmarks that better reflect the distribution of real work rather than a narrow slice of high-wage, AI-exposed tasks. The report uses O*NET task data and weights tasks by wage bills to estimate hours, and it notes that some categories counted as "well covered" may rest on only about a dozen prompts, which critics argue is far too few to represent the full scope of an occupation. The methodology also reveals a systematic bias toward tasks from occupations with larger wage bills.
+A Smithsonian Magazine article reports that removing small dams across the northeastern United States is restoring fish populations, particularly migratory species like alewives, by reconnecting fragmented river habitats. The piece highlights that these incremental removals, often overshadowed by large West Coast projects, are achieving significant ecological recovery one barrier at a time. This matters because dam removal is a proven river restoration tool that can reverse habitat fragmentation and boost migratory fish populations, with effects that extend beyond ecology to local economies and community resilience. The growing precedent of successful removals, including the 2025 agreement to sell four dams on the Kennebec River, suggests a scalable model for broader watershed recovery. The article focuses on low-head dams and small barriers in New England, where removal often leads to rapid stream recovery; however, challenges remain in downstream fish passage and in balancing restoration with other water needs as climate change alters snowmelt and rainfall patterns. Community comments also note that artificial seasonal flooding can create fish nurseries, and that the Klamath River basin in Oregon set an important precedent for such projects.
 
-hackernews · speckx · Oct 16, 17:08 · [Discussion](https://news.ycombinator.com/item?id=50121179)
+hackernews · sohkamyung · Oct 16, 23:47 · [Discussion](https://news.ycombinator.com/item?id=50126312)
 
-**Background**: O*NET is a free US Department of Labor database that describes hundreds of occupations in terms of their tasks, skills, and knowledge requirements, and it is widely used in labor economics and AI exposure research. AI benchmarks are standardized tests, such as coding or reasoning evaluations, used to compare model capabilities, but they cover only a small, curated set of tasks. Mercor is a research and data company that partners with major AI labs to build evaluation datasets and benchmarks.
+**Background**: Dams fragment rivers, blocking migratory fish like Atlantic salmon and alewives from reaching spawning grounds and altering downstream flow and sediment transport. Removing dams, especially small ones, can restore river connectivity and ecological function, but projects vary in scale and complexity. In the northeastern US, many dams are aging and no longer economically useful, making removal an attractive option for safety and ecological reasons.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.mercor.com/research/">Mercor Research | Frontier AI Training Data & Human Evaluation</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Occupational_Information_Network">Occupational Information Network - Wikipedia</a></li>
-<li><a href="https://www.dol.gov/agencies/eta/onet">O * NET | U.S. Department of Labor</a></li>
+<li><a href="https://e360.yale.edu/features/northeast-dam-removals">How Tearing Down Small Dams Is Helping Restore Northeast Rivers</a></li>
+<li><a href="https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2024.1471146/full">Editorial: Large-scale dam removal and ecosystem restoration</a></li>
+<li><a href="https://www.sierraclub.org/sierra/restoring-watersheds-one-dam-removal-time">Restoring Watersheds One Dam Removal at a Time | Sierra Club</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely agreed the gap is real and possibly understated, with one invoking the Doorman Fallacy to argue that automating a visible task can destroy hidden value, and another noting that "well covered" often just means "covered at all" by a handful of prompts. Others were more cynical, suggesting much work time goes to recurring meetings or that benchmark selection reflects a bias toward automating higher-wage jobs.
+**Discussion**: Commenters highlighted additional successes, such as a rewilding organization using artificial flooding to create fish nurseries and a 2025 agreement to sell four dams on the Kennebec River to restore Atlantic salmon passage. Others noted the Klamath River basin as a precedent and pointed to a better-laid-out version of the article, while one commenter raised concerns that warmer winters may make dams useful for water storage.
 
-**Tags**: `#AI benchmarks`, `#labor economics`, `#AI evaluation`, `#future of work`, `#O*NET`
+**Tags**: `#environment`, `#conservation`, `#rewilding`, `#dam removal`, `#ecology`
 
 ---
 
 <a id="item-7"></a>
-## [Home Assistant Secret Scanning Sends Hashed Passwords Without Opt-In](https://github.com/home-assistant/home-assistant.io/issues/49314) ⭐️ 8.0/10
+## [Substack post makes chicken transparent using Dorito dust](https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using) ⭐️ 6.0/10
 
-Home Assistant users discovered that the Supervisor's secret-scanning feature checks configured passwords against the Have I Been Pwned (HIBP) service by sending the first five characters of their SHA-1 hashes to a third party without explicit opt-in. A core maintainer, Frenck, acknowledged the dismissive response and clarified that the check can be disabled with `ha security options --pwned=false`, and that a recent release fixed the warning that surfaced the behavior. This incident raises significant privacy concerns for a widely-used open-source smart home platform that markets itself on local control and data ownership, potentially eroding user trust. It also highlights the broader tension between proactive security features and user consent in open-source projects. Only the first five characters of the SHA-1 hash are sent, which is a standard k-anonymity approach used by many password managers, but the feature was enabled by default and only recently surfaced via a warning. The check has been part of the Supervisor for years and applies to app options marked as passwords.
+A Substack post demonstrates that raw chicken breast can be made transparent by marinating it in Dorito dust, likely due to the dye tartrazine (Yellow 5) matching the refractive index of the tissue. This playful experiment highlights a real scientific technique called refractive index matching, which has been used in research to make mouse skin transparent, and it shows how everyday food ingredients can be used for surprising optical effects. The transparency effect depends on the dye's ability to match the refractive index of the chicken tissue, reducing light scattering; however, the method may require thin slices and specific concentrations, and the effect is likely temporary.
 
-hackernews · trvrprkr · Oct 16, 20:33 · [Discussion](https://news.ycombinator.com/item?id=50124251)
+hackernews · crescit_eundo · Oct 17, 13:55 · [Discussion](https://news.ycombinator.com/item?id=50131213)
 
-**Background**: Home Assistant is an open-source home automation platform that emphasizes local control and privacy. The Supervisor component manages add-ons and system settings, and it includes a security feature that checks passwords against the Have I Been Pwned breach database using a privacy-preserving hash prefix method. Users were unaware that this check was active by default, leading to a GitHub issue and community debate.
+**Background**: Refractive index matching is an optical technique where a substance with a similar refractive index to a material is applied to reduce light scattering, making the material appear transparent. In 2024, researchers discovered that tartrazine, a yellow dye used in Doritos, could make mouse skin transparent by matching the refractive index of skin components. This has sparked DIY experiments, such as the one with chicken breast, to explore the phenomenon outside the lab.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/home-assistant/home-assistant.io/issues/49314">I never authorized an integration that scans my secrets - GitHub</a></li>
-<li><a href="https://contributors.home-assistant.io/data/privacy/">Privacy principles | Home Assistant Contributors</a></li>
-<li><a href="https://www.home-assistant.io/integrations/analytics/">Analytics - Home Assistant Home Assistant Privacy Defaults: How to Harden Your Local ... I never authorized an integration that scans my secrets - GitHub I never authorized an integration that scans my secrets Best Practices for a Private Smart Home Privacy Policy - Home Assistant</a></li>
+<li><a href="https://www.popsci.com/science/dye-mice-transparent/">The dye in Doritos can make mice transparent | Popular Science</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community sentiment is mixed: some users strongly object to any data being sent without opt-in, even if hashed, while others acknowledge the security benefit but criticize the dismissive initial response. The maintainer apologized and provided a fix, and some commenters noted that similar HIBP checks are common in password managers.
+**Discussion**: Hacker News commenters found the experiment amusing, with one imagining a humorous origin story of someone accidentally discovering transparency while trying to make Dorito-flavored chicken. Others shared practical tips, such as lightly freezing the chicken to make thin slicing easier, and noted that Doritos in Europe don't contain tartrazine and must carry a warning label if they do.
 
-**Tags**: `#privacy`, `#security`, `#home-assistant`, `#open-source`, `#data-sharing`
+**Tags**: `#food science`, `#optics`, `#DIY experiment`, `#Hacker News`, `#curiosity`
 
 ---
 
 <a id="item-8"></a>
-## [37-Year-Old OpenBSD Kernel Bug Exploited for Root Access](https://calif.io/research/big-fish) ⭐️ 8.0/10
+## [Reddit user benchmarks 17 AIs over 7,700 poker hands](https://www.reddit.com/r/MachineLearning/comments/1x8j8kg/17_ais_7700_hands_of_poker_frontier_vs_cheap_vs/) ⭐️ 6.0/10
 
-Security firm Calif published a proof-of-concept exploit on October 16, 2026 that chains a 37-year-old integer overflow in OpenBSD's kernel with a use-after-free flaw to gain root privileges on OpenBSD 7.9. Both vulnerabilities have since been patched. This demonstrates that even OpenBSD, widely regarded as one of the most security-focused operating systems, can harbor critical bugs for decades despite heavy code auditing, highlighting the limits of manual review and the value of exploit-driven research. The main bug dates back roughly 37 years to the original BSD source code, and the exploit requires chaining two separate flaws—an integer overflow and a kernel use-after-free—to achieve local privilege escalation; both issues are now fixed in OpenBSD.
+A Reddit user on r/MachineLearning played 7,700 hands of poker against 17 different AI models to compare frontier, cheap, local, and Jev models. The experiment was shared as a community post with a link to the full results. This informal benchmark offers a practical, data-driven look at how models across different cost and deployment tiers perform in a strategic game, which can inform model selection for users balancing performance against price and privacy. It also highlights the growing interest in evaluating LLMs beyond standard NLP tasks. The comparison includes frontier models, cheaper API-based models, locally run models, and Jev, a proprietary discriminative model from TypeSafe AI that returns probability estimates rather than generated text. As a community experiment, it lacks the rigor of formal benchmarks like PokerBench, and the limited content provided (just a link) prevents deeper evaluation.
 
-hackernews · rs_rs_rs_rs_rs · Oct 16, 14:44 · [Discussion](https://news.ycombinator.com/item?id=50118977)
+reddit · r/MachineLearning · /u/Civil-Demand555 · Oct 17, 19:41
 
-**Background**: OpenBSD is a Unix-like operating system renowned for its security features and rigorous code review practices, often described as the most secure OS available. Kernel bugs like integer overflows and use-after-free errors can allow attackers to escalate privileges, and such flaws are typically found through fuzzing, static analysis, or manual auditing. The original BSD code from the 1980s still forms the basis of many modern Unix-like systems, so bugs in that legacy code can persist across decades.
+**Background**: Poker has become a popular testbed for evaluating LLM reasoning and decision-making under uncertainty, with benchmarks like PokerBench (2025) measuring how well models make strategic decisions against game-theory-optimal play. Frontier models generally refer to the most capable proprietary models from leading labs, while local models run on consumer hardware and cheap models are lower-cost API options. Jev is a newer discriminative model designed to output structured, probability-backed decisions for software consumption rather than natural language.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html">Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year ...</a></li>
-<li><a href="https://cybersecuritynews.com/37-year-old-kernel-openbsd-flaw/">37-Year-Old Kernel Flaw Exploited to Gain Root Access on ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/OpenBSD_security_features">OpenBSD security features - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Jev_(AI_model)">Jev (AI model)</a></li>
+<li><a href="https://arxiv.org/abs/2501.08328">[2501.08328] PokerBench: Training Large Language Models to ...</a></li>
+<li><a href="https://pokerbench.org/">Poker-Benchmark - Frontier LLM Poker Strategy Benchmark</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters noted that the bug was accidentally fixed in NetBSD during a code rewrite in August 1999, and questioned whether fuzzing or static analysis could realistically have found this class of bug or whether it required human insight into the exploit primitive. The discussion reflects admiration for the exploit and skepticism about relying solely on code review to catch deep kernel flaws.
-
-**Tags**: `#OpenBSD`, `#kernel`, `#security`, `#vulnerability`, `#exploit`
+**Tags**: `#AI benchmarking`, `#LLM comparison`, `#poker`, `#empirical evaluation`, `#community experiment`
 
 ---
 
 <a id="item-9"></a>
-## [ORL and dlmrt push diffusion LLMs to 2,788 tokens/s on one RTX 5090](https://www.reddit.com/r/MachineLearning/comments/1x7qgr0/research_2788_tokenss_on_a_single_rtx_5090_with_a/) ⭐️ 8.0/10
+## [EpochGo: Local-first AutoML with offline Ollama LLMs and deterministic Scikit-Learn pipelines](https://www.reddit.com/r/MachineLearning/comments/1x8c2sq/epochgo_localfirst_multiagent_automl_engine_using/) ⭐️ 6.0/10
 
-Researchers introduced ORL (On-Policy Residual Learning) and the dlmrt inference engine, claiming up to 2,788 tokens/s on a single RTX 5090 with LLaDA-2.1-mini + ORL in NVFP4, and 7,708 tokens/s on 8× B200 with DiffusionGemma 26B MoE + ORL. They also report up to 6.9× higher end-to-end throughput on QwenDLM-4B and 1.74× faster than DFlash speculative decoding at matched accuracy on a single H100, with models, training code, evaluation pipeline, and inference engine fully open-sourced. Diffusion LLMs have long promised parallel token generation but struggled to converge in few forward passes, so ORL's reported throughput gains could make dLLMs competitive with autoregressive decoding in low-latency, single-request settings. The fully open-source release of models, training code, evaluation pipeline, and inference engine lowers the barrier for the community to reproduce and build on these results. All numbers are for single-request decoding (batch size 1) and are peak results on specific benchmarks rather than averages across arbitrary prompts; ORL trains on fresh on-policy residual trajectories and uses Adjacent Entropy Contraction to reduce uncertainty faster, while dlmrt captures the entire denoising loop in a CUDA graph and supports NVFP4 on Blackwell GPUs. LLaDA-2.1-mini post-training required only 4.2M self-generated tokens and 36 H100 GPU-hours, and QwenDLM-4B's HumanEval pass@1 improved from 82.9% to 89.6%.
+EpochGo is an open-source, local-first AutoML system that uses offline Ollama LLMs (qwen2.5-coder:7b) for orchestration and deterministic Scikit-Learn pipelines for execution, running entirely on consumer hardware with 16GB RAM. It separates reasoning from execution, using AST validation to ensure safety and auto-generating containerized FastAPI endpoints for inference. This approach addresses cloud API costs and data privacy risks, especially for enterprises under regulations like GDPR/DPDP, by keeping all data and computation local. It also mitigates LLM hallucinations in mathematical reasoning by restricting the LLM to schema-level reasoning and using deterministic Scikit-Learn for execution. The LLM only reasons over schema metadata (column distributions, cardinality, missingness) and never touches raw data rows; generated Python code is parsed into Abstract Syntax Trees before execution to prevent arbitrary commands or data leakage. The system evaluates pipelines like XGBoost, Random Forest, and Logistic Regression with isolated K-Fold cross-validation and runs 100% offline.
 
-reddit · r/MachineLearning · /u/arty_photography · Oct 16, 20:03
+reddit · r/MachineLearning · /u/Grouchy-Excitement28 · Oct 17, 14:48
 
-**Background**: Diffusion language models (dLLMs) generate text through iterative parallel denoising rather than the left-to-right token-by-token process of autoregressive models, which lets them refine and finalize multiple tokens at once. However, making them converge in fewer denoising steps without losing quality has been a key challenge. NVFP4 is a 4-bit floating-point quantization format used to accelerate LLM inference on NVIDIA Blackwell GPUs, including the consumer RTX 5090, while speculative decoding methods like DFlash and EAGLE3 speed up autoregressive generation by drafting and verifying multiple tokens.
+**Background**: AutoML automates the process of selecting algorithms, engineering features, and tuning hyperparameters for machine learning tasks. Ollama is an open-source runtime that allows large language models to run locally on consumer hardware, enabling offline and private LLM inference. Scikit-Learn is a popular Python library providing simple and efficient tools for predictive data analysis, including pipelines that chain preprocessing and modeling steps.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.emergentmind.com/topics/diffusion-based-large-language-models-dllms">Diffusion -based LLMs</a></li>
-<li><a href="https://iclr-blogposts.github.io/2026/blog/2026/dllm/">dLLM - Rethinking Generation Beyond Autoregressive Models</a></li>
-<li><a href="https://quantumzeitgeist.com/performance-microscaling-fp4-quantization-gptq-achieves-speedup-bridging-promise/">Microscaling FP 4 Quantization</a></li>
+<li><a href="https://futureagi.com/blog/what-is-ollama-2026/">What is Ollama ? Local LLM Runtime 2026 | Future AGI</a></li>
+<li><a href="https://www.sitepoint.com/definitive-guide-local-first-ai-2026/">The Definitive Guide to Local-First AI - SitePoint</a></li>
+<li><a href="https://www.datacamp.com/blog/best-automl-frameworks">10 Best AutoML Frameworks for Python and No-Code Users</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#diffusion-LLM`, `#inference-optimization`, `#open-source`, `#LLM-systems`, `#GPU-performance`
+**Tags**: `#AutoML`, `#Local-first`, `#LLM`, `#Scikit-Learn`, `#Privacy`
 
 ---
 
 <a id="item-10"></a>
-## [Waymo Expands Autonomous Ride-Hailing to Toronto](https://waymo.com/blog/2026/10/waymo-in-toronto/) ⭐️ 7.0/10
+## [Gold Becomes Top U.S. Export Amid Global Demand and Refining Bottlenecks](https://www.numismaticnews.net/gold-now-top-u-s-export) ⭐️ 5.0/10
 
-Waymo announced its expansion to Toronto, marking its first entry into a market outside the United States. The announcement, published on Waymo's official blog, highlights job creation and sets the stage for testing autonomous ride-hailing in a new country with challenging winter conditions. This expansion represents a significant milestone for autonomous vehicles, as Toronto's dense, irregular streets, streetcars, cyclists, and harsh winters pose a major test for the technology. Success or failure in Toronto could influence regulatory attitudes and adoption timelines across Canada and other cold-weather markets. Waymo's blog post cites job creation in its first sentence, likely anticipating political pushback over potential job losses in the ride-hailing and taxi industries. Toronto's complex urban environment—including streetcars, construction zones, and winter weather—presents challenges that Waymo's system has not yet faced at scale.
+Gold has become the top U.S. export, driven by surging global demand and refining bottlenecks that are pushing large volumes of the metal to refiners in Switzerland. This shift highlights the growing role of gold as a strategic asset amid geopolitical uncertainty and central bank reserve diversification, and it underscores how supply chain constraints in refining can reshape trade flows and economic policy. The majority of U.S. gold exports are going to Switzerland, where refiners are operating at near-total capacity and limiting purchases, while global demand—led by China—continues to surge.
 
-hackernews · ChrisArchitect · Oct 16, 14:44 · [Discussion](https://news.ycombinator.com/item?id=50118981)
+hackernews · iamnothere · Oct 17, 17:06 · [Discussion](https://news.ycombinator.com/item?id=50132870)
 
-**Background**: Waymo LLC is an American autonomous driving technology company and a subsidiary of Alphabet Inc., Google's parent company. It began as the Google self-driving car project and launched the first public trial of autonomous ride-hailing in Arizona's Metro Phoenix area. The company now operates commercial ride-hailing services in several U.S. cities, using vehicles equipped with lidar, radar, and cameras to navigate without a human driver.
+**Background**: Gold is a key component of central bank reserves due to its safety, liquidity, and return characteristics. Refining bottlenecks occur when refineries operate at maximum capacity, leading to supply chain disruptions and higher premiums. The U.S. is a major holder and trader of gold, and shifts in its export status can reflect broader economic trends.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Waymo">Waymo - Wikipedia</a></li>
-<li><a href="https://waymo.com/about/">Autonomous Driving Technology - Learn more about us - Waymo</a></li>
-<li><a href="https://www.linkedin.com/posts/tanissant_could-torontonians-soon-ride-self-driving-activity-7420479479828983808--vci">Toronto 's Complex Streets Challenge Autonomous Vehicles | LinkedIn</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gold_reserve">Gold reserve - Wikipedia</a></li>
+<li><a href="https://www.gold.org/goldhub/data/gold-reserves-by-country">Central Banks Gold Reserves by Country | World Gold Council</a></li>
+<li><a href="https://goldiramarkets.com/precious-metals-market-insights/how-refinery-bottlenecks-can-affect-physical-metals-pricing/">How Refinery Bottlenecks Can Affect Physical... - Gold IRA Markets</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Hacker News commenters shared mixed experiences: some praised Waymo rides in San Francisco and expressed excitement about spotting vehicles in Tokyo, while others reported a problematic ride in Austin where a 9-minute trip was extended to 45 minutes. One commenter noted that Toronto's announcement emphasizes job creation, and another pointed to organized opposition in Boston driven by concerns about job loss.
+**Discussion**: Commenters discussed whether foreign central banks are moving gold reserves out of the U.S., pointed to refining bottlenecks as a key factor, and debated the implications for U.S. manufacturing and export policies.
 
-**Tags**: `#autonomous vehicles`, `#Waymo`, `#Toronto`, `#transportation`, `#technology expansion`
+**Tags**: `#economics`, `#commodities`, `#trade`, `#gold`, `#manufacturing`
 
 ---
 
 <a id="item-11"></a>
-## [Apple MLX Runs Trillion-Parameter Muse Spark Open on Four Mac Studios](https://machinelearning.apple.com/research/mlx-distributed-inference) ⭐️ 7.0/10
+## [Blogger recounts Japanese naturalization, HN questions inconsistencies](https://www.derekwessman.com/blog-1/natural) ⭐️ 5.0/10
 
-Apple ML Research demonstrated running Meta's nearly trillion-parameter Muse Spark Open model on a cluster of four Mac Studios using the latest MLX release, achieving over 36 tokens per second. The setup scales from a single Mac Studio with up to 512GB unified memory to multiple Mac Studios connected via RDMA. This shows that frontier-class open-weight models can now be run locally on consumer Apple hardware rather than requiring data-center GPUs, which could significantly lower the barrier for privacy-sensitive and offline AI workloads. It also strengthens Apple's MLX ecosystem as a serious alternative for local large language model inference. Muse Spark Open is an 816B total/42B active parameter natively multimodal model with a 1M-token context window, and the reported 36 tokens per second was measured at an 8,192-token context. Community members noted that the benchmark compared Meta's model at 4-bit quantization against Qwen at native BF16, which may not reflect typical user configurations.
+A first-person blog post by Derek Wessman describes his experience becoming a naturalized Japanese citizen, detailing the lengthy documentation process. On Hacker News, commenters questioned inconsistencies in his account, such as skipping the permanent residency stage and never obtaining a permanent resident card. The discussion highlights the extreme documentation burden of Japan's naturalization process, which requires listing every address ever lived at, and raises questions about the accuracy of personal narratives shared online. It also sheds light on the bureaucratic hurdles immigrants face in Japan. Japan's naturalization process typically requires applicants to provide a comprehensive residence history, tax and pension records, and other documents; the author's claim of never holding permanent residency while applying for citizenship struck commenters as unusual. Some noted the required data exceeds what is needed for security clearance.
 
-hackernews · antipaul · Oct 16, 13:43 · [Discussion](https://news.ycombinator.com/item?id=50118320)
+hackernews · luu · Oct 17, 17:36 · [Discussion](https://news.ycombinator.com/item?id=50133150)
 
-**Background**: MLX is Apple's open-source machine learning framework built specifically for Apple Silicon, offering a NumPy-like API and leveraging unified memory and Metal GPU acceleration. Distributed inference across multiple Macs has recently become practical with MLX's distributed primitives and RDMA over Thunderbolt 5, allowing large models to be sharded across several machines. Muse Spark Open is Meta's coding-optimized open-weight model released in October 2026.
+**Background**: Naturalization in Japan is governed by the Nationality Act, with ordinary naturalization generally requiring five years of continuous residence, good conduct, financial stability, and renunciation of previous nationality. Permanent residency is a separate status that many immigrants obtain before considering citizenship, though it is not a formal prerequisite. The process is handled by the Legal Affairs Bureau and is known for its extensive paperwork.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://machinelearning.apple.com/research/mlx-distributed-inference">Local and Distributed Large LLM Inference with MLX and RDMA ...</a></li>
-<li><a href="https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B">meta- models / Muse - Spark - Open -816B-A42B · Hugging Face</a></li>
-<li><a href="https://contracollective.com/blog/mlx-distributed-inference-multi-mac-cluster-2026">MLX Distributed Inference: Multi-Mac Cluster Setup for Local ...</a></li>
+<li><a href="https://english.visajapan.jp/qa/qa_kika03.html">Japan Naturalization Required Documents (2026) | Checklist by ...</a></li>
+<li><a href="https://life.m-ri.co.jp/en/naturalization.html">Naturalization in Japan: Requirements & Process [2026]</a></li>
+<li><a href="https://gaijinblog.com/posts/japan-citizenship-naturalization-complete-guide">Japan Citizenship 2026: Complete Naturalization Guide ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters were largely skeptical of the benchmark's fairness, noting that comparing a 4-bit quantized Meta model against BF16 Qwen is misleading and that Muse Spark Open would not be their top choice for a 512GB Mac. Others pointed out that the 36 tokens per second figure was measured at only an 8,192-token context, which is too small to be useful for many modern workloads, while one user shared positive real-world results running DeepSeek and GLM models on single high-memory Macs.
+**Discussion**: Commenters expressed skepticism about the author's account, particularly his claim of never having a permanent resident card and skipping the typical permanent residency stage. Others highlighted the burdensome requirement to list every address ever lived at, with one saying they could never produce such a list, and another noting the required data exceeds security clearance levels. A minor point was raised about the word 'interrogation' appearing with unprintable characters.
 
-**Tags**: `#Apple MLX`, `#distributed inference`, `#large language models`, `#local AI`, `#Mac hardware`
+**Tags**: `#japan`, `#immigration`, `#personal-narrative`, `#bureaucracy`, `#hackernews`
 
 ---
 
 <a id="item-12"></a>
-## [Anthropic's Claude Code team reveals AI-driven code review process](https://claude.dev/blog/solving-code-review-at-anthropic/) ⭐️ 7.0/10
+## [Interactive 3D Visualization Explains AI Agent Internals](https://www.reddit.com/r/MachineLearning/comments/1x8bhpm/learn_whats_inside_ai_agent_interactively_in_3d_p/) ⭐️ 5.0/10
 
-Anthropic's Claude Code team published a blog post detailing how they handle code review, describing a system where most of the review path is automated and human attention is directed only where risk is highest. The post argues that asking 'did a human read the code?' is an imprecise proxy for 'what could go wrong with this change, and which check—automated or human—is the right one to catch it?' This is a rare, detailed look inside how a leading AI lab uses its own AI coding tool to review code at scale, and it has sparked a critical Hacker News discussion about AI-driven development practices, churn, and cost per line of code. The debate touches on broader industry questions about whether AI-generated code and documentation can be trusted without human review. The post describes a tiered review model where low-risk changes such as docs, copy, internal-only features, and additive changes behind a flag require no human review once automated review and security checks are green. The team also maintains an eval that grows with every incident, and every change to the reviewer is scored against all of it.
+A Reddit user shared a project called 'Inside an AI Agent' that provides an interactive 3D visualization for learning how AI agents work internally, hosted at aiengineeringfromscratch.com. This educational tool makes the abstract architecture of LLM-based agents more accessible to learners, potentially helping a broader audience understand concepts like the agent loop and tool use. The visualization is browser-based and interactive, but the post itself provides no technical details or source code, and no community comments are available to gauge its effectiveness.
 
-hackernews · pretext · Oct 16, 19:04 · [Discussion](https://news.ycombinator.com/item?id=50122951)
+reddit · r/MachineLearning · /u/SeveralSeat2176 · Oct 17, 14:22
 
-**Background**: Claude Code is Anthropic's agentic coding tool that understands a codebase, edits files, and runs commands from the terminal or IDE. AI code review tools are increasingly embedded into IDEs and CI/CD pipelines to provide automated suggestions and fixes. The blog post is notable because it comes from the team building the tool itself, offering a first-party account of how AI-assisted review works in practice.
+**Background**: AI agents are systems that use large language models as a reasoning engine, augmented with the ability to perceive their environment, make decisions, and execute actions via external tools in an autonomous loop. Understanding this internal loop—how the model plans, calls tools, and observes results—is key to building and debugging agentic applications.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
-<li><a href="https://www.ibm.com/think/insights/ai-code-review">What is AI code review? - IBM</a></li>
-<li><a href="https://collinwilkins.com/articles/ai-code-review-best-practices-approaches-tools">AI Code Review: Approaches, Tools, and Best Practices (2026)</a></li>
+<li><a href="https://brendanjameslynskey.github.io/LLM_Agents_guide/">How LLM Agents Work — A Visual Deep Dive</a></li>
+<li><a href="https://docs.bswen.com/blog/2026-03-25-ai-agent-architecture/">How AI Agents Work Internally: The LLM Loop Architecture ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Hacker News commenters were largely skeptical, with one arguing that no human can keep up with 30k pull requests per day and that the team likely relies on AI to do the job, while another questioned the churn rate and cost per line of code. Several commenters criticized the idea of letting an LLM write documentation without anyone reading it, and one pointed out that the blog post's polished prose suggests AI was used to write it.
-
-**Tags**: `#code-review`, `#AI`, `#software-engineering`, `#Anthropic`, `#developer-tools`
+**Tags**: `#AI agents`, `#visualization`, `#education`, `#LLM`, `#interactive learning`
 
 ---
 
 <a id="item-13"></a>
-## [Rust framework DenseCore trains nanoGPT bit-for-bit identical to PyTorch](https://www.reddit.com/r/MachineLearning/comments/1x7ojxo/p_my_rust_framework_trains_nanogpt_with_the_exact/) ⭐️ 7.0/10
+## [Reddit post highlights unusually honest ICLR submission](https://www.reddit.com/r/MachineLearning/comments/1x819z7/how_many_of_you_have_seen_this_honest_iclr/) ⭐️ 4.0/10
 
-A CS student built DenseCore, a small Rust deep learning framework with a PyTorch-like Python API, and demonstrated that running Karpathy's nanoGPT unchanged produces bit-for-bit identical initial weights, losses, gradients, and final weights across all 50 tested steps, even with dropout enabled. The author reverse-engineered several non-obvious PyTorch CPU implementation details to achieve this exact match. Bit-exact reproducibility between independent frameworks is rare and valuable, as it exposes hidden numerical behaviors in PyTorch's CPU kernels that affect debugging, reproducibility, and cross-platform consistency. The findings could inform work on lightweight frameworks, CI/serverless inference, and tools for diagnosing why two PyTorch runs diverge. DenseCore is about 2 MB versus roughly 580 MB for PyTorch, but it only matches PyTorch on Apple Silicon Macs because PyTorch itself does not produce identical bits across machines (only 1 of 26 tested ops matched between macOS and Linux x86). Notable quirks include PyTorch's CPU attention using a flash attention kernel with a different path when dropout is on, Adam rounding differently on tail elements due to compiler loop fusion, and clip_grad_norm_ using reciprocal() * max_norm instead of division.
+A Reddit post on r/MachineLearning shared an ICLR submission containing an unusually candid line, prompting the poster to wonder how many other submissions are 'better' simply by quietly removing such honest statements. The post resonates with ML researchers because it exposes a tension in peer review: authors may be incentivized to omit candid limitations or admissions to improve their chances, which can undermine transparency in published research. The submission is for ICLR, a top-tier machine learning conference that uses double-blind review and recommends (but does not require) a reproducibility statement; the post itself provides no technical details about the paper's content.
 
-reddit · r/MachineLearning · /u/Mental-Feature-2377 · Oct 16, 18:49
+reddit · r/MachineLearning · /u/fighraccoon · Oct 17, 04:43
 
-**Background**: nanoGPT is Andrej Karpathy's minimalist, readable implementation of the GPT architecture for training medium-sized language models. Flash attention is a fused kernel technique that computes attention block-wise without materializing the full N^2 attention matrix, improving speed and memory use. Bit-exact reproducibility means two programs produce identical floating-point results at every step, which is difficult because operation order, compiler optimizations, and hardware can change rounding.
+**Background**: ICLR (International Conference on Learning Representations) is one of the three primary conferences in machine learning, alongside NeurIPS and ICML, and is known for its rapid growth and double-blind review process. In such venues, authors often include statements about reproducibility or limitations, but there is no formal requirement to disclose weaknesses, creating room for strategic omission.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/karpathy/nanoGPT">GitHub - karpathy/nanoGPT: The simplest, fastest repository ...</a></li>
-<li><a href="https://github.com/Dao-AILab/flash-attention">GitHub - Dao-AILab/flash-attention: Fast and memory-efficient ...</a></li>
-<li><a href="https://github.com/pytorch/pytorch/blob/main/torch/nn/utils/clip_grad.py">pytorch/torch/nn/utils/ clip _ grad .py at main · pytorch/pytorch · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/International_Conference_on_Learning_Representations">International Conference on Learning Representations</a></li>
+<li><a href="https://iclr.cc/Conferences/2026/AuthorGuide">ICLR 2026 Author Guide</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Rust`, `#PyTorch`, `#Deep Learning Framework`, `#Reproducibility`, `#Numerical Precision`
+**Tags**: `#machine-learning`, `#peer-review`, `#iclr`, `#academia`, `#community-discussion`
 
 ---
 
 <a id="item-14"></a>
-## [eBay Restricts Radio Equipment Listings, Exempts Ham-Band-Only Gear](https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear) ⭐️ 6.0/10
+## [Master's grad asks if self-funding a NeurIPS workshop trip is worth it](https://www.reddit.com/r/MachineLearning/comments/1x86e17/go_to_neurips_just_for_a_workshop_d/) ⭐️ 3.0/10
 
-eBay has begun requiring that listings for radio equipment include an FCC ID, while exempting gear designed to operate only on amateur (ham) radio bands. The policy change, reported by ARRL in its October 15, 2026 newsletter, has sparked debate over whether the marketplace is overstepping into regulatory enforcement. The change affects a niche but passionate community of ham radio operators, hobbyists, and hardware hackers who buy and sell transceivers on eBay. It highlights a broader trend of online marketplaces taking on de facto regulatory enforcement roles, with implications for how legal radio hardware can be traded. Listings must include an FCC ID, which is a unique identifier assigned to RF devices certified by the FCC; most mainstream consumer electronics already carry one, so they remain unaffected. However, community members note that non-compliant gear such as the UV-5R, the UV-K5 (which has an illegal scrambler feature), and high-power FM transmitters marketed to churches are still readily available on the platform.
+A recent master's graduate who received a NeurIPS workshop acceptance is asking whether it is worth paying for the workshop-only registration, flights, and accommodation themselves, since their lab declined to fund the trip. They would only be presenting a workshop poster, not a main-conference paper. This question reflects a common dilemma for early-career researchers: whether the visibility and networking benefits of presenting at a major ML venue justify the personal cost when institutional funding is unavailable. The answer can affect how junior researchers prioritize limited travel budgets and how they weigh workshop publications against other career signals. NeurIPS workshop papers are generally considered less prestigious than main-conference papers, and workshop-only tickets may not include access to the full main conference. The value of attending depends heavily on whether the poster session offers meaningful networking with researchers in the person's specific subfield.
 
-hackernews · 7402 · Oct 16, 18:06 · [Discussion](https://news.ycombinator.com/item?id=50122034)
+reddit · r/MachineLearning · /u/strammerrammer · Oct 17, 09:56
 
-**Background**: The FCC regulates radio frequency devices that can emit RF energy and potentially interfere with radio services, requiring many transmitters to obtain an equipment authorization and an FCC ID before they can be marketed in the US. Ham radio operators are licensed by the FCC to transmit on designated amateur bands, and equipment built only for those bands is treated differently from general-purpose transceivers that can also transmit on public safety, commercial, or other restricted frequencies. eBay's new rule effectively tries to distinguish between these categories at the point of sale.
+**Background**: NeurIPS is one of the largest and most prestigious machine learning conferences, and its workshops are smaller, topic-focused events held alongside the main conference. Workshop papers typically involve less work and have higher acceptance rates than main-conference papers, so they carry less weight on a CV. Presenting a poster is often a requirement for accepted workshop papers, which is why attendance matters for the author.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.fcc.gov/oet/ea/fccid">FCC ID Search - Federal Communications Commission</a></li>
-<li><a href="https://www.fcc.gov/engineering-technology/laboratory-division/general/equipment-authorization">Equipment Authorization | Federal Communications Commission</a></li>
-<li><a href="https://www.arrl.org/files/file/On+the+Air/Choosing.pdf">Choosing a Ham Radio</a></li>
+<li><a href="https://neurips.cc/Conferences/2026/PosterInstructions">2026 Poster Information - neurips.cc</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters debated eBay's role as a de facto regulator, with some questioning why the platform polices radio gear while allowing dangerous lasers, and others explaining the rule aims to prevent hacked radios from interfering with emergency services. Several noted that the FCC ID requirement leaves most consumer gear unaffected, and that non-compliant models like the UV-5R and UV-K5 remain listed despite the policy.
-
-**Tags**: `#radio`, `#regulation`, `#ebay`, `#fcc`, `#ham-radio`
+**Tags**: `#NeurIPS`, `#academic conferences`, `#career advice`, `#machine learning`
 
 ---
 
 <a id="item-15"></a>
-## [Reviewer asks peers: do you run your peer review through an AI?](https://www.reddit.com/r/MachineLearning/comments/1x7f6ft/to_reviewers_do_you_upload_your_review_to_an_ai/) ⭐️ 6.0/10
+## [NeurIPS attendee asks if staying for workshops without registration is worthwhile](https://www.reddit.com/r/MachineLearning/comments/1x84udt/is_is_worth_staying_after_the_main_conference_if/) ⭐️ 3.0/10
 
-A reviewer on r/MachineLearning described a new step in their workflow: after completing a review, they upload their own review text (never the manuscript) to an AI for a second opinion. They report that this produces higher-quality reviews with fewer typos, but it adds extra work and is 'not fun.' As AI writing assistants become ubiquitous, this informal practice touches on unresolved questions of confidentiality, disclosure, and reviewer accountability in academic publishing. If widely adopted, it could shift journal policies and the norms that define what counts as an acceptable review. The reviewer explicitly draws a line at uploading the manuscript itself, arguing authors can decide for themselves whether to do that, and notes the AI step mostly improves quality and reduces typos rather than replacing human judgment. The post is a personal anecdote soliciting others' habits, not a formal study or policy announcement.
+A Reddit user on r/MachineLearning asked whether it is worth staying after the NeurIPS main conference without workshop registration, since NeurIPS sold out before paper results were released and main-track authors have no guaranteed access to workshops. This highlights a growing pain point in the ML community: NeurIPS's rapid sell-out and fragmented registration system create logistical hurdles that can undermine networking and collaboration opportunities for researchers. The user notes that their paper is in the main track, which does not guarantee workshop registration, and they are unsure if any informal networking or side events occur after the main conference for those without workshop passes.
 
-reddit · r/MachineLearning · /u/StingMeleoron · Oct 16, 12:41
+reddit · r/MachineLearning · /u/Exotic_Zucchini9311 · Oct 17, 08:17
 
-**Background**: Peer review is the confidential process in which independent experts evaluate a manuscript before publication, and most journals require reviewers to keep both the paper and their comments confidential. AI tools are increasingly used in academic workflows, and publishers and ethics bodies such as COPE have begun issuing guidance on AI use, generally emphasizing transparency, human responsibility, and confidentiality rather than outright bans.
+**Background**: NeurIPS is one of the largest AI conferences, with a main track for peer-reviewed papers and workshops that are often separately registered and can have their own paper submissions. In recent years, NeurIPS has sold out quickly, and author registration policies guarantee only one author spot per accepted paper at the presentation site, not access to all events.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.thesify.ai/blog/ai-tools-academic-peer-review">AI Tools for Academic Peer Review: What They Actually Check ...</a></li>
+<li><a href="https://neurips.cc/Conferences/2026/AuthorRegistration">Author Registration - neurips.cc</a></li>
+<li><a href="https://neurips.cc/Conferences/2026/MainTrackHandbook">Main Track Handbook 2026</a></li>
+<li><a href="https://neurips.cc/Conferences/2026/Pricing">NeurIPS 2026 Pricing</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#peer-review`, `#AI-assistance`, `#academic-publishing`, `#research-ethics`, `#community-discussion`
-
----
-
-<a id="item-16"></a>
-## [/dev/null: A New Social Network for Developers](https://dev-null.sh/) ⭐️ 5.0/10
-
-A new developer-focused social network called /dev/null (dev-null.sh) has launched, sparking a Hacker News discussion with 116 points and 103 comments about the future of developer communities and decentralization. This reflects ongoing interest in alternative, developer-centric social platforms as many developers grow dissatisfied with mainstream networks like X and LinkedIn, and it ties into broader debates about decentralization and federation. The site provides little information before signup, and commenters noted that its sitemaps expose user and commit data at dev-null.sh/sitemaps/users-1.xml and commits-1.xml, raising questions about openness and privacy.
-
-hackernews · mnapoli · Oct 16, 16:57 · [Discussion](https://news.ycombinator.com/item?id=50121004)
-
-**Background**: Developer-focused social networks aim to give programmers a place to share code, projects, and discussions away from general-purpose platforms. Decentralized social networks, such as Mastodon, use federation and open protocols so that no single company controls the community or user data.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://devnull.social/">dev / null . social</a></li>
-<li><a href="https://finpr.agency/tpost/5l6te9ijz1-6-best-decentralized-social-media-platfo">Top 6 Decentralized Social Media Platforms for 2025</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Commenters were skeptical of the platform's value, with some praising Mastodon as the best place for genuine tech enthusiasts and others envisioning a future of bespoke, peer-to-peer file-sharing apps instead of centralized networks; several criticized the lack of information before signup.
-
-**Tags**: `#social-network`, `#developer-community`, `#decentralization`, `#hackernews`, `#platform`
-
----
-
-<a id="item-17"></a>
-## [Researcher desk-rejected by ICLR over half-sentence page overflow](https://www.reddit.com/r/MachineLearning/comments/1x7n0i2/crashing_out_after_iclr_desk_rejection_content/) ⭐️ 5.0/10
-
-A researcher reported on r/MachineLearning that their ICLR submission was desk-rejected because half of one sentence spilled onto page 10, exceeding the conference's 9-page limit. The author noted the overflow likely occurred after a minor edit and recompile on resubmission, and that the official LLM feedback tool failed to flag the formatting violation. This incident highlights the rigid enforcement of formatting rules at top-tier ML conferences like ICLR, where even a trivial layout error can lead to rejection without scientific review. It also raises questions about the value of LLM-based feedback tools that are meant to help authors catch such issues but apparently failed to do so. The rejection occurred despite the paper having already been de-anonymized, adding to the author's frustration and sense of humiliation. The author questioned the point of LLM feedback if it cannot catch simple formatting mistakes that trigger desk rejection.
-
-reddit · r/MachineLearning · /u/Eclectic_eels · Oct 16, 17:50
-
-**Background**: ICLR (International Conference on Learning Representations) is one of the three most prestigious machine learning conferences, alongside NeurIPS and ICML. Desk rejection is a common practice in academic publishing where a paper is rejected before peer review, often due to formatting violations, scope mismatch, or ethical concerns. ICLR has recently introduced LLM-based feedback tools to help authors improve their submissions, but these tools are not a substitute for careful manual checking.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/International_Conference_on_Learning_Representations">International Conference on Learning Representations</a></li>
-<li><a href="https://casrai.org/guides/desk-rejection">What Desk Rejection Means and Why It Happens — CASRAI</a></li>
-<li><a href="https://phys.org/news/2023-10-large-language-peer-review.html">Large language models prove helpful in peer - review process</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The Reddit post sparked discussion about the fairness of strict formatting enforcement and the limitations of LLM feedback tools. Some commenters sympathized with the author, while others noted that page limits are clearly stated and authors are responsible for compliance.
-
-**Tags**: `#academic-publishing`, `#peer-review`, `#conference-policies`, `#machine-learning`, `#formatting`
-
----
-
-<a id="item-18"></a>
-## [Reddit User Laments ICLR Desk Rejection After Reviewing Paper](https://www.reddit.com/r/MachineLearning/comments/1x75edb/how_many_of_your_paper_either_paper_you_authored/) ⭐️ 4.0/10
-
-A Reddit user on r/MachineLearning reported spending four hours reviewing a paper while sick, only to receive an email the next morning that the paper had been desk rejected by ICLR. The user also noted that many colleagues have had papers desk rejected and mentioned a rumor that some authors use multiple accounts to bypass ICLR's 20-paper submission limit, with all such papers being desk rejected. This anecdote highlights growing frustration with desk rejection practices and submission-limit enforcement at major machine learning conferences like ICLR, which are struggling with an unprecedented surge in submissions. It raises questions about reviewer effort being wasted and whether current policies effectively deter gaming of the system. The user gave the paper a 3/4 score before it was desk rejected, and the alleged workaround involved creating multiple accounts to exceed the 20-paper cap per author. ICLR 2027 guidelines explicitly cap authors at 20 submissions and require at least one author to register as a reviewer for three papers.
-
-reddit · r/MachineLearning · /u/Striking-Warning9533 · Oct 16, 03:13
-
-**Background**: Desk rejection means a paper is rejected by the editor or program chairs without being sent out for peer review, often due to formatting issues, scope mismatch, or policy violations. ICLR (International Conference on Learning Representations) is one of the top three machine learning conferences, alongside NeurIPS and ICML, and has seen explosive growth in submissions in recent years. To manage this influx, conferences have introduced submission caps and reviewer requirements.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.aischolar.com/news/article/is-desk-rejection-common">Is Desk Rejection Common?</a></li>
-<li><a href="https://en.wikipedia.org/wiki/International_Conference_on_Learning_Representations">International Conference on Learning Representations</a></li>
-<li><a href="https://aiweekly.co/alerts/iclr-2027-caps-authors-at-20-papers-mandates-ai-use-statement">ICLR 2027 caps authors at 20 papers, mandates AI-use ...</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The Reddit discussion includes shared experiences of desk rejections, with some users expressing frustration over wasted review effort and others debating the effectiveness of submission caps. The rumor about multiple accounts to bypass limits sparked concerns about fairness and the need for stronger enforcement.
-
-**Tags**: `#peer-review`, `#academic-publishing`, `#machine-learning`, `#conferences`, `#desk-rejection`
+**Tags**: `#NeurIPS`, `#conference`, `#networking`, `#registration`, `#community-discussion`
 
 ---
